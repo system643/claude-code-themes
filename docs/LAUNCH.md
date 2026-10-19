@@ -56,8 +56,10 @@ Submit once per list, with the same plain one-liner, for example:
 
 - [ ] **Anthropic's plugin directory** (claude.ai, Cowork and Claude Code through account sync): submit from the developer portal at <https://claude.ai/directory/manage> (needs a paid claude.ai plan). Run the pre-submission checklist first: <https://claude.com/docs/plugins/pre-submission-checklist>. Check the component support table, since the status line and hooks are Claude Code features. The official `claude-plugins-official` marketplace does not take submissions; the community marketplace (`anthropics/claude-plugins-community`) is fed by these submissions, not by PRs.
 - [ ] **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)**: web issue form only ("Recommend a new resource"), no PR, no `gh`, submitted by a human. The repo must be **at least 14 days old** (from the first commit) with commits after the first day, or have 100+ stars. One line, describes what it does, no emoji, no sales pitch. Put a date in your calendar.
-- [ ] **[jqueryscript/awesome-claude-code](https://github.com/jqueryscript/awesome-claude-code)**, **[ccplugins/awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins)**, **[composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**: read each `CONTRIBUTING`, usually a one-line PR.
-- [ ] **[tauri-apps/awesome-tauri](https://github.com/tauri-apps/awesome-tauri)**: Applications section, PR, once the release is out.
+- [ ] **[jqueryscript/awesome-claude-code](https://github.com/jqueryscript/awesome-claude-code)**: the maintainer merges no PRs; open an issue titled `Suggestion: Ambiance (Claude Plugins)` with the Markdown line to add.
+- [ ] **[ccplugins/awesome-claude-code-plugins](https://github.com/ccplugins/awesome-claude-code-plugins)**: one-line PR under "Lifestyle & Entertainment".
+- [ ] **[composio-community/awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**: hosts plugin copies in the repo rather than links; read its README before submitting.
+- [ ] ~~tauri-apps/awesome-tauri~~: no longer accepts applications (its `contributing.md`, October 2026).
 - [ ] Palette communities (Dracula, Catppuccin, Rosé Pine, Nord…): their official ports live in their own organizations, so don't submit as a port. Share in their showcase channels at most, and credit them (already in `docs/CREDITS.md`).
 
 ## 6. Communities
