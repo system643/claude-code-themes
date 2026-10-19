@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "singapore",
+  "name": "Singapore",
+  "tagline": "Gardens and lights by the bay",
+  "description": "Marina Bay Sands and the skyline mirrored in the bay at night.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🌃",
+  "colors": {
+    "accent": "#9BE6FF",
+    "secondary": "#FF5AC8",
+    "muted": "#98A4BE"
+  },
+  "banner": [
+    "  ___________ ",
+    "   |  |  |    ",
+    "   |  |  |    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "b": "#B8C0CC",
+      "p": "#8090A8",
+      "w": "#2A6FB0",
+      "l": "#9BE6FF",
+      "y": "#FFE08A",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".....l....l....l....",
+        "....l....l....l.....",
+        "..ppppppppppppppppp.",
+        "...bbb..bbb..bbb....",
+        "...byb..byb..byb....",
+        "...bbb..bbb..bbb....",
+        "...ybb..ybb..ybb....",
+        "...bbb..bbb..bbb....",
+        "...bby..bby..bby....",
+        "...bbb..bbb..bbb....",
+        "...bbb..bbb..bbb....",
+        "wwwwwwwwwwwwwwwwwwww"
+      ],
+      [
+        "......l....l....l...",
+        ".....l....l....l....",
+        "..ppppppppppppppppp.",
+        "...bbb..bbb..bbb....",
+        "...bby..bby..bby....",
+        "...bbb..bbb..bbb....",
+        "...byb..byb..byb....",
+        "...bbb..bbb..bbb....",
+        "...ybb..ybb..ybb....",
+        "...bbb..bbb..bbb....",
+        "...bbb..bbb..bbb....",
+        "wwwwwwwwwwwwwwwwwwww"
+      ],
+      [
+        ".....l....l....l....",
+        "....l....l....l.....",
+        "..ppppppppppppppppp.",
+        "...bbb..bbb..bbb....",
+        "...ybb..ybb..ybb....",
+        "...bbb..bbb..bbb....",
+        "...bby..bby..bby....",
+        "...bbb..bbb..bbb....",
+        "...byb..byb..byb....",
+        "...bbb..bbb..bbb....",
+        "...bbb..bbb..bbb....",
+        "wwwwwwwwwwwwwwwwwwww"
+      ],
+      [
+        "......l....l....l...",
+        ".....l....l....l....",
+        "..ppppppppppppppppp.",
+        "...bbb..bbb..bbb....",
+        "...byb..byb..byb....",
+        "...bbb..bbb..bbb....",
+        "...ybb..ybb..ybb....",
+        "...bbb..bbb..bbb....",
+        "...bby..bby..bby....",
+        "...bbb..bbb..bbb....",
+        "...bbb..bbb..bbb....",
+        "wwwwwwwwwwwwwwwwwwww"
+      ]
+    ]
+  },
+  "quotes": [
+    "Clean code, clean city.",
+    "Efficient by design.",
+    "Gardens in the sky, tests in the pipeline.",
+    "Lah, it's green already.",
+    "A little rain, a lot of light."
+  ],
+  "spinnerVerbs": [
+    "Walking the Supertrees",
+    "Ordering at the hawker centre",
+    "Watching the light show",
+    "Riding the MRT",
+    "Swimming on the rooftop",
+    "Strolling Marina Bay"
+  ],
+  "durationLines": [
+    "Done in {d}",
+    "A {d} MRT ride",
+    "Shone for {d}"
+  ],
+  "status": {
+    "idle": "at the hawker centre",
+    "working": "at Marina Bay"
+  },
+  "welcome": "Singapore: the light show begins.",
+  "persona": [
+    "You are efficient, friendly and precise, with a touch of Singlish humor, and at most one Singapore image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "monsoon",
+      "quotes": [
+        "Monsoon: a test failed.",
+        "Aiyah, something broke.",
+        "Let's sort it out, quick quick."
+      ],
+      "frames": [
+        [
+          "....R....R....R.....",
+          "...R....R....R......",
+          ".ppppppppppppppppp..",
+          "..bbb..bbb..bbb.....",
+          "..byb..byb..byb.....",
+          "..bbb..bbb..bbb.....",
+          "..ybb..ybb..ybb.....",
+          "..bbb..bbb..bbb.....",
+          "..bby..bby..bby.....",
+          "..bbb..bbb..bbb.....",
+          "..bbb..bbb..bbb.....",
+          "wwwwwwwwwwwwwwwwwww."
+        ],
+        [
+          "......R....R....R...",
+          ".....R....R....R....",
+          "...ppppppppppppppppp",
+          "....bbb..bbb..bbb...",
+          "....byb..byb..byb...",
+          "....bbb..bbb..bbb...",
+          "....ybb..ybb..ybb...",
+          "....bbb..bbb..bbb...",
+          "....bby..bby..bby...",
+          "....bbb..bbb..bbb...",
+          "....bbb..bbb..bbb...",
+          ".wwwwwwwwwwwwwwwwwww"
+        ]
+      ]
+    },
+    "success": {
+      "status": "shiok",
+      "quotes": [
+        "Shiok: all green.",
+        "Steady lah.",
+        "The whole bay lights up."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Marina Bay reflected at night",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Marina_Bay,_Singapur,_2023-08-16,_DD_87-89_HDR.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Singapore",
+    "background": "#0A0E1E",
+    "foreground": "#E0E8F6",
+    "cursorColor": "#9BE6FF",
+    "selectionBackground": "#1E2A48",
+    "black": "#141A30",
+    "red": "#FF5E6E",
+    "green": "#7EE6A8",
+    "yellow": "#FFE08A",
+    "blue": "#5E9CFF",
+    "purple": "#FF5AC8",
+    "cyan": "#9BE6FF",
+    "white": "#E0E8F6",
+    "brightBlack": "#46526E",
+    "brightRed": "#FF8A96",
+    "brightGreen": "#A8F0C6",
+    "brightYellow": "#FFEAAC",
+    "brightBlue": "#8CBCFF",
+    "brightPurple": "#FF8CDA",
+    "brightCyan": "#C0F0FF",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "rain"
+    }
+  }
+}

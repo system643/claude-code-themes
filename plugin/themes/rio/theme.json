@@ -1,0 +1,205 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "rio",
+  "name": "Rio de Janeiro",
+  "tagline": "Sunset over the bay",
+  "description": "Sugarloaf Mountain and Corcovado silhouetted at sunset.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🌴",
+  "colors": {
+    "accent": "#FFA07A",
+    "secondary": "#7AE0B8",
+    "muted": "#B8A2B8"
+  },
+  "banner": [
+    "      o       ",
+    "   ---+---    ",
+    "     /_\\      "
+  ],
+  "pixelArt": {
+    "palette": {
+      "s": "#E8E4DA",
+      "m": "#2F5D3A",
+      "c": "#B8C4D0",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........ss.........",
+        "........ssss........",
+        "...ssssssssssssss...",
+        "........ssss........",
+        "........ssss........",
+        "cc......sscc........",
+        ".....cc.ssss...cc...",
+        ".......ssssss.......",
+        ".......mmmmmm.......",
+        ".....mmmmmmmmmm.....",
+        "...mmmmmmmmmmmmmm...",
+        ".mmmmmmmmmmmmmmmmmm."
+      ],
+      [
+        ".........ss.........",
+        "........ssss........",
+        "...ssssssssssssss...",
+        "........ssss........",
+        "........ssss........",
+        "..cc....sssscc......",
+        ".......ccsss.....cc.",
+        ".......ssssss.......",
+        ".......mmmmmm.......",
+        ".....mmmmmmmmmm.....",
+        "...mmmmmmmmmmmmmm...",
+        ".mmmmmmmmmmmmmmmmmm."
+      ],
+      [
+        ".........ss.........",
+        "........ssss........",
+        "...ssssssssssssss...",
+        "........ssss........",
+        "........ssss........",
+        "....cc..ssss..cc....",
+        "........sccs.......c",
+        ".......ssssss.......",
+        ".......mmmmmm.......",
+        ".....mmmmmmmmmm.....",
+        "...mmmmmmmmmmmmmm...",
+        ".mmmmmmmmmmmmmmmmmm."
+      ],
+      [
+        ".........ss.........",
+        "........ssss........",
+        "...ssssssssssssss...",
+        "........ssss........",
+        "........ssss........",
+        "......ccssss....cc..",
+        "........ssscc.......",
+        ".......ssssss.......",
+        ".......mmmmmm.......",
+        ".....mmmmmmmmmm.....",
+        "...mmmmmmmmmmmmmm...",
+        ".mmmmmmmmmmmmmmmmmm."
+      ]
+    ]
+  },
+  "quotes": [
+    "Code with the rhythm of samba.",
+    "Sunset, the bay and a green build.",
+    "Open arms for every pull request.",
+    "Beach after the release.",
+    "Tudo bem? Tudo green."
+  ],
+  "spinnerVerbs": [
+    "Dancing samba",
+    "Taking the cable car",
+    "Walking on Copacabana",
+    "Climbing Corcovado",
+    "Sipping a caipirinha",
+    "Watching the sunset"
+  ],
+  "durationLines": [
+    "Danced for {d}",
+    "A {d} samba",
+    "Done in {d}, tudo bem"
+  ],
+  "status": {
+    "idle": "on the beach",
+    "working": "dancing samba"
+  },
+  "welcome": "Rio: the bay lights up.",
+  "persona": [
+    "You are joyful, warm and relaxed with a Carioca spirit, with at most one Rio image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "off beat",
+      "quotes": [
+        "Off beat: a test failed.",
+        "The cable car stopped. Let's check.",
+        "A wave knocked something over."
+      ],
+      "frames": [
+        [
+          "........RR..........",
+          ".......RRRR.........",
+          "..RRRRRRRRRRRRRR....",
+          ".......RRRR.........",
+          ".......RRRR.........",
+          "c......RRcc.........",
+          "....cc.RRRR...cc....",
+          "......RRRRRR........",
+          "......mmmmmm........",
+          "....mmmmmmmmmm......",
+          "..mmmmmmmmmmmmmm....",
+          "mmmmmmmmmmmmmmmmmm.."
+        ],
+        [
+          "..........RR........",
+          ".........RRRR.......",
+          "....RRRRRRRRRRRRRR..",
+          ".........RRRR.......",
+          ".........RRRR.......",
+          ".cc......RRcc.......",
+          "......cc.RRRR...cc..",
+          "........RRRRRR......",
+          "........mmmmmm......",
+          "......mmmmmmmmmm....",
+          "....mmmmmmmmmmmmmm..",
+          "..mmmmmmmmmmmmmmmmmm"
+        ]
+      ]
+    },
+    "success": {
+      "status": "carnaval",
+      "quotes": [
+        "Carnaval: all green!",
+        "Perfeito.",
+        "The whole beach is dancing."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Sugarloaf Mountain and Corcovado at sunset",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: dabldy, CC BY-SA 3.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Mountains.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Rio",
+    "background": "#1A1430",
+    "foreground": "#F6E8EE",
+    "cursorColor": "#FFA07A",
+    "selectionBackground": "#3A2E58",
+    "black": "#261E40",
+    "red": "#FF6B78",
+    "green": "#7AE0A0",
+    "yellow": "#FFD86B",
+    "blue": "#6B9CFF",
+    "purple": "#D07AE0",
+    "cyan": "#6BD8D0",
+    "white": "#F6E8EE",
+    "brightBlack": "#5A4E70",
+    "brightRed": "#FF94A0",
+    "brightGreen": "#A6ECC0",
+    "brightYellow": "#FFE49A",
+    "brightBlue": "#98BCFF",
+    "brightPurple": "#E2A6EE",
+    "brightCyan": "#9CE6E0",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "fireflies"
+    }
+  }
+}

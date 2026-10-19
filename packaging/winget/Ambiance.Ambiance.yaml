@@ -1,0 +1,19 @@
+# winget manifest template (singleton format). After a release:
+# 1. replace <VERSION>, the URL and the SHA256 of the .msi installer;
+# 2. check it with `winget validate --manifest packaging/winget`;
+# 3. submit it to https://github.com/microsoft/winget-pkgs (tool: wingetcreate).
+PackageIdentifier: Ambiance.Ambiance
+PackageVersion: <VERSION>
+PackageLocale: en-US
+Publisher: Ambiance contributors
+PackageName: Ambiance
+License: MIT
+ShortDescription: A different theme for every Claude Code session.
+PackageUrl: https://github.com/sytem643/claude-code-themes
+Installers:
+  - Architecture: x64
+    InstallerType: wix
+    InstallerUrl: https://github.com/sytem643/claude-code-themes/releases/download/v<VERSION>/Ambiance_<VERSION>_x64_en-US.msi
+    InstallerSha256: <SHA256>
+ManifestType: singleton
+ManifestVersion: 1.6.0

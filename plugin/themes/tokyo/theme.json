@@ -1,0 +1,208 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "tokyo",
+  "name": "Tokyo",
+  "tagline": "Tower lights over the endless city",
+  "description": "Tokyo Tower glowing among the towers of Minato at night.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🗻",
+  "colors": {
+    "accent": "#FF7AC6",
+    "secondary": "#7AA2F7",
+    "muted": "#B0A0C8"
+  },
+  "banner": [
+    "   /\\    |    ",
+    "  /  \\  -+-   ",
+    " /    \\  |    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "t": "#C8D4E8",
+      "d": "#7AA2F7",
+      "f": "#3B4A6B",
+      "s": "#F0F4FF",
+      "l": "#BB9AF7",
+      "L": "#7DCFFF",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".............L......",
+        ".............t......",
+        ".............t......",
+        "............Ldd.....",
+        ".............t......",
+        ".............t......",
+        "............ddd.....",
+        "...fsf.......t......",
+        ".ffsssff.....t......",
+        "fffffffff...ttt.....",
+        "fffffffff...ttt.....",
+        "fffffffff..ttttt...."
+      ],
+      [
+        ".............l......",
+        ".............t......",
+        ".............t......",
+        "............dLd.....",
+        ".............t......",
+        ".............t......",
+        "............ddd.....",
+        "...fsf.......t......",
+        ".ffsssff.....t......",
+        "fffffffff...ttt.....",
+        "fffffffff...ttt.....",
+        "fffffffff..ttttt...."
+      ],
+      [
+        ".............L......",
+        ".............t......",
+        ".............t......",
+        "............ddL.....",
+        ".............t......",
+        ".............t......",
+        "............ddd.....",
+        "...fsf.......t......",
+        ".ffsssff.....t......",
+        "fffffffff...ttt.....",
+        "fffffffff...ttt.....",
+        "fffffffff..ttttt...."
+      ],
+      [
+        ".............l......",
+        ".............t......",
+        ".............t......",
+        "............Ldd.....",
+        ".............t......",
+        ".............t......",
+        "............ddd.....",
+        "...fsf.......t......",
+        ".ffsssff.....t......",
+        "fffffffff...ttt.....",
+        "fffffffff...ttt.....",
+        "fffffffff..ttttt...."
+      ]
+    ]
+  },
+  "quotes": [
+    "Kaizen: one small improvement per commit.",
+    "Precise as a bullet train.",
+    "The city hums, the code flows.",
+    "Neon, ramen and a green build.",
+    "Every detail matters."
+  ],
+  "spinnerVerbs": [
+    "Catching the Shinkansen",
+    "Folding origami",
+    "Crossing Shibuya",
+    "Watching Mount Fuji",
+    "Slurping ramen",
+    "Climbing the Skytree"
+  ],
+  "durationLines": [
+    "Rode for {d}",
+    "A {d} journey",
+    "Done in {d}, on time"
+  ],
+  "status": {
+    "idle": "at the onsen",
+    "working": "in Shibuya"
+  },
+  "welcome": "Tokyo: the city lights up.",
+  "persona": [
+    "You are calm, precise and courteous, with a touch of Tokyo night life, and at most one Japan image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "delayed",
+      "quotes": [
+        "Train delayed: a test failed.",
+        "Sumimasen, something broke.",
+        "Let's fix it with care."
+      ],
+      "frames": [
+        [
+          "............R.......",
+          "............t.......",
+          "............t.......",
+          "...........Rdd......",
+          "............t.......",
+          "............t.......",
+          "...........ddd......",
+          "..fsf.......t.......",
+          "ffsssff.....t.......",
+          "ffffffff...ttt......",
+          "ffffffff...ttt......",
+          "ffffffff..ttttt....."
+        ],
+        [
+          "..............R.....",
+          "..............t.....",
+          "..............t.....",
+          ".............Rdd....",
+          "..............t.....",
+          "..............t.....",
+          ".............ddd....",
+          "....fsf.......t.....",
+          "..ffsssff.....t.....",
+          ".fffffffff...ttt....",
+          ".fffffffff...ttt....",
+          ".fffffffff..ttttt..."
+        ]
+      ]
+    },
+    "success": {
+      "status": "on time",
+      "quotes": [
+        "Right on time: all green.",
+        "Perfect, like a bullet train.",
+        "Kanpai!"
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Tokyo Tower and Minato by night",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: David Kernan, CC BY 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Tokyo",
+    "background": "#150E26",
+    "foreground": "#F0E6F8",
+    "cursorColor": "#FF7AC6",
+    "selectionBackground": "#3A2858",
+    "black": "#241838",
+    "red": "#FF5C8A",
+    "green": "#9ED89E",
+    "yellow": "#F5D27A",
+    "blue": "#7AA2F7",
+    "purple": "#FF7AC6",
+    "cyan": "#7ADCF0",
+    "white": "#F0E6F8",
+    "brightBlack": "#5A4A78",
+    "brightRed": "#FF8AA8",
+    "brightGreen": "#BEEABE",
+    "brightYellow": "#F8E2A8",
+    "brightBlue": "#A4C0FF",
+    "brightPurple": "#FFA6DA",
+    "brightCyan": "#A8EAF6",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "petals"
+    }
+  }
+}

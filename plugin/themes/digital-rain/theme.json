@@ -1,0 +1,231 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "digital-rain",
+  "name": "Digital Rain",
+  "tagline": "Wake up, the code has you",
+  "description": "Cascading green glyphs on a black screen.",
+  "universe": "Original · Hacker",
+  "author": "claude-code-themes",
+  "emoji": "🟩",
+  "colors": {
+    "accent": "#33FF66",
+    "secondary": "#9DFFB0",
+    "muted": "#5FBF7A"
+  },
+  "banner": [
+    "  1 0 1 1 0   ",
+    "  0 1 0 0 1   ",
+    "  1 1 0 1 0   "
+  ],
+  "pixelArt": {
+    "palette": {
+      "h": "#E6FFE6",
+      "g": "#33FF66",
+      "d": "#0F7A2E",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".h.....g.....d....g.",
+        "....d..g.....g....h.",
+        "....d..h.....g..d...",
+        "....g........h..d...",
+        "....g.....d.....g...",
+        "....h.....d.....g...",
+        "..........g.....h...",
+        "..........g.........",
+        "..........h.........",
+        "....................",
+        "....................",
+        "...................."
+      ],
+      [
+        ".g.....d..........d.",
+        ".g.....d.....d....g.",
+        ".h.....g.....d....g.",
+        "....d..g.....g....h.",
+        "....d..h.....g..d...",
+        "....g........h..d...",
+        "....g.....d.....g...",
+        "....h.....d.....g...",
+        "..........g.....h...",
+        "..........g.........",
+        "..........h.........",
+        "...................."
+      ],
+      [
+        ".d..................",
+        ".d................d.",
+        ".g.....d..........d.",
+        ".g.....d.....d....g.",
+        ".h.....g.....d....g.",
+        "....d..g.....g....h.",
+        "....d..h.....g..d...",
+        "....g........h..d...",
+        "....g.....d.....g...",
+        "....h.....d.....g...",
+        "..........g.....h...",
+        "..........g........."
+      ],
+      [
+        "....................",
+        "....................",
+        ".d..................",
+        ".d................d.",
+        ".g.....d..........d.",
+        ".g.....d.....d....g.",
+        ".h.....g.....d....g.",
+        "....d..g.....g....h.",
+        "....d..h.....g..d...",
+        "....g........h..d...",
+        "....g.....d.....g...",
+        "....h.....d.....g..."
+      ],
+      [
+        "..........h.........",
+        "....................",
+        "....................",
+        "....................",
+        ".d..................",
+        ".d................d.",
+        ".g.....d..........d.",
+        ".g.....d.....d....g.",
+        ".h.....g.....d....g.",
+        "....d..g.....g....h.",
+        "....d..h.....g..d...",
+        "....g........h..d..."
+      ],
+      [
+        "..........g.....h...",
+        "..........g.........",
+        "..........h.........",
+        "....................",
+        "....................",
+        "....................",
+        ".d..................",
+        ".d................d.",
+        ".g.....d..........d.",
+        ".g.....d.....d....g.",
+        ".h.....g.....d....g.",
+        "....d..g.....g....h."
+      ]
+    ]
+  },
+  "quotes": [
+    "There is no bug. Only the code.",
+    "Follow the green rabbit.",
+    "Free your mind, free your memory.",
+    "What you see is a simulation of a terminal.",
+    "The answer is out there, in the logs."
+  ],
+  "spinnerVerbs": [
+    "Decoding the rain",
+    "Bending spoons",
+    "Dodging bullets",
+    "Jacking in",
+    "Reading the source",
+    "Rerouting the signal"
+  ],
+  "durationLines": [
+    "Jacked in for {d}",
+    "Decoded in {d}",
+    "A {d} simulation"
+  ],
+  "status": {
+    "idle": "unplugged",
+    "working": "jacked in"
+  },
+  "welcome": "Digital Rain: follow the green glyphs.",
+  "persona": [
+    "You are a cool, cryptic but helpful hacker, with at most one hacker-culture image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "glitch",
+      "quotes": [
+        "Déjà vu: a test failed.",
+        "A glitch in the system.",
+        "The code fights back."
+      ],
+      "frames": [
+        [
+          "R.....R.....d....R..",
+          "...d..R.....R....R..",
+          "...d..R.....R..d....",
+          "...R........R..d....",
+          "...R.....d.....R....",
+          "...R.....d.....R....",
+          ".........R.....R....",
+          ".........R..........",
+          ".........R..........",
+          "....................",
+          "....................",
+          "...................."
+        ],
+        [
+          "..R.....R.....d....R",
+          ".....d..R.....R....R",
+          ".....d..R.....R..d..",
+          ".....R........R..d..",
+          ".....R.....d.....R..",
+          ".....R.....d.....R..",
+          "...........R.....R..",
+          "...........R........",
+          "...........R........",
+          "....................",
+          "....................",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "the one",
+      "quotes": [
+        "You are the one: all green.",
+        "The system obeys.",
+        "Flawless run."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Cascading green glyphs on a black screen",
+      "file": "assets/wallpaper.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Digital Rain",
+    "background": "#020802",
+    "foreground": "#B6FFB6",
+    "cursorColor": "#33FF66",
+    "selectionBackground": "#0F3A1A",
+    "black": "#0A1A0A",
+    "red": "#FF5F5F",
+    "green": "#33FF66",
+    "yellow": "#D4FF5F",
+    "blue": "#2FBF71",
+    "purple": "#7FFFAF",
+    "cyan": "#5FFFD7",
+    "white": "#B6FFB6",
+    "brightBlack": "#2E6B3A",
+    "brightRed": "#FF8A8A",
+    "brightGreen": "#66FF8F",
+    "brightYellow": "#E6FF8A",
+    "brightBlue": "#5FDF9A",
+    "brightPurple": "#A6FFC8",
+    "brightCyan": "#8AFFE6",
+    "brightWhite": "#E6FFE6",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "matrix"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "orbit",
+  "name": "Orbit",
+  "tagline": "Code from low Earth orbit",
+  "description": "City lights on the night side of the Earth, seen from orbit.",
+  "universe": "Original · Space",
+  "author": "claude-code-themes",
+  "emoji": "🚀",
+  "colors": {
+    "accent": "#4FA3FF",
+    "secondary": "#FF9F43",
+    "muted": "#94A3C0"
+  },
+  "banner": [
+    "      /\\      ",
+    "     |()|     ",
+    "    /_||_\\    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "w": "#DCE3F0",
+      "b": "#4FA3FF",
+      "r": "#FF5E5E",
+      "g": "#8A94A8",
+      "o": "#FF9F43",
+      "y": "#FFE066",
+      "s": "#FFFFFF",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........ww.........",
+        "........wwww........",
+        ".......wwwwww.......",
+        ".......wwbbww....s..",
+        ".......wwbbww.......",
+        ".......wwwwww.......",
+        "......rwwwwwwr......",
+        ".....rrwwwwwwrr.....",
+        ".....r..gggg..r.....",
+        "........oooo........",
+        ".........yy.......s.",
+        "...................."
+      ],
+      [
+        ".........ww.........",
+        "..s.....wwww........",
+        ".......wwwwww.......",
+        ".......wwbbww.......",
+        ".......wwbbww.......",
+        ".......wwwwww.......",
+        "......rwwwwwwr......",
+        ".....rrwwwwwwrr.....",
+        ".s...r..gggg..r.....",
+        "........oooo........",
+        "........yyyy........",
+        ".........yy........."
+      ],
+      [
+        ".........ww.........",
+        "........wwww........",
+        ".......wwwwww.......",
+        ".......wwbbww....s..",
+        ".......wwbbww.......",
+        ".......wwwwww.......",
+        "......rwwwwwwr......",
+        ".....rrwwwwwwrr.....",
+        ".....r..gggg..r.....",
+        "........oooo........",
+        "........oooo......s.",
+        ".........yy........."
+      ],
+      [
+        ".........ww.........",
+        "..s.....wwww........",
+        ".......wwwwww.......",
+        ".......wwbbww.......",
+        ".......wwbbww.......",
+        ".......wwwwww.......",
+        "......rwwwwwwr......",
+        ".....rrwwwwwwrr.....",
+        ".s...r..gggg..r.....",
+        "........oooo........",
+        "........yyyy........",
+        ".........yy........."
+      ]
+    ]
+  },
+  "quotes": [
+    "Houston, we have no problems.",
+    "Gravity is just a dependency.",
+    "Small step for code, giant leap for the repo.",
+    "Launch window open.",
+    "The view is better from up here."
+  ],
+  "spinnerVerbs": [
+    "Igniting boosters",
+    "Correcting trajectory",
+    "Docking with the station",
+    "Calculating orbit",
+    "Running preflight checks",
+    "Floating in zero-g"
+  ],
+  "durationLines": [
+    "Orbited for {d}",
+    "Launched in {d}",
+    "A {d} mission"
+  ],
+  "status": {
+    "idle": "on the pad",
+    "working": "in orbit"
+  },
+  "welcome": "Orbit: all systems go.",
+  "persona": [
+    "You talk like a calm mission controller: precise, reassuring, with at most one space image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "houston, a problem",
+      "quotes": [
+        "Houston, we have a problem: a test failed.",
+        "Abort sequence. Let's diagnose.",
+        "Telemetry looks off."
+      ],
+      "frames": [
+        [
+          "........ww..........",
+          ".......wwww.........",
+          "......wwwwww........",
+          "......wwRRww....s...",
+          "......wwRRww........",
+          "......wwwwww........",
+          ".....rwwwwwwr.......",
+          "....rrwwwwwwrr......",
+          "....r..gggg..r......",
+          ".......oooo.........",
+          "........yy.......s..",
+          "...................."
+        ],
+        [
+          "..........ww........",
+          ".........wwww.......",
+          "........wwwwww......",
+          "........wwRRww....s.",
+          "........wwRRww......",
+          "........wwwwww......",
+          ".......rwwwwwwr.....",
+          "......rrwwwwwwrr....",
+          "......r..gggg..r....",
+          ".........oooo.......",
+          "..........yy.......s",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "liftoff",
+      "quotes": [
+        "Liftoff: all green!",
+        "Mission accomplished.",
+        "Perfect orbit."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Night falls on Earth, seen from the ISS",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Scott Kelly, Public domain, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Good_Morning_From_the_International_Space_Station.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Orbit",
+    "background": "#05070F",
+    "foreground": "#DCE3F0",
+    "cursorColor": "#4FA3FF",
+    "selectionBackground": "#1C2A48",
+    "black": "#10162A",
+    "red": "#FF5E5E",
+    "green": "#5EE6A0",
+    "yellow": "#FFD166",
+    "blue": "#4FA3FF",
+    "purple": "#B48CFF",
+    "cyan": "#5ED6FF",
+    "white": "#DCE3F0",
+    "brightBlack": "#46557A",
+    "brightRed": "#FF8A8A",
+    "brightGreen": "#8AF0BC",
+    "brightYellow": "#FFE099",
+    "brightBlue": "#84BFFF",
+    "brightPurple": "#CDB0FF",
+    "brightCyan": "#8AE4FF",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "stars"
+    }
+  }
+}

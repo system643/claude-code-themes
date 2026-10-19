@@ -1,0 +1,212 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "christmas",
+  "name": "Christmas",
+  "tagline": "Ho ho ho, happy holidays",
+  "description": "A wooden chapel in a snowy forest on a winter night.",
+  "universe": "Original · Seasonal",
+  "author": "claude-code-themes",
+  "season": "December",
+  "emoji": "🎄",
+  "colors": {
+    "accent": "#FF4D4D",
+    "secondary": "#FFD54A",
+    "muted": "#A8C0B4"
+  },
+  "banner": [
+    "      *       ",
+    "     /o\\      ",
+    "    /o.o\\     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "S": "#FFD54A",
+      "t": "#1F8A4C",
+      "k": "#7A4A2A",
+      "r": "#FF4D4D",
+      "g": "#FFFFFF",
+      "b": "#4DA6FF",
+      "y": "#FFD54A",
+      "p": "#E53935",
+      "q": "#43A047",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........SS.........",
+        ".........SS.........",
+        ".........t..........",
+        "........ttt.........",
+        ".......ttrtt........",
+        "......tgttttt.......",
+        ".....ttttytbtt......",
+        "....ttttytttttt.....",
+        "...tttgtttttrttt....",
+        "..ttttttttbtttttt...",
+        ".........kk.........",
+        "...pppp..kk..qqqq..."
+      ],
+      [
+        ".........SS.........",
+        ".........SS.........",
+        ".........t..........",
+        "........ttt.........",
+        ".......ttgtt........",
+        "......tbttttt.......",
+        ".....ttttrtytt......",
+        "....ttttrtttttt.....",
+        "...tttbtttttgttt....",
+        "..ttttttttytttttt...",
+        ".........kk.........",
+        "...pppp..kk..qqqq..."
+      ],
+      [
+        ".........SS.........",
+        ".........SS.........",
+        ".........t..........",
+        "........ttt.........",
+        ".......ttbtt........",
+        "......tyttttt.......",
+        ".....ttttgtrtt......",
+        "....ttttgtttttt.....",
+        "...tttytttttbttt....",
+        "..ttttttttrtttttt...",
+        ".........kk.........",
+        "...pppp..kk..qqqq..."
+      ],
+      [
+        ".........SS.........",
+        ".........SS.........",
+        ".........t..........",
+        "........ttt.........",
+        ".......ttytt........",
+        "......trttttt.......",
+        ".....ttttbtgtt......",
+        "....ttttbtttttt.....",
+        "...tttrtttttyttt....",
+        "..ttttttttgtttttt...",
+        ".........kk.........",
+        "...pppp..kk..qqqq..."
+      ]
+    ]
+  },
+  "quotes": [
+    "All I want for Christmas is green tests.",
+    "Making a list, checking it twice.",
+    "Deck the halls with clean commits.",
+    "Silent night, passing CI.",
+    "Ho ho ho, no bugs below."
+  ],
+  "spinnerVerbs": [
+    "Wrapping presents",
+    "Checking the list twice",
+    "Hanging lights",
+    "Baking cookies",
+    "Feeding the reindeer",
+    "Trimming the tree"
+  ],
+  "durationLines": [
+    "Wrapped in {d}",
+    "Sleighed for {d}",
+    "A {d} holiday"
+  ],
+  "status": {
+    "idle": "by the fireplace",
+    "working": "in the workshop"
+  },
+  "welcome": "Christmas: the lights are twinkling.",
+  "persona": [
+    "You are warm, jolly and festive without overdoing it, with at most one holiday image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "coal",
+      "quotes": [
+        "Coal in the stocking: a test failed.",
+        "A reindeer tripped. Let's help.",
+        "The lights went out on one branch."
+      ],
+      "frames": [
+        [
+          "........RR..........",
+          "........RR..........",
+          "........t...........",
+          ".......ttt..........",
+          "......ttrtt.........",
+          ".....tgttttt........",
+          "....ttttytbtt.......",
+          "...ttttytttttt......",
+          "..tttgtttttrttt.....",
+          ".ttttttttbtttttt....",
+          "........kk..........",
+          "..pppp..kk..qqqq...."
+        ],
+        [
+          "..........RR........",
+          "..........RR........",
+          "..........t.........",
+          ".........ttt........",
+          "........ttrtt.......",
+          ".......tgttttt......",
+          "......ttttytbtt.....",
+          ".....ttttytttttt....",
+          "....tttgtttttrttt...",
+          "...ttttttttbtttttt..",
+          "..........kk........",
+          "....pppp..kk..qqqq.."
+        ]
+      ]
+    },
+    "success": {
+      "status": "merry",
+      "quotes": [
+        "Merry and green!",
+        "Nice list, all tests.",
+        "A gift-wrapped release."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "A wooden chapel in the snowy forest at night",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Jakub T. Jankiewicz, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Jaszczur%C3%B3wka_at_Winter.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Christmas",
+    "background": "#0B1A14",
+    "foreground": "#F2F6F4",
+    "cursorColor": "#FFD54A",
+    "selectionBackground": "#1F4A36",
+    "black": "#13261E",
+    "red": "#FF4D4D",
+    "green": "#4CC77A",
+    "yellow": "#FFD54A",
+    "blue": "#4DA6FF",
+    "purple": "#E06CC8",
+    "cyan": "#6CD6C8",
+    "white": "#F2F6F4",
+    "brightBlack": "#4A6A5C",
+    "brightRed": "#FF7A7A",
+    "brightGreen": "#7ADA9E",
+    "brightYellow": "#FFE07A",
+    "brightBlue": "#7ABEFF",
+    "brightPurple": "#EE94DA",
+    "brightCyan": "#94E4DA",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "snow"
+    }
+  }
+}

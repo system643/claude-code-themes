@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "everforest",
+  "name": "Everforest",
+  "tagline": "Green, warm and easy on the eyes",
+  "description": "Ancient laurel trees in a foggy forest.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Everforest by sainnhe (MIT)",
+  "emoji": "🌲",
+  "colors": {
+    "accent": "#A7C080",
+    "secondary": "#DBBC7F",
+    "muted": "#9DA9A0"
+  },
+  "banner": [
+    "   ^   ^   ^  ",
+    "  /|\\ /|\\ /|\\ ",
+    "   |   |   |  "
+  ],
+  "pixelArt": {
+    "palette": {
+      "t": "#A7C080",
+      "k": "#859289",
+      "f": "#DBBC7F",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........t..........",
+        "........ttt..f......",
+        "...t....ttt.........",
+        "..ttt...ttt....t....",
+        "..ttt..ftttt..ttt...",
+        "..ttt.ttttttt.ttt...",
+        ".ttttt.ttttt..ttt...",
+        "tttttttttttftttttt..",
+        ".ttttfttttttttttttt.",
+        "tttttttttttttttttt..",
+        "tttttttttttttttttttt",
+        "...k.....k.....k...."
+      ],
+      [
+        ".........t..........",
+        "........ttt.........",
+        ".f.t....ttt.........",
+        "..ttt...ttt....t....",
+        "..ttt..ftttt..ttt...",
+        "..ttt.ttttttt.ttt.f.",
+        ".ttttt.ttttt..ttt...",
+        "tttttttttttftttttt..",
+        ".tttttttttttttttttt.",
+        "tttttttttttttttttt..",
+        "tttttttttttttttttttt",
+        "...k.....k.....k...."
+      ],
+      [
+        ".........t..........",
+        "........ttt..f......",
+        ".f.t....ttt.........",
+        "..ttt...ttt....t....",
+        "..ttt..ttttt..ttt...",
+        "..ttt.ttttttt.ttt.f.",
+        ".ttttt.ttttt..ttt...",
+        "tttttttttttttttttt..",
+        ".ttttfttttttttttttt.",
+        "tttttttttttttttttt..",
+        "tttttttttttttttttttt",
+        "...k.....k.....k...."
+      ],
+      [
+        ".........t..........",
+        "........ttt..f......",
+        "...t....ttt.........",
+        "..ttt...ttt....t....",
+        "..ttt..ftttt..ttt...",
+        "..ttt.ttttttt.ttt...",
+        ".ttttt.ttttt..ttt...",
+        "tttttttttttftttttt..",
+        ".ttttfttttttttttttt.",
+        "tttttttttttttttttt..",
+        "tttttttttttttttttttt",
+        "...k.....k.....k...."
+      ]
+    ]
+  },
+  "quotes": [
+    "Grow slowly, branch carefully.",
+    "Deep roots, stable releases.",
+    "The forest is patient. So is good code.",
+    "Every leaf is a small function.",
+    "Fresh air, fresh perspective."
+  ],
+  "spinnerVerbs": [
+    "Planting seeds",
+    "Following the trail",
+    "Listening to the trees",
+    "Catching fireflies",
+    "Gathering moss",
+    "Growing roots"
+  ],
+  "durationLines": [
+    "Hiked for {d}",
+    "Grew for {d}",
+    "A {d} walk"
+  ],
+  "status": {
+    "idle": "resting",
+    "working": "on the trail"
+  },
+  "welcome": "Everforest: the fireflies are out.",
+  "persona": [
+    "You are calm, grounded and encouraging, like a forest guide, with at most one nature image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "lost in the woods",
+      "quotes": [
+        "Lost in the woods: a test failed.",
+        "A fallen branch blocks the path.",
+        "Let's retrace our steps."
+      ],
+      "frames": [
+        [
+          "........t...........",
+          ".......ttt..R.......",
+          "..t....ttt..........",
+          ".ttt...ttt....t.....",
+          ".ttt..Rtttt..ttt....",
+          ".ttt.ttttttt.ttt....",
+          "ttttt.ttttt..ttt....",
+          "ttttttttttRtttttt...",
+          "ttttRttttttttttttt..",
+          "ttttttttttttttttt...",
+          "ttttttttttttttttttt.",
+          "..k.....k.....k....."
+        ],
+        [
+          "..........t.........",
+          ".........ttt..R.....",
+          "....t....ttt........",
+          "...ttt...ttt....t...",
+          "...ttt..Rtttt..ttt..",
+          "...ttt.ttttttt.ttt..",
+          "..ttttt.ttttt..ttt..",
+          ".tttttttttttRtttttt.",
+          "..ttttRttttttttttttt",
+          ".tttttttttttttttttt.",
+          ".ttttttttttttttttttt",
+          "....k.....k.....k..."
+        ]
+      ]
+    },
+    "success": {
+      "status": "sunlit",
+      "quotes": [
+        "Sunlight through the leaves: all green.",
+        "The trail is clear.",
+        "The forest thrives."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "The foggy laurel forest of Fanal, Madeira",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Ximonic (Simo Räsänen), CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Foggy_Fanal_forest_in_Seixal,_Porto_Moniz,_Madeira,_2023_May.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Everforest",
+    "background": "#2D353B",
+    "foreground": "#D3C6AA",
+    "cursorColor": "#D3C6AA",
+    "selectionBackground": "#475258",
+    "black": "#343F44",
+    "red": "#E67E80",
+    "green": "#A7C080",
+    "yellow": "#DBBC7F",
+    "blue": "#7FBBB3",
+    "purple": "#D699B6",
+    "cyan": "#83C092",
+    "white": "#D3C6AA",
+    "brightBlack": "#859289",
+    "brightRed": "#E67E80",
+    "brightGreen": "#A7C080",
+    "brightYellow": "#DBBC7F",
+    "brightBlue": "#7FBBB3",
+    "brightPurple": "#D699B6",
+    "brightCyan": "#83C092",
+    "brightWhite": "#E4DDCF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "fireflies"
+    }
+  }
+}

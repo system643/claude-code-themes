@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "rose-pine",
+  "name": "Rosé Pine",
+  "tagline": "All natural pine, faux fur and a bit of soho vibes",
+  "description": "Pine silhouettes against a starry evening sky.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Rosé Pine (MIT)",
+  "emoji": "🌹",
+  "colors": {
+    "accent": "#EBBCBA",
+    "secondary": "#C4A7E7",
+    "muted": "#908CAA"
+  },
+  "banner": [
+    "     @}->-    ",
+    "    ~ rose ~  ",
+    "   ^^ pine ^^ "
+  ],
+  "pixelArt": {
+    "palette": {
+      "p": "#EB6F92",
+      "r": "#EBBCBA",
+      "R": "#FF4040",
+      "s": "#31748F",
+      "l": "#9CCFD8"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        "........ppp.........",
+        ".......pRrpp........",
+        "......pprrrRp.......",
+        "......ppprppp.......",
+        ".......ppppp........",
+        ".........s..........",
+        ".........s..ll......",
+        ".........slll.......",
+        "......llls..........",
+        ".....ll..s..........",
+        ".........s.........."
+      ],
+      [
+        "....................",
+        "........ppp.........",
+        ".......pRrpp........",
+        "......pprrrRp.......",
+        "......ppprppp.......",
+        ".......ppppp........",
+        "..........s.........",
+        "..........s.ll......",
+        "..........lll.......",
+        "......llls..........",
+        ".....ll..s..........",
+        ".........s.........."
+      ],
+      [
+        "....................",
+        "........ppp.........",
+        ".......pRrpp........",
+        "......pprrrRp.......",
+        "......ppprppp.......",
+        ".......ppppp........",
+        ".........s..........",
+        ".........s..ll......",
+        ".........slll.......",
+        "......llls..........",
+        ".....ll..s..........",
+        ".........s.........."
+      ],
+      [
+        "....................",
+        "........ppp.........",
+        ".......pRrpp........",
+        "......pprrrRp.......",
+        "......ppprppp.......",
+        ".......ppppp........",
+        "........s...........",
+        "........s...ll......",
+        "........s.lll.......",
+        "......llls..........",
+        ".....ll..s..........",
+        ".........s.........."
+      ]
+    ]
+  },
+  "quotes": [
+    "Soft light, sharp focus.",
+    "Every rose has its edge cases.",
+    "Elegance is a refactor away.",
+    "Code like a candlelit dinner: slow and intentional.",
+    "Pine needles and clean diffs."
+  ],
+  "spinnerVerbs": [
+    "Pruning roses",
+    "Lighting candles",
+    "Wandering the pines",
+    "Arranging petals",
+    "Pouring rosé",
+    "Gathering fireflies"
+  ],
+  "durationLines": [
+    "Bloomed in {d}",
+    "Wandered for {d}",
+    "A {d} evening"
+  ],
+  "status": {
+    "idle": "unwinding",
+    "working": "in bloom"
+  },
+  "welcome": "Rosé Pine: the candles are lit.",
+  "persona": [
+    "You are elegant, soft-spoken and thoughtful, with at most one floral or forest image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "thorny",
+      "quotes": [
+        "A thorn in the tests.",
+        "The petals fell: something broke.",
+        "Let's prune that error gently."
+      ],
+      "frames": [
+        [
+          "....................",
+          ".......ppp..........",
+          "......pRRpp.........",
+          ".....ppRRRRp........",
+          ".....pppRppp........",
+          "......ppppp.........",
+          "........s...........",
+          "........s..ll.......",
+          "........slll........",
+          ".....llls...........",
+          "....ll..s...........",
+          "........s..........."
+        ],
+        [
+          "....................",
+          ".........ppp........",
+          "........pRRpp.......",
+          ".......ppRRRRp......",
+          ".......pppRppp......",
+          "........ppppp.......",
+          "..........s.........",
+          "..........s..ll.....",
+          "..........slll......",
+          ".......llls.........",
+          "......ll..s.........",
+          "..........s........."
+        ]
+      ]
+    },
+    "success": {
+      "status": "in full bloom",
+      "quotes": [
+        "In full bloom: all green.",
+        "Graceful and passing.",
+        "A perfect bouquet of tests."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Pines against the evening sky",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: m wrona maciek_wrona, CC0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pine_trees_sunset._(Unsplash).jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Rose Pine",
+    "background": "#191724",
+    "foreground": "#E0DEF4",
+    "cursorColor": "#E0DEF4",
+    "selectionBackground": "#403D52",
+    "black": "#26233A",
+    "red": "#EB6F92",
+    "green": "#31748F",
+    "yellow": "#F6C177",
+    "blue": "#9CCFD8",
+    "purple": "#C4A7E7",
+    "cyan": "#EBBCBA",
+    "white": "#E0DEF4",
+    "brightBlack": "#6E6A86",
+    "brightRed": "#EB6F92",
+    "brightGreen": "#31748F",
+    "brightYellow": "#F6C177",
+    "brightBlue": "#9CCFD8",
+    "brightPurple": "#C4A7E7",
+    "brightCyan": "#EBBCBA",
+    "brightWhite": "#E0DEF4",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "fireflies"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "sakura",
+  "name": "Sakura",
+  "tagline": "Cherry blossoms at dusk",
+  "description": "A red pagoda, Mount Fuji and cherry blossoms.",
+  "universe": "Original · Japan",
+  "author": "claude-code-themes",
+  "emoji": "🌸",
+  "colors": {
+    "accent": "#FF85A2",
+    "secondary": "#FFB7C5",
+    "muted": "#C9A0B0"
+  },
+  "banner": [
+    "   @  *  @    ",
+    "  \\ \\_|_/ /   ",
+    "     | |      "
+  ],
+  "pixelArt": {
+    "palette": {
+      "b": "#5C3B44",
+      "p": "#FFB7C5",
+      "P": "#FF85A2",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".....pp.............",
+        ".pp.bPpp............",
+        "bPbbbbPbb..pp.......",
+        "...pp..bbbbPbpp.....",
+        "...P....pp..bPbpp...",
+        "........P.....bP....",
+        "...p............pp..",
+        "..........p.....P...",
+        "..............p.....",
+        ".......p............",
+        ".................p..",
+        "...................."
+      ],
+      [
+        ".....pp.............",
+        ".pp.bPpp............",
+        "bPbbbbPbb..pp.......",
+        "...pp..bbbbPbpp.....",
+        "...P....pp..bPbpp...",
+        "........P.....bP....",
+        "................pp..",
+        "....p...........P...",
+        ".........p..........",
+        "...............p....",
+        "......p.............",
+        "..................p."
+      ],
+      [
+        ".....pp.............",
+        ".pp.bPpp............",
+        "bPbbbbPbb..pp.......",
+        "...pp..bbbbPbpp.....",
+        "...P....pp..bPbpp...",
+        "........P.....bP....",
+        "................pp..",
+        "................P...",
+        "...p................",
+        "..........p.........",
+        "..............p.....",
+        ".......p.........p.."
+      ],
+      [
+        ".....pp.............",
+        ".pp.bPpp............",
+        "bPbbbbPbb..pp.......",
+        "...pp..bbbbPbpp.....",
+        "...P....pp..bPbpp...",
+        "........P.....bP....",
+        "................pp..",
+        "................P...",
+        "....................",
+        "....p...............",
+        ".........p..........",
+        "......p........p..p."
+      ]
+    ]
+  },
+  "quotes": [
+    "Beauty is in the small details.",
+    "Petals fall, code stays.",
+    "Mindful commits.",
+    "Every season has its refactor.",
+    "Slow down and enjoy the blossoms."
+  ],
+  "spinnerVerbs": [
+    "Watching petals fall",
+    "Brewing matcha",
+    "Raking the garden",
+    "Folding origami",
+    "Listening to the wind chime",
+    "Writing haiku"
+  ],
+  "durationLines": [
+    "Bloomed for {d}",
+    "Meditated for {d}",
+    "A {d} hanami"
+  ],
+  "status": {
+    "idle": "at peace",
+    "working": "in bloom"
+  },
+  "welcome": "Sakura: the blossoms are out.",
+  "persona": [
+    "You are serene, mindful and kind, with at most one image of blossoms, tea or gardens per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "windswept",
+      "quotes": [
+        "A gust scattered the petals: a test failed.",
+        "Let's breathe, then fix it.",
+        "A broken branch in the build."
+      ],
+      "frames": [
+        [
+          "....RR..............",
+          "RR.bRRR.............",
+          "RbbbbRbb..RR........",
+          "..RR..bbbbRbRR......",
+          "..R....RR..bRbRR....",
+          ".......R.....bR.....",
+          "..R............RR...",
+          ".........R.....R....",
+          ".............R......",
+          "......R.............",
+          "................R...",
+          "...................."
+        ],
+        [
+          "......RR............",
+          "..RR.bRRR...........",
+          ".bRbbbbRbb..RR......",
+          "....RR..bbbbRbRR....",
+          "....R....RR..bRbRR..",
+          ".........R.....bR...",
+          "....R............RR.",
+          "...........R.....R..",
+          "...............R....",
+          "........R...........",
+          "..................R.",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "full bloom",
+      "quotes": [
+        "Full bloom: all green.",
+        "Harmony restored.",
+        "Simple, beautiful, passing."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Chureito Pagoda, Mount Fuji and cherry blossoms",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: reggiepen (Flickr), CC BY 2.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Chuurei-tou_Fujiyoshida_17025277650_c59733d6ba_o.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Sakura",
+    "background": "#1A1018",
+    "foreground": "#F5E4EA",
+    "cursorColor": "#FF85A2",
+    "selectionBackground": "#4A2A3C",
+    "black": "#2A1A26",
+    "red": "#FF5C7A",
+    "green": "#9ED8A0",
+    "yellow": "#F7D58B",
+    "blue": "#8AA8FF",
+    "purple": "#FF85A2",
+    "cyan": "#8CD4D8",
+    "white": "#F5E4EA",
+    "brightBlack": "#6A4A5C",
+    "brightRed": "#FF8AA0",
+    "brightGreen": "#BDEABD",
+    "brightYellow": "#FAE3AE",
+    "brightBlue": "#ADC2FF",
+    "brightPurple": "#FFB7C5",
+    "brightCyan": "#B0E4E6",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "petals"
+    }
+  }
+}

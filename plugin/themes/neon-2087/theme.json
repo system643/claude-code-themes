@@ -1,0 +1,237 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "neon-2087",
+  "name": "Neon 2087",
+  "tagline": "Acid rain and city lights",
+  "description": "A dense megacity glittering around the harbour at night.",
+  "universe": "Original · Cyberpunk",
+  "author": "claude-code-themes",
+  "featured": true,
+  "emoji": "🌃",
+  "colors": {
+    "accent": "#FF3DB4",
+    "secondary": "#3DE8FF",
+    "muted": "#B08CC8"
+  },
+  "banner": [
+    "  [=======]  ",
+    "  | >_  < |  ",
+    "  [=======]  "
+  ],
+  "pixelArt": {
+    "palette": {
+      "k": "#1C1430",
+      "v": "#0FA3C4",
+      "w": "#E8FFFF",
+      "p": "#FF3DB4",
+      "c": "#3DE8FF",
+      "r": "#FF2A55"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "..p..............p..",
+        "......kkkkkkkk......",
+        "....kkkkkkkkkkkk....",
+        "...kkkkkkkkkkkkkk...",
+        "...kvvwwvvvvvvvvk...",
+        "...kvvwwvvvvvvvvk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkpkpkpkkkkk...",
+        "....kkkkkkkkkkkk....",
+        "......kkkkkkkk......",
+        ".....c........c....."
+      ],
+      [
+        "..p..............p..",
+        "......kkkkkkkk......",
+        "....kkkkkkkkkkkk....",
+        "...kkkkkkkkkkkkkk...",
+        "...kvvvvwwvvvvvvk...",
+        "...kvvvvwwvvvvvvk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkpkpkpkkkkk...",
+        "....kkkkkkkkkkkk....",
+        "......kkkkkkkk......",
+        ".....c........c....."
+      ],
+      [
+        "..p..............p..",
+        "......kkkkkkkk......",
+        "....kkkkkkkkkkkk....",
+        "...kkkkkkkkkkkkkk...",
+        "...kvvvvvvwwvvvvk...",
+        "...kvvvvvvwwvvvvk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkpkpkpkkkkk...",
+        "....kkkkkkkkkkkk....",
+        "......kkkkkkkk......",
+        ".....c........c....."
+      ],
+      [
+        "..p..............p..",
+        "......kkkkkkkk......",
+        "....kkkkkkkkkkkk....",
+        "...kkkkkkkkkkkkkk...",
+        "...kvvvvvvvvwwvvk...",
+        "...kvvvvvvvvwwvvk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkpkpkpkkkkk...",
+        "....kkkkkkkkkkkk....",
+        "......kkkkkkkk......",
+        ".....c........c....."
+      ],
+      [
+        "..p..............p..",
+        "......kkkkkkkk......",
+        "....kkkkkkkkkkkk....",
+        "...kkkkkkkkkkkkkk...",
+        "...kvvvvvvwwvvvvk...",
+        "...kvvvvvvwwvvvvk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkpkpkpkkkkk...",
+        "....kkkkkkkkkkkk....",
+        "......kkkkkkkk......",
+        ".....c........c....."
+      ],
+      [
+        "..p..............p..",
+        "......kkkkkkkk......",
+        "....kkkkkkkkkkkk....",
+        "...kkkkkkkkkkkkkk...",
+        "...kvvvvwwvvvvvvk...",
+        "...kvvvvwwvvvvvvk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkkkkkkkkkkk...",
+        "...kkkkpkpkpkkkkk...",
+        "....kkkkkkkkkkkk....",
+        "......kkkkkkkk......",
+        ".....c........c....."
+      ]
+    ]
+  },
+  "quotes": [
+    "Connection established. The net is listening.",
+    "It's raining on the city, the code stays dry.",
+    "Implant updated, zero latency.",
+    "In this city, even the bugs glow in neon.",
+    "Upload complete. Next level."
+  ],
+  "spinnerVerbs": [
+    "Hacking the mainframe",
+    "Decrypting the stream",
+    "Recalibrating the implant",
+    "Jacking into the net",
+    "Compiling in neon",
+    "Scanning the city"
+  ],
+  "durationLines": [
+    "Hacked in {d}",
+    "Transferred in {d}",
+    "Connected for {d}"
+  ],
+  "status": {
+    "idle": "standby",
+    "working": "online"
+  },
+  "welcome": "Neon 2087: jacking into the net.",
+  "persona": [
+    "You talk like a runner from a cyberpunk megacity: terse, efficient, a little jaded, with at most one network or neon metaphor per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "red alert",
+      "quotes": [
+        "Intrusion detected: a test crashed.",
+        "Corrupted signal. Tracing it back.",
+        "System error. Stay cool, runner."
+      ],
+      "frames": [
+        [
+          "....................",
+          "......kkkkkkkk......",
+          "....kkkkkkkkkkkk....",
+          "...kkkkkkkkkkkkkk...",
+          "...krrrrrrrrrrrrk...",
+          "...krrrrrrrrrrrrk...",
+          "...kkkkkkkkkkkkkk...",
+          "...kkkkkkkkkkkkkk...",
+          "...kkkrrrrrrrrkkk...",
+          "....kkkkkkkkkkkk....",
+          "......kkkkkkkk......",
+          "...................."
+        ],
+        [
+          "....................",
+          "......kkkkkkkk......",
+          "....kkkkkkkkkkkk....",
+          "...kkkkkkkkkkkkkk...",
+          "...kkkkkkkkkkkkkk...",
+          "...krrrrrrrrrrrrk...",
+          "...kkkkkkkkkkkkkk...",
+          "...kkkkkkkkkkkkkk...",
+          "...kkkppppppppkkk...",
+          "....kkkkkkkkkkkk....",
+          "......kkkkkkkk......",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "access granted",
+      "quotes": [
+        "Access granted. All green.",
+        "System stable, the city breathes.",
+        "Flawless run, runner."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Hong Kong harbour at night",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Benh LIEU SONG (Flickr), CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Neon 2087",
+    "background": "#0C0718",
+    "foreground": "#E6DCF5",
+    "cursorColor": "#3DE8FF",
+    "selectionBackground": "#3A1F5C",
+    "black": "#1C1430",
+    "red": "#FF2A55",
+    "green": "#3DFFA8",
+    "yellow": "#FFD23D",
+    "blue": "#3D8BFF",
+    "purple": "#FF3DB4",
+    "cyan": "#3DE8FF",
+    "white": "#E6DCF5",
+    "brightBlack": "#5A4A78",
+    "brightRed": "#FF6A88",
+    "brightGreen": "#7DFFC6",
+    "brightYellow": "#FFE27D",
+    "brightBlue": "#7DB0FF",
+    "brightPurple": "#FF7DCC",
+    "brightCyan": "#8DF3FF",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "crt",
+      "cursorShape": "filledBox"
+    }
+  }
+}

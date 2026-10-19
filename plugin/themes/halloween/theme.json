@@ -1,0 +1,208 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "halloween",
+  "name": "Halloween",
+  "tagline": "Spooky season in your terminal",
+  "description": "Jack-o'-lanterns glowing in the dark.",
+  "universe": "Original · Seasonal",
+  "author": "claude-code-themes",
+  "season": "October",
+  "emoji": "🎃",
+  "colors": {
+    "accent": "#FF7518",
+    "secondary": "#B47CFF",
+    "muted": "#B49AAA"
+  },
+  "banner": [
+    "     _|_      ",
+    "   (^ v ^)    ",
+    "    '---'     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "s": "#4CAF50",
+      "o": "#FF7518",
+      "O": "#C4500C",
+      "y": "#FFE066",
+      "Y": "#FFF3B0",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        ".........ss.........",
+        "..........s.........",
+        ".....oooooooooo.....",
+        "...oooOooOOooOooo...",
+        "...oooyyooooyyooo...",
+        "...oooyyooooyyooo...",
+        "...oooooooooooooo...",
+        "...oooyyyyyyyoooo...",
+        "...oooOyoyOyoyooo...",
+        ".....oooooooooo.....",
+        "...................."
+      ],
+      [
+        "....................",
+        ".........ss.........",
+        "..........s.........",
+        ".....oooooooooo.....",
+        "...oooOooOOooOooo...",
+        "...oooYYooooYYooo...",
+        "...oooYYooooYYooo...",
+        "...oooooooooooooo...",
+        "...oooYYYYYYYoooo...",
+        "...oooOYoYOYoYooo...",
+        ".....oooooooooo.....",
+        "...................."
+      ],
+      [
+        "....................",
+        ".........ss.........",
+        "..........s.........",
+        ".....oooooooooo.....",
+        "...oooOooOOooOooo...",
+        "...oooyyooooyyooo...",
+        "...oooyyooooyyooo...",
+        "...oooooooooooooo...",
+        "...oooyyyyyyyoooo...",
+        "...oooOyoyOyoyooo...",
+        ".....oooooooooo.....",
+        "...................."
+      ],
+      [
+        "....................",
+        ".........ss.........",
+        "..........s.........",
+        ".....oooooooooo.....",
+        "...oooOooOOooOooo...",
+        "...oooOOooooOOooo...",
+        "...oooOOooooOOooo...",
+        "...oooooooooooooo...",
+        "...oooOOOOOOOoooo...",
+        "...oooOOoOOOoOooo...",
+        ".....oooooooooo.....",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Something wicked this way compiles.",
+    "The only thing to fear is untested code.",
+    "Trick or treat: green tests please.",
+    "Boo! Just a deprecation warning.",
+    "It's alive! The build, that is."
+  ],
+  "spinnerVerbs": [
+    "Carving pumpkins",
+    "Brewing potions",
+    "Summoning spirits",
+    "Haunting the hallway",
+    "Rattling chains",
+    "Casting spells"
+  ],
+  "durationLines": [
+    "Haunted for {d}",
+    "Brewed in {d}",
+    "A {d} séance"
+  ],
+  "status": {
+    "idle": "lurking",
+    "working": "haunting"
+  },
+  "welcome": "Halloween: the pumpkins are glowing.",
+  "persona": [
+    "You are playfully spooky and fun, never scary, with at most one Halloween image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "cursed",
+      "quotes": [
+        "A curse fell on the tests!",
+        "Ghosts in the stack trace.",
+        "Something spooky broke."
+      ],
+      "frames": [
+        [
+          "....................",
+          "........ss..........",
+          ".........s..........",
+          "....oooooooooo......",
+          "..oooOooOOooOooo....",
+          "..oooRRooooRRooo....",
+          "..oooRRooooRRooo....",
+          "..oooooooooooooo....",
+          "..oooRRRRRRRoooo....",
+          "..oooORoRORoRooo....",
+          "....oooooooooo......",
+          "...................."
+        ],
+        [
+          "....................",
+          "..........ss........",
+          "...........s........",
+          "......oooooooooo....",
+          "....oooOooOOooOooo..",
+          "....oooRRooooRRooo..",
+          "....oooRRooooRRooo..",
+          "....oooooooooooooo..",
+          "....oooRRRRRRRoooo..",
+          "....oooORoRORoRooo..",
+          "......oooooooooo....",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "treat",
+      "quotes": [
+        "Treat! All green.",
+        "The spell worked.",
+        "Spooktacular run."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Jack-o'-lanterns glowing in the dark",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Beth Teutschmann teutschmann, CC0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Carved_pumpkin_as_face_(Unsplash).jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Halloween",
+    "background": "#120A12",
+    "foreground": "#F5E6D8",
+    "cursorColor": "#FF7518",
+    "selectionBackground": "#3E1E3A",
+    "black": "#22141F",
+    "red": "#FF4A4A",
+    "green": "#7CD957",
+    "yellow": "#FF9F1C",
+    "blue": "#7A6CFF",
+    "purple": "#B47CFF",
+    "cyan": "#5CD6C0",
+    "white": "#F5E6D8",
+    "brightBlack": "#5C4058",
+    "brightRed": "#FF7A7A",
+    "brightGreen": "#A0E87E",
+    "brightYellow": "#FFBA5C",
+    "brightBlue": "#A096FF",
+    "brightPurple": "#CDA6FF",
+    "brightCyan": "#8AE6D6",
+    "brightWhite": "#FFF6EC",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "embers"
+    }
+  }
+}

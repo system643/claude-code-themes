@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "solarized",
+  "name": "Solarized",
+  "tagline": "Precision colors, at solar scale",
+  "description": "The sun rising over a sea of clouds.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Solarized by Ethan Schoonover (MIT)",
+  "emoji": "☀️",
+  "colors": {
+    "accent": "#B58900",
+    "secondary": "#2AA198",
+    "muted": "#93A1A1"
+  },
+  "banner": [
+    "    \\ | /     ",
+    "  -- (o) --   ",
+    "    / | \\     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "y": "#B58900",
+      "o": "#CB4B16",
+      "r": "#2AA198",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........rr.........",
+        ".........rr.........",
+        "....................",
+        "........yyyy........",
+        ".......yyyyyy.......",
+        "...rr.yyyooyyy.rr...",
+        "...rr.yyoyyoyy.rr...",
+        ".......yyyyyy.......",
+        "........yyyy........",
+        "....................",
+        ".........rr.........",
+        ".........rr........."
+      ],
+      [
+        "....................",
+        ".....r........r.....",
+        "......r......r......",
+        "........yyyy........",
+        ".......yyyyyy.......",
+        "......yyyooyyy......",
+        "......yyoyyoyy......",
+        ".......yyyyyy.......",
+        "........yyyy........",
+        "......r......r......",
+        ".....r........r.....",
+        "...................."
+      ],
+      [
+        ".........rr.........",
+        ".........rr.........",
+        "....................",
+        "........yyyy........",
+        ".......yyyyyy.......",
+        "...rr.yyyooyyy.rr...",
+        "...rr.yyoyyoyy.rr...",
+        ".......yyyyyy.......",
+        "........yyyy........",
+        "....................",
+        ".........rr.........",
+        ".........rr........."
+      ],
+      [
+        "....................",
+        ".....r........r.....",
+        "......r......r......",
+        "........yyyy........",
+        ".......yyyyyy.......",
+        "......yyyooyyy......",
+        "......yyoyyoyy......",
+        ".......yyyyyy.......",
+        "........yyyy........",
+        "......r......r......",
+        ".....r........r.....",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Everything orbits a good abstraction.",
+    "Precision is a form of kindness.",
+    "Measure twice, deploy once.",
+    "A well-tuned palette, a well-tuned mind.",
+    "Solar-powered refactoring."
+  ],
+  "spinnerVerbs": [
+    "Calibrating orbits",
+    "Measuring light",
+    "Aligning planets",
+    "Balancing contrast",
+    "Charting the sky",
+    "Warming the core"
+  ],
+  "durationLines": [
+    "Orbited for {d}",
+    "Calibrated in {d}",
+    "A {d} eclipse"
+  ],
+  "status": {
+    "idle": "in orbit",
+    "working": "radiating"
+  },
+  "welcome": "Solarized: perfectly calibrated.",
+  "persona": [
+    "You are precise, methodical and quietly enthusiastic about details, with at most one solar or orbital image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "eclipsed",
+      "quotes": [
+        "Eclipse: a test failed.",
+        "Off-orbit. Let's correct the trajectory.",
+        "Solar flare in the logs."
+      ],
+      "frames": [
+        [
+          "........rr..........",
+          "........rr..........",
+          "....................",
+          ".......yyyy.........",
+          "......yyyyyy........",
+          "..rr.yyyRRyyy.rr....",
+          "..rr.yyRyyRyy.rr....",
+          "......yyyyyy........",
+          ".......yyyy.........",
+          "....................",
+          "........rr..........",
+          "........rr.........."
+        ],
+        [
+          "..........rr........",
+          "..........rr........",
+          "....................",
+          ".........yyyy.......",
+          "........yyyyyy......",
+          "....rr.yyyRRyyy.rr..",
+          "....rr.yyRyyRyy.rr..",
+          "........yyyyyy......",
+          ".........yyyy.......",
+          "....................",
+          "..........rr........",
+          "..........rr........"
+        ]
+      ]
+    },
+    "success": {
+      "status": "aligned",
+      "quotes": [
+        "Planets aligned: all green.",
+        "Perfect contrast, perfect run.",
+        "Shining bright."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Sunrise over a sea of clouds",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Dmytro Balkhovitin, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Crimea,_Ai-Petri,_low_clouds.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Solarized Dark",
+    "background": "#002B36",
+    "foreground": "#93A1A1",
+    "cursorColor": "#93A1A1",
+    "selectionBackground": "#073642",
+    "black": "#073642",
+    "red": "#DC322F",
+    "green": "#859900",
+    "yellow": "#B58900",
+    "blue": "#268BD2",
+    "purple": "#D33682",
+    "cyan": "#2AA198",
+    "white": "#EEE8D5",
+    "brightBlack": "#586E75",
+    "brightRed": "#CB4B16",
+    "brightGreen": "#859900",
+    "brightYellow": "#B58900",
+    "brightBlue": "#268BD2",
+    "brightPurple": "#6C71C4",
+    "brightCyan": "#2AA198",
+    "brightWhite": "#FDF6E3",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "stars"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "sydney",
+  "name": "Sydney",
+  "tagline": "Harbour lights down under",
+  "description": "The Opera House and the Harbour Bridge at dusk.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🦘",
+  "colors": {
+    "accent": "#FFB86B",
+    "secondary": "#7FB3FF",
+    "muted": "#9CA8C4"
+  },
+  "banner": [
+    "    /\\ /\\     ",
+    "   /  V  \\/\\  ",
+    "  ~~~~~~~~~~  "
+  ],
+  "pixelArt": {
+    "palette": {
+      "s": "#F4F1EA",
+      "S": "#CFC8B8",
+      "b": "#8A7A66",
+      "w": "#2F6FC0",
+      "W": "#8FC4FF",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        "....................",
+        ".......SS...........",
+        "..ss...SSS..........",
+        "..sss..SSSSss.......",
+        "..ssss.SSSSsssSS....",
+        "..sssssSSSSsssSS....",
+        "..sssssSSSSsssSSS...",
+        "..sssssSSSSsssSSSS..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "WwwwwwwwWwwwwwwwWwww",
+        "wwwwWwwwwwwwWwwwwwww"
+      ],
+      [
+        "....................",
+        "....................",
+        ".......SS...........",
+        "..ss...SSS..........",
+        "..sss..SSSSss.......",
+        "..ssss.SSSSsssSS....",
+        "..sssssSSSSsssSS....",
+        "..sssssSSSSsssSSS...",
+        "..sssssSSSSsssSSSS..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "wwwwwWwwwwwwwWwwwwww",
+        "wWwwwwwwwWwwwwwwwWww"
+      ],
+      [
+        "....................",
+        "....................",
+        ".......SS...........",
+        "..ss...SSS..........",
+        "..sss..SSSSss.......",
+        "..ssss.SSSSsssSS....",
+        "..sssssSSSSsssSS....",
+        "..sssssSSSSsssSSS...",
+        "..sssssSSSSsssSSSS..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "wwWwwwwwwwWwwwwwwwWw",
+        "wwwwwwWwwwwwwwWwwwww"
+      ],
+      [
+        "....................",
+        "....................",
+        ".......SS...........",
+        "..ss...SSS..........",
+        "..sss..SSSSss.......",
+        "..ssss.SSSSsssSS....",
+        "..sssssSSSSsssSS....",
+        "..sssssSSSSsssSSS...",
+        "..sssssSSSSsssSSSS..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "wwwwwwwWwwwwwwwWwwww",
+        "wwwWwwwwwwwWwwwwwwwW"
+      ]
+    ]
+  },
+  "quotes": [
+    "No worries, the tests will pass.",
+    "G'day, ready to ship?",
+    "Surf's up, bugs are down.",
+    "Fair dinkum code.",
+    "Sunny side up, bugs side down."
+  ],
+  "spinnerVerbs": [
+    "Catching a wave",
+    "Crossing the bridge",
+    "Throwing a shrimp on the barbie",
+    "Sailing the harbour",
+    "Spotting kangaroos",
+    "Watching the Opera House"
+  ],
+  "durationLines": [
+    "Surfed for {d}",
+    "A {d} ferry ride",
+    "Done in {d}, no worries"
+  ],
+  "status": {
+    "idle": "at the beach",
+    "working": "on the harbour"
+  },
+  "welcome": "Sydney: g'day, mate.",
+  "persona": [
+    "You are laid-back, friendly and upbeat like a Sydneysider, with at most one Sydney image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "wipeout",
+      "quotes": [
+        "Wipeout: a test failed.",
+        "Strewth, something broke.",
+        "Let's paddle back out."
+      ],
+      "frames": [
+        [
+          "....................",
+          "....................",
+          "......SS............",
+          ".RR...SSS...........",
+          ".RRR..SSSSRR........",
+          ".RRRR.SSSSRRRSS.....",
+          ".RRRRRSSSSRRRSS.....",
+          ".RRRRRSSSSRRRSSS....",
+          ".RRRRRSSSSRRRSSSS...",
+          "bbbbbbbbbbbbbbbbbb..",
+          "wwwwwwwWwwwwwwwWwww.",
+          "wwwWwwwwwwwWwwwwwww."
+        ],
+        [
+          "....................",
+          "....................",
+          "........SS..........",
+          "...RR...SSS.........",
+          "...RRR..SSSSRR......",
+          "...RRRR.SSSSRRRSS...",
+          "...RRRRRSSSSRRRSS...",
+          "...RRRRRSSSSRRRSSS..",
+          "...RRRRRSSSSRRRSSSS.",
+          "..bbbbbbbbbbbbbbbbbb",
+          ".WwwwwwwwWwwwwwwwWww",
+          ".wwwwWwwwwwwwWwwwwww"
+        ]
+      ]
+    },
+    "success": {
+      "status": "ripper",
+      "quotes": [
+        "Ripper: all green.",
+        "Too easy.",
+        "Beauty, mate."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "The Opera House and Harbour Bridge at dusk",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Benh LIEU SONG (Flickr), CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_(2)_2019-06-21.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Sydney",
+    "background": "#0E1428",
+    "foreground": "#E6ECF8",
+    "cursorColor": "#FFB86B",
+    "selectionBackground": "#26304E",
+    "black": "#182038",
+    "red": "#FF6B6B",
+    "green": "#7FD6A0",
+    "yellow": "#FFD27A",
+    "blue": "#5E9CFF",
+    "purple": "#B48CFF",
+    "cyan": "#5ED0E8",
+    "white": "#E6ECF8",
+    "brightBlack": "#4C5878",
+    "brightRed": "#FF9494",
+    "brightGreen": "#A8E6C0",
+    "brightYellow": "#FFE2A4",
+    "brightBlue": "#8CBCFF",
+    "brightPurple": "#CCB0FF",
+    "brightCyan": "#8EE0F0",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "stars"
+    }
+  }
+}

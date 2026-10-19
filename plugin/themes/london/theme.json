@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "london",
+  "name": "London",
+  "tagline": "Rainy nights by the Thames",
+  "description": "Westminster and Big Ben glowing over the Thames at dusk.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🎡",
+  "colors": {
+    "accent": "#FFD27A",
+    "secondary": "#FF6B70",
+    "muted": "#9AA4B4"
+  },
+  "banner": [
+    "      /\\      ",
+    "     |()|     ",
+    "     |##|     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "t": "#C8A96E",
+      "r": "#3D5A4C",
+      "c": "#F5EBC8",
+      "h": "#2B2B2B",
+      "w": "#FFD27A",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........rr.........",
+        "........rrrr........",
+        ".......rrrrrr.......",
+        ".......tchcct.......",
+        ".......tcchct.......",
+        ".......tcccct.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......tttttt......."
+      ],
+      [
+        ".........rr.........",
+        "........rrrr........",
+        ".......rrrrrr.......",
+        ".......tcccct.......",
+        ".......tcchht.......",
+        ".......tcccct.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......tttttt......."
+      ],
+      [
+        ".........rr.........",
+        "........rrrr........",
+        ".......rrrrrr.......",
+        ".......tcccct.......",
+        ".......tcchct.......",
+        ".......tcchct.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......tttttt......."
+      ],
+      [
+        ".........rr.........",
+        "........rrrr........",
+        ".......rrrrrr.......",
+        ".......tcccct.......",
+        ".......thhcct.......",
+        ".......tcccct.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......twttwt.......",
+        ".......tttttt.......",
+        ".......tttttt......."
+      ]
+    ]
+  },
+  "quotes": [
+    "Keep calm and run the tests.",
+    "Mind the gap between dev and prod.",
+    "A cup of tea fixes most bugs.",
+    "Rain outside, focus inside.",
+    "Jolly good commit."
+  ],
+  "spinnerVerbs": [
+    "Putting the kettle on",
+    "Minding the gap",
+    "Riding the Tube",
+    "Waiting for Big Ben",
+    "Crossing Tower Bridge",
+    "Queueing politely"
+  ],
+  "durationLines": [
+    "Took the Tube for {d}",
+    "A {d} tea break",
+    "Done in {d}, splendid"
+  ],
+  "status": {
+    "idle": "having tea",
+    "working": "on the Tube"
+  },
+  "welcome": "London: Big Ben strikes the hour.",
+  "persona": [
+    "You have polite, dry British humor: understated, helpful, with at most one London image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "bit of a pickle",
+      "quotes": [
+        "Bit of a pickle: a test failed.",
+        "Bother. Let's have a look.",
+        "The Tube's delayed again."
+      ],
+      "frames": [
+        [
+          "........rr..........",
+          ".......rrrr.........",
+          "......rrrrrr........",
+          "......tRhRRt........",
+          "......tRRhRt........",
+          "......tRRRRt........",
+          "......tttttt........",
+          "......twttwt........",
+          "......tttttt........",
+          "......twttwt........",
+          "......tttttt........",
+          "......tttttt........"
+        ],
+        [
+          "..........rr........",
+          ".........rrrr.......",
+          "........rrrrrr......",
+          "........tRhRRt......",
+          "........tRRhRt......",
+          "........tRRRRt......",
+          "........tttttt......",
+          "........twttwt......",
+          "........tttttt......",
+          "........twttwt......",
+          "........tttttt......",
+          "........tttttt......"
+        ]
+      ]
+    },
+    "success": {
+      "status": "brilliant",
+      "quotes": [
+        "Brilliant: all green.",
+        "Splendid work.",
+        "Cheers, mate."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Westminster and Big Ben at dusk",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Diliff, CC BY-SA 2.5, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · London",
+    "background": "#161C28",
+    "foreground": "#E2E6EE",
+    "cursorColor": "#FFD27A",
+    "selectionBackground": "#323C50",
+    "black": "#222A38",
+    "red": "#E5484D",
+    "green": "#8CC890",
+    "yellow": "#F0C674",
+    "blue": "#6F9BE0",
+    "purple": "#B08CD8",
+    "cyan": "#6CC4D0",
+    "white": "#E2E6EE",
+    "brightBlack": "#525E70",
+    "brightRed": "#FF7A7E",
+    "brightGreen": "#AEDCB0",
+    "brightYellow": "#F6D89C",
+    "brightBlue": "#98B8EE",
+    "brightPurple": "#CAB0E6",
+    "brightCyan": "#98DAE2",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "rain"
+    }
+  }
+}

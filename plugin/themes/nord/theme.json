@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "nord",
+  "name": "Nord",
+  "tagline": "An arctic, north-bluish calm",
+  "description": "A table iceberg adrift on the dark Arctic Ocean.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Nord by Arctic Ice Studio (MIT)",
+  "emoji": "❄️",
+  "colors": {
+    "accent": "#88C0D0",
+    "secondary": "#8FBCBB",
+    "muted": "#A3ADBF"
+  },
+  "banner": [
+    "      /\\      ",
+    "  /\\ /  \\  *  ",
+    " /  V    \\    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "m": "#4C566A",
+      "s": "#ECEFF4",
+      "f": "#88C0D0",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        "..f......f........f.",
+        "...............f....",
+        "....................",
+        ".....fs.....f.......",
+        ".....sss.......s....",
+        "....ssmss.....sss...",
+        "...ssmmmss...ssmss..",
+        "..ssmmmmmss.ssmmmss.",
+        ".msmmmmmmmsmsmmmmmsm",
+        "mmmmmmmmmmmmmmmmmmmm",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "....................",
+        "....................",
+        "..f......f........f.",
+        "...............f....",
+        "......s.............",
+        ".....fss....f..s....",
+        "....ssmss.....sss...",
+        "...ssmmmss...ssmss..",
+        "..ssmmmmmss.ssmmmss.",
+        ".msmmmmmmmsmsmmmmmsm",
+        "mmmmmmmmmmmmmmmmmmmm",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "....................",
+        "....................",
+        "....................",
+        "..f......f........f.",
+        "......s........f....",
+        ".....sss.......s....",
+        "....sfmss...f.sss...",
+        "...ssmmmss...ssmss..",
+        "..ssmmmmmss.ssmmmss.",
+        ".msmmmmmmmsmsmmmmmsm",
+        "mmmmmmmmmmmmmmmmmmmm",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        ".....f......f.......",
+        "....................",
+        "....................",
+        "....................",
+        "..f...s..f........f.",
+        ".....sss.......f....",
+        "....ssmss.....sss...",
+        "...ssmmmss...ssmss..",
+        "..ssmmmmmss.ssmmmss.",
+        ".msmmmmmmmsmsmmmmmsm",
+        "mmmmmmmmmmmmmmmmmmmm",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ]
+    ]
+  },
+  "quotes": [
+    "Clear air, clear code.",
+    "Simplicity is the ultimate frost.",
+    "Slow down. The ice is thin but the logic is solid.",
+    "Quiet terminals make loud results.",
+    "Cold colors, warm commits."
+  ],
+  "spinnerVerbs": [
+    "Drifting with the ice",
+    "Packing the snow",
+    "Watching the fjord",
+    "Following the frost",
+    "Breathing cold air",
+    "Polishing the ice"
+  ],
+  "durationLines": [
+    "Frozen for {d}",
+    "Drifted for {d}",
+    "A {d} chill"
+  ],
+  "status": {
+    "idle": "frozen still",
+    "working": "drifting"
+  },
+  "welcome": "Nord: the arctic is quiet tonight.",
+  "persona": [
+    "You are calm, minimal and precise, like a Nordic designer, with at most one arctic image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "blizzard",
+      "quotes": [
+        "A blizzard hit the tests.",
+        "The ice cracked. Let's look closer.",
+        "Frostbite in the build."
+      ],
+      "frames": [
+        [
+          "....................",
+          ".R......R........R..",
+          "..............R.....",
+          "....................",
+          "....Rs.....R........",
+          "....sss.......s.....",
+          "...ssmss.....sss....",
+          "..ssmmmss...ssmss...",
+          ".ssmmmmmss.ssmmmss..",
+          "msmmmmmmmsmsmmmmmsm.",
+          "mmmmmmmmmmmmmmmmmmm.",
+          "mmmmmmmmmmmmmmmmmmm."
+        ],
+        [
+          "....................",
+          "...R......R........R",
+          "................R...",
+          "....................",
+          "......Rs.....R......",
+          "......sss.......s...",
+          ".....ssmss.....sss..",
+          "....ssmmmss...ssmss.",
+          "...ssmmmmmss.ssmmmss",
+          "..msmmmmmmmsmsmmmmms",
+          ".mmmmmmmmmmmmmmmmmmm",
+          ".mmmmmmmmmmmmmmmmmmm"
+        ]
+      ]
+    },
+    "success": {
+      "status": "clear skies",
+      "quotes": [
+        "Clear skies over the fjord.",
+        "Cool, calm and green.",
+        "Smooth as fresh ice."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "A table iceberg adrift in the Arctic Ocean",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Andreas Weith, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Table_iceberg_west_of_Sju%C3%B8yane,_Arctic_ocean.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Nord",
+    "background": "#2E3440",
+    "foreground": "#D8DEE9",
+    "cursorColor": "#D8DEE9",
+    "selectionBackground": "#434C5E",
+    "black": "#3B4252",
+    "red": "#BF616A",
+    "green": "#A3BE8C",
+    "yellow": "#EBCB8B",
+    "blue": "#81A1C1",
+    "purple": "#B48EAD",
+    "cyan": "#88C0D0",
+    "white": "#E5E9F0",
+    "brightBlack": "#4C566A",
+    "brightRed": "#BF616A",
+    "brightGreen": "#A3BE8C",
+    "brightYellow": "#EBCB8B",
+    "brightBlue": "#81A1C1",
+    "brightPurple": "#B48EAD",
+    "brightCyan": "#8FBCBB",
+    "brightWhite": "#ECEFF4",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "snow"
+    }
+  }
+}

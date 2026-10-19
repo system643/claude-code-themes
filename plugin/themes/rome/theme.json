@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "rome",
+  "name": "Rome",
+  "tagline": "The eternal city at sunset",
+  "description": "St. Peter's dome over the Tiber at sunset.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🏛️",
+  "colors": {
+    "accent": "#FFB347",
+    "secondary": "#E07A5F",
+    "muted": "#B8A090"
+  },
+  "banner": [
+    "  ._________. ",
+    "  |n|n|n|n|n| ",
+    "  |n|n|n|n|n| "
+  ],
+  "pixelArt": {
+    "palette": {
+      "s": "#D9B48A",
+      "a": "#5A3A20",
+      "l": "#FFB347",
+      "w": "#FFFFFF",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "..................w.",
+        "...............w....",
+        "....................",
+        "....................",
+        "....ssssssssss......",
+        "..ssssssssssssss....",
+        "..sslsasasasaslsas..",
+        "..ssssssssssssssss..",
+        "..sasaslsasasasass..",
+        "..ssssssssssssssss..",
+        "..ssasasaslsasasas..",
+        "..ssssssssssssssss.."
+      ],
+      [
+        "...w................",
+        "....................",
+        "........w...........",
+        "....................",
+        "....ssssssssss......",
+        "..ssssssssssssss....",
+        "..ssasaslsasasasas..",
+        "..ssssssssssssssss..",
+        "..sasasasaslsasass..",
+        "..ssssssssssssssss..",
+        "..sslsasasasaslsas..",
+        "..ssssssssssssssss.."
+      ],
+      [
+        "..................w.",
+        "...............w....",
+        "....................",
+        "....................",
+        "....ssssssssss......",
+        "..ssssssssssssss....",
+        "..ssasasasaslsasas..",
+        "..ssssssssssssssss..",
+        "..saslsasasasaslss..",
+        "..ssssssssssssssss..",
+        "..ssasaslsasasasas..",
+        "..ssssssssssssssss.."
+      ],
+      [
+        "...w................",
+        "....................",
+        "........w...........",
+        "....................",
+        "....ssssssssss......",
+        "..ssssssssssssss....",
+        "..ssaslsasasasasls..",
+        "..ssssssssssssssss..",
+        "..sasasaslsasasass..",
+        "..ssssssssssssssss..",
+        "..ssasasasaslsasas..",
+        "..ssssssssssssssss.."
+      ]
+    ]
+  },
+  "quotes": [
+    "Rome wasn't built in a day. Neither is a good API.",
+    "All roads lead to main.",
+    "Veni, vidi, committed.",
+    "Build to last two thousand years.",
+    "La dolce vita, la dolce build."
+  ],
+  "spinnerVerbs": [
+    "Tossing a coin in the fountain",
+    "Paving the Appian Way",
+    "Sipping espresso",
+    "Climbing the Spanish Steps",
+    "Restoring the Colosseum",
+    "Making fresh pasta"
+  ],
+  "durationLines": [
+    "Built in {d}",
+    "A {d} passeggiata",
+    "Paved in {d}"
+  ],
+  "status": {
+    "idle": "at the trattoria",
+    "working": "at the forum"
+  },
+  "welcome": "Rome: the eternal city awaits.",
+  "persona": [
+    "You are warm, expressive and wise like a Roman guide, with at most one Rome image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "in ruins",
+      "quotes": [
+        "In ruins: a test failed.",
+        "Mamma mia, something broke.",
+        "Let's rebuild, stone by stone."
+      ],
+      "frames": [
+        [
+          ".................w..",
+          "..............w.....",
+          "....................",
+          "....................",
+          "...ssssssssss.......",
+          ".ssssssssssssss.....",
+          ".ssRsasasasasRsas...",
+          ".ssssssssssssssss...",
+          ".sasasRsasasasass...",
+          ".ssssssssssssssss...",
+          ".ssasasasRsasasas...",
+          ".ssssssssssssssss..."
+        ],
+        [
+          "...................w",
+          "................w...",
+          "....................",
+          "....................",
+          ".....ssssssssss.....",
+          "...ssssssssssssss...",
+          "...ssRsasasasasRsas.",
+          "...ssssssssssssssss.",
+          "...sasasRsasasasass.",
+          "...ssssssssssssssss.",
+          "...ssasasasRsasasas.",
+          "...ssssssssssssssss."
+        ]
+      ]
+    },
+    "success": {
+      "status": "triumph",
+      "quotes": [
+        "Triumph: all green.",
+        "Bellissimo.",
+        "Worthy of the emperors."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "St. Peter's dome over the Tiber at sunset",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Jebulon, CC0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sant%27Angelo_bridge,_dusk,_Rome,_Italy.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Rome",
+    "background": "#1C1214",
+    "foreground": "#F2E4D8",
+    "cursorColor": "#FFB347",
+    "selectionBackground": "#44302E",
+    "black": "#2A1C1E",
+    "red": "#E05A4E",
+    "green": "#9CC07A",
+    "yellow": "#F2C46D",
+    "blue": "#7A9CC8",
+    "purple": "#C08AB0",
+    "cyan": "#7AC0B8",
+    "white": "#F2E4D8",
+    "brightBlack": "#644C4E",
+    "brightRed": "#FF8478",
+    "brightGreen": "#BCD8A0",
+    "brightYellow": "#F8D89A",
+    "brightBlue": "#A0BCE0",
+    "brightPurple": "#D8AAC8",
+    "brightCyan": "#A0D8D0",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "fireflies"
+    }
+  }
+}

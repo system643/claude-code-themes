@@ -1,0 +1,45 @@
+{
+  "name": "ambiance",
+  "version": "0.3.0",
+  "author": {
+    "name": "Ambiance contributors"
+  },
+  "description": "Themes for Claude Code: animated pixel-art banner, status line, spinner, moods, sounds and persona, a different theme for every session.",
+  "userConfig": {
+    "defaultTheme": {
+      "type": "string",
+      "title": "Default theme",
+      "description": "Theme for sessions with no assigned theme (id, e.g. dracula). Empty: none.",
+      "default": ""
+    },
+    "persona": {
+      "type": "boolean",
+      "title": "Persona",
+      "description": "Adds the theme's tone to Claude's replies (off by default).",
+      "default": false
+    },
+    "banner": {
+      "type": "boolean",
+      "title": "Banner",
+      "description": "Shows the theme's banner above the prompt.",
+      "default": true
+    },
+    "sounds": {
+      "type": "boolean",
+      "title": "Sounds",
+      "description": "Always plays the theme's sounds when a check passes or fails. Without it, sounds come with the full style.",
+      "default": false
+    },
+    "style": {
+      "type": "string",
+      "title": "Style",
+      "description": "full: pixel-art banner. compact: a one-line banner. minimal: status line and session label only.",
+      "default": "full",
+      "options": [
+        "full",
+        "compact",
+        "minimal"
+      ]
+    }
+  }
+}

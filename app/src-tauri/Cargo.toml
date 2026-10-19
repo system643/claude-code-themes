@@ -1,0 +1,35 @@
+[package]
+name = "ambiance"
+version = "0.3.0"
+description = "Ambiance: a different theme for every Claude Code session"
+edition = "2021"
+
+[lib]
+name = "ambiance_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = "2"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif", "bmp", "webp", "tiff", "ico", "tga"] }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_Media_Audio"] }
+
+# Dependencies are optimized even in development: decoding the wallpapers in an
+# unoptimized `image` crate made the dev app slow to start.
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true

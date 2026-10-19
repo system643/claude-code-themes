@@ -1,0 +1,43 @@
+name: Submit a theme
+description: Share a theme made with Ambiance for the community gallery.
+title: "Theme: "
+labels: ["theme"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you! Paste the content of your `theme.json` below: the app's **Submit to the gallery** button copies it, or find it in `~/.ambiance/themes/<id>/`.
+        A maintainer turns it into a pull request. Comfortable with git? You can also open the pull request yourself, see [CONTRIBUTING.md](https://github.com/sytem643/claude-code-themes/blob/main/CONTRIBUTING.md).
+        Reminder: no official images or logos, no text copied from existing works. Art and quotes must be original.
+  - type: input
+    id: name
+    attributes:
+      label: Theme name
+      placeholder: Space Station
+    validations:
+      required: true
+  - type: input
+    id: universe
+    attributes:
+      label: Inspiration
+      placeholder: "Original, palette tribute, or \"inspired by …\""
+  - type: textarea
+    id: theme
+    attributes:
+      label: theme.json
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Wallpaper and sounds
+      description: |
+        Optional. Drag and drop the files here (put the sounds in a .zip). For anything you did not make yourself, give its source and license.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Rules
+      options:
+        - label: My images, sounds, art and quotes are original (or under a free license, credited).
+          required: true

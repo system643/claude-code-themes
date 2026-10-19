@@ -1,0 +1,178 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "synthwave",
+  "name": "Synthwave",
+  "tagline": "Outrun the eighties",
+  "description": "A striped sunset, a neon grid floor and palm silhouettes.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Synthwave '84 by Robb Owen (MIT)",
+  "emoji": "🌆",
+  "colors": {
+    "accent": "#FF7EDB",
+    "secondary": "#36F9F6",
+    "muted": "#B6A8D8"
+  },
+  "banner": [
+    "   .-====-.   ",
+    "  /========\\  ",
+    " /__|__|__|_\\ "
+  ],
+  "pixelArt": {
+    "palette": {
+      "y": "#FEDE5D",
+      "o": "#FF9F43",
+      "p": "#FF7EDB",
+      "h": "#36F9F6",
+      "g": "#8A5FB0",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".......yyyyyy.......",
+        ".....yyyyyyyyyy.....",
+        "....oooooooooooo....",
+        "...pppppppppppppp...",
+        "....................",
+        "..pppppppppppppppp..",
+        "hhhhhhhhhhhhhhhhhhhh",
+        "gggggggggggggggggggg",
+        "...g..g......g..g...",
+        ".g...g........g...g.",
+        "gggggggggggggggggggg",
+        "....g...........g..."
+      ],
+      [
+        ".......yyyyyy.......",
+        ".....yyyyyyyyyy.....",
+        "....oooooooooooo....",
+        "...pppppppppppppp...",
+        "....................",
+        "..pppppppppppppppp..",
+        "hhhhhhhhhhhhhhhhhhhh",
+        ".....g.g....g.g.....",
+        "gggggggggggggggggggg",
+        ".g...g........g...g.",
+        "....g..........g....",
+        "gggggggggggggggggggg"
+      ]
+    ]
+  },
+  "quotes": [
+    "Drive into the sunset, push to main.",
+    "Neon dreams, clean builds.",
+    "The future is retro.",
+    "Turn up the synth, turn down the bugs.",
+    "Chrome, palm trees and passing tests."
+  ],
+  "spinnerVerbs": [
+    "Cruising the grid",
+    "Tuning the synth",
+    "Rewinding the tape",
+    "Chasing the sunset",
+    "Charging the flux",
+    "Shifting into fifth"
+  ],
+  "durationLines": [
+    "Cruised for {d}",
+    "A {d} drive",
+    "Rewound in {d}"
+  ],
+  "status": {
+    "idle": "parked",
+    "working": "full throttle"
+  },
+  "welcome": "Synthwave: engines on, sunset ahead.",
+  "persona": [
+    "You have an upbeat retro-futurist vibe, with at most one eighties or neon image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "tape jammed",
+      "quotes": [
+        "Tape jammed: a test failed.",
+        "Engine stalled. Let's check the wiring.",
+        "Glitch on the grid."
+      ],
+      "frames": [
+        [
+          "......RRRRRR........",
+          "....RRRRRRRRRR......",
+          "...RRRRRRRRRRRR.....",
+          "..RRRRRRRRRRRRRR....",
+          "....................",
+          ".RRRRRRRRRRRRRRRR...",
+          "hhhhhhhhhhhhhhhhhhh.",
+          "ggggggggggggggggggg.",
+          "..g..g......g..g....",
+          "g...g........g...g..",
+          "ggggggggggggggggggg.",
+          "...g...........g...."
+        ],
+        [
+          "........RRRRRR......",
+          "......RRRRRRRRRR....",
+          ".....RRRRRRRRRRRR...",
+          "....RRRRRRRRRRRRRR..",
+          "....................",
+          "...RRRRRRRRRRRRRRRR.",
+          ".hhhhhhhhhhhhhhhhhhh",
+          ".ggggggggggggggggggg",
+          "....g..g......g..g..",
+          "..g...g........g...g",
+          ".ggggggggggggggggggg",
+          ".....g...........g.."
+        ]
+      ]
+    },
+    "success": {
+      "status": "radical",
+      "quotes": [
+        "Totally radical: all green.",
+        "Max speed, zero bugs.",
+        "Neon victory."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "A striped sunset",
+      "file": "assets/wallpaper.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Synthwave",
+    "background": "#262335",
+    "foreground": "#F2EFFF",
+    "cursorColor": "#FEDE5D",
+    "selectionBackground": "#463465",
+    "black": "#1E1A2E",
+    "red": "#FE4450",
+    "green": "#72F1B8",
+    "yellow": "#FEDE5D",
+    "blue": "#6D77B3",
+    "purple": "#FF7EDB",
+    "cyan": "#36F9F6",
+    "white": "#F2EFFF",
+    "brightBlack": "#848BBD",
+    "brightRed": "#FF6E78",
+    "brightGreen": "#9BF8D0",
+    "brightYellow": "#FFE880",
+    "brightBlue": "#8F98DD",
+    "brightPurple": "#FF9EE6",
+    "brightCyan": "#7AFBF9",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "crt"
+    }
+  }
+}

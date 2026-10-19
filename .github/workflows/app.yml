@@ -1,0 +1,52 @@
+name: App
+
+# Builds and tests the desktop app on Windows, macOS and Linux for every change,
+# so each platform is checked on a real machine.
+on:
+  pull_request:
+    paths: ["app/**", "plugin/themes/**", "gallery/**", ".github/workflows/app.yml"]
+  push:
+    branches: [main]
+    paths: ["app/**", "plugin/themes/**", "gallery/**", ".github/workflows/app.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [windows-latest, macos-latest, ubuntu-22.04]
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - name: Linux dependencies
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf
+      - run: npm ci
+        working-directory: app
+      - name: Frontend (TypeScript and bundle)
+        run: npm run build
+        working-directory: app
+      - name: Rust checks
+        run: |
+          cargo clippy --all-targets -- -D warnings
+          cargo test
+        working-directory: app/src-tauri
+
+  shaders:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y glslang-tools
+      - name: Compile the Ghostty shaders
+        run: python3 scripts/check_glsl.py

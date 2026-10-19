@@ -1,0 +1,208 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "gruvbox",
+  "name": "Gruvbox",
+  "tagline": "Retro groove, warm and earthy",
+  "description": "Saguaros against a blazing desert sunset.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Gruvbox by morhetz (MIT)",
+  "emoji": "🌵",
+  "colors": {
+    "accent": "#FE8019",
+    "secondary": "#FABD2F",
+    "muted": "#BDAE93"
+  },
+  "banner": [
+    "      (       ",
+    "     ) )      ",
+    "   _(___)_    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "o": "#FE8019",
+      "y": "#FABD2F",
+      "w": "#7C6F64",
+      "W": "#504945",
+      "e": "#FB4934",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        "......e.............",
+        ".........o..........",
+        "........ooo.........",
+        "........oyyo........",
+        ".......oyyyo........",
+        ".......oyyyyo.......",
+        "......ooyyyyoo......",
+        "....wwWwwwwwWwww....",
+        ".....WWWWWWWWWW.....",
+        "...ww..........ww...",
+        "...................."
+      ],
+      [
+        "........e...........",
+        "..........o.........",
+        ".........oo.........",
+        "........oyyo........",
+        ".......oyyyo........",
+        ".......oyyyyo.......",
+        ".......oyyyyo.......",
+        "......ooyyyyoo......",
+        "....wwWwwwwwWwww....",
+        ".....WWWWWWWWWW.....",
+        "...ww..........ww...",
+        "...................."
+      ],
+      [
+        "....................",
+        "..........e.........",
+        "..........o.........",
+        ".........ooo........",
+        "........oyyo........",
+        "........oyyyo.......",
+        ".......oyyyyo.......",
+        "......ooyyyyoo......",
+        "....wwWwwwwwWwww....",
+        ".....WWWWWWWWWW.....",
+        "...ww..........ww...",
+        "...................."
+      ],
+      [
+        "............e.......",
+        "..........o.........",
+        ".........oo.........",
+        "........oyyo........",
+        ".......oyyyo........",
+        ".......oyyyyo.......",
+        ".......oyyyyo.......",
+        "......ooyyyyoo......",
+        "....wwWwwwwwWwww....",
+        ".....WWWWWWWWWW.....",
+        "...ww..........ww...",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Warm colors, cool code.",
+    "Some bugs only show up at sunset.",
+    "The road is long, the diff is short.",
+    "Old school, still rocks.",
+    "Tune in, check out, push."
+  ],
+  "spinnerVerbs": [
+    "Stoking the campfire",
+    "Tuning the radio",
+    "Driving the desert road",
+    "Roasting marshmallows",
+    "Spinning vinyl",
+    "Watching the sunset"
+  ],
+  "durationLines": [
+    "Cruised for {d}",
+    "Grooved for {d}",
+    "A {d} road trip"
+  ],
+  "status": {
+    "idle": "by the fire",
+    "working": "on the road"
+  },
+  "welcome": "Gruvbox: the fire is crackling.",
+  "persona": [
+    "You are a relaxed, warm, old-school hacker with a retro vibe, with at most one road-trip or vinyl image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "flat tire",
+      "quotes": [
+        "Flat tire: a test failed.",
+        "The engine sputters. Let's pop the hood.",
+        "Dust storm in the logs."
+      ],
+      "frames": [
+        [
+          "....................",
+          ".....e..............",
+          "........R...........",
+          ".......RRR..........",
+          ".......RRRR.........",
+          "......RRRRR.........",
+          "......RRRRRR........",
+          ".....RRRRRRRR.......",
+          "...wwWwwwwwWwww.....",
+          "....WWWWWWWWWW......",
+          "..ww..........ww....",
+          "...................."
+        ],
+        [
+          "....................",
+          ".......e............",
+          "..........R.........",
+          ".........RRR........",
+          ".........RRRR.......",
+          "........RRRRR.......",
+          "........RRRRRR......",
+          ".......RRRRRRRR.....",
+          ".....wwWwwwwwWwww...",
+          "......WWWWWWWWWW....",
+          "....ww..........ww..",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "in the groove",
+      "quotes": [
+        "In the groove: all green.",
+        "Smooth ride, clean build.",
+        "Sunset and passing tests."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Saguaros at sunset, Arizona",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Laurens R. Krol, CC BY 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2022-06-14_USA,_AZ,_Saguaro_DSC_6133_DxO.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Gruvbox",
+    "background": "#282828",
+    "foreground": "#EBDBB2",
+    "cursorColor": "#EBDBB2",
+    "selectionBackground": "#504945",
+    "black": "#282828",
+    "red": "#CC241D",
+    "green": "#98971A",
+    "yellow": "#D79921",
+    "blue": "#458588",
+    "purple": "#B16286",
+    "cyan": "#689D6A",
+    "white": "#A89984",
+    "brightBlack": "#928374",
+    "brightRed": "#FB4934",
+    "brightGreen": "#B8BB26",
+    "brightYellow": "#FABD2F",
+    "brightBlue": "#83A598",
+    "brightPurple": "#D3869B",
+    "brightCyan": "#8EC07C",
+    "brightWhite": "#EBDBB2",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "embers"
+    }
+  }
+}

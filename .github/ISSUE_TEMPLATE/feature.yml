@@ -1,0 +1,46 @@
+name: Feature request
+description: Suggest an improvement to the plugin, the app or the theme format.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want to add a theme rather than a feature? Use the "Submit a theme" form, or open a pull request (see [CONTRIBUTING.md](https://github.com/sytem643/claude-code-themes/blob/main/CONTRIBUTING.md)).
+        Before asking for a change to Claude Code's own look, check [docs/CUSTOMIZATION.md](https://github.com/sytem643/claude-code-themes/blob/main/docs/CUSTOMIZATION.md): it explains what a plugin can and cannot change.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Plugin (inside Claude Code)
+        - Desktop app
+        - Theme format
+        - Terminal support
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and what gets in the way today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you would like
+      description: How it could work. A sketch, or a screenshot of something similar, helps.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds you use now, or other ways to get there.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Contributing
+      options:
+        - label: I would be willing to open a pull request for this.

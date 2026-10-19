@@ -1,0 +1,210 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "aurora",
+  "name": "Aurora",
+  "tagline": "The far north sky",
+  "description": "Northern lights swirling over the Lofoten islands.",
+  "universe": "Original · Nature",
+  "author": "claude-code-themes",
+  "featured": true,
+  "emoji": "🌌",
+  "colors": {
+    "accent": "#3DE0A0",
+    "secondary": "#8FD3FF",
+    "muted": "#8CA6B8"
+  },
+  "banner": [
+    "   ~~~~~~~~   ",
+    "  /\\    /\\   ",
+    " /  \\/\\/  \\  "
+  ],
+  "pixelArt": {
+    "palette": {
+      "g": "#3DE0A0",
+      "c": "#5FD8E8",
+      "p": "#9B7BFF",
+      "s": "#FFFFFF",
+      "m": "#2A3A4C",
+      "w": "#DDEBF5",
+      "r": "#FF6A6A"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "..s........gggggsg..",
+        "gg.......ggcgccgccgg",
+        "gcggggggggc.p...p.gc",
+        "p.cgccgcc...........",
+        "....p...p.........s.",
+        "......w.............",
+        ".....wmw.......w....",
+        "....wmmmw.....wmw...",
+        "...wmmmmmw...wmmmw..",
+        "..wmmmmmmmw.wmmmmmw.",
+        ".wmmmmmmmmmwmmmmmmmw",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        ".........ggggggg....",
+        ".......ggccgccgcggg.",
+        "gggggggcg..p...pcgcg",
+        "ccgccgcp...........c",
+        "...p...............p",
+        "......w..s..........",
+        ".....wmw.......w....",
+        "....wmmmw.....wmw...",
+        "...wmmmmmw...wmmmw..",
+        "..wmmmmmmmw.wmmmmmw.",
+        ".wmmmmmmmmmwmmmmmmmw",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "..s....ggggggg..s...",
+        ".....gggccgccgggg...",
+        "gggggcc...p...ccgggg",
+        "cgccg.p.......p..ccg",
+        "..p...............s.",
+        "......w.............",
+        ".....wmw.......w....",
+        "....wmmmw.....wmw...",
+        "...wmmmmmw...wmmmw..",
+        "..wmmmmmmmw.wmmmmmw.",
+        ".wmmmmmmmmmwmmmmmmmw",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        ".....ggggggg........",
+        "...ggcgccgccggg.....",
+        "ggggcp...p..gccggggg",
+        "gcc..........p.gccgc",
+        ".p...............p..",
+        "......w..s..........",
+        ".....wmw.......w....",
+        "....wmmmw.....wmw...",
+        "...wmmmmmw...wmmmw..",
+        "..wmmmmmmmw.wmmmmmw.",
+        ".wmmmmmmmmmwmmmmmmmw",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ]
+    ]
+  },
+  "quotes": [
+    "The sky is dancing, take your time.",
+    "A clear night for clear thinking.",
+    "Every snowflake finds its place. So does every bug.",
+    "The northern silence helps you think.",
+    "The aurora rises over your code."
+  ],
+  "spinnerVerbs": [
+    "Following the lights",
+    "Listening to the snow",
+    "Breaking trail",
+    "Watching the sky",
+    "Stoking the campfire",
+    "Reading the stars"
+  ],
+  "durationLines": [
+    "Gazed for {d}",
+    "Hiked for {d}",
+    "A {d} night"
+  ],
+  "status": {
+    "idle": "staying warm",
+    "working": "under the lights"
+  },
+  "welcome": "Aurora: the sky lights up.",
+  "persona": [
+    "You speak with the calm of a far north guide: steady, warm, precise, with at most one image of snow, auroras or stars per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "blizzard",
+      "quotes": [
+        "A storm rolls in: a test fails.",
+        "The wind shifts. Let's look at the error calmly.",
+        "The ice cracked, we'll mend it."
+      ],
+      "frames": [
+        [
+          "..s........rrrrrsr..",
+          "rr.......rrrrrrrrrrr",
+          "rrrrrrrrrrr.r...r.rr",
+          "r.rrrrrrr...........",
+          "....p...p.........s.",
+          "......w.............",
+          ".....wmw.......w....",
+          "....wmmmw.....wmw...",
+          "...wmmmmmw...wmmmw..",
+          "..wmmmmmmmw.wmmmmmw.",
+          ".wmmmmmmmmmwmmmmmmmw",
+          "mmmmmmmmmmmmmmmmmmmm"
+        ],
+        [
+          "..s........pppppsp..",
+          "pp.......ppppppppppp",
+          "ppppppppppp.p...p.pp",
+          "p.ppppppp...........",
+          "....p...p.........s.",
+          "......w.............",
+          ".....wmw.......w....",
+          "....wmmmw.....wmw...",
+          "...wmmmmmw...wmmmw..",
+          "..wmmmmmmmw.wmmmmmw.",
+          ".wmmmmmmmmmwmmmmmmmw",
+          "mmmmmmmmmmmmmmmmmmmm"
+        ]
+      ]
+    },
+    "success": {
+      "status": "clear skies",
+      "quotes": [
+        "Clear skies, all green.",
+        "The aurora blazes: well done.",
+        "The trail is set."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Northern lights over the Lofoten",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Johannes Groll followhansi, CC0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Lofoten,_Norway_(Unsplash).jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Aurora",
+    "background": "#06101C",
+    "foreground": "#DCE9F2",
+    "cursorColor": "#3DE0A0",
+    "selectionBackground": "#1C3448",
+    "black": "#142232",
+    "red": "#FF6A6A",
+    "green": "#3DE0A0",
+    "yellow": "#F2D27A",
+    "blue": "#5FA8FF",
+    "purple": "#9B7BFF",
+    "cyan": "#5FD8E8",
+    "white": "#DCE9F2",
+    "brightBlack": "#4A6278",
+    "brightRed": "#FF9A9A",
+    "brightGreen": "#8CF2C6",
+    "brightYellow": "#F8E3A8",
+    "brightBlue": "#9CC8FF",
+    "brightPurple": "#C0A8FF",
+    "brightCyan": "#A0ECF5",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "snow",
+      "cursorShape": "bar"
+    }
+  }
+}

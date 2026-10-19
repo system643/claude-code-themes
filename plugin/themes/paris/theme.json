@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "paris",
+  "name": "Paris",
+  "tagline": "City of light, after dark",
+  "description": "The Eiffel Tower and the Seine at blue hour.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🗼",
+  "colors": {
+    "accent": "#E8C887",
+    "secondary": "#B8A6FF",
+    "muted": "#A8A0C0"
+  },
+  "banner": [
+    "      /\\      ",
+    "     /##\\     ",
+    "    /_/\\_\\    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "i": "#C9A86A",
+      "p": "#E8C887",
+      "w": "#FFFFFF",
+      "b": "#FFF2C4",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........ii.........",
+        ".........ii.........",
+        "........iiii........",
+        "........iwii........",
+        "........iiii........",
+        ".......pppppp.......",
+        ".......ii..ii.......",
+        "......ii....wi......",
+        ".....pppppppppp.....",
+        ".....iii....iii.....",
+        "....wi........ii....",
+        "...ii..........ii..."
+      ],
+      [
+        ".........bb.........",
+        ".........ii.........",
+        "........iiii........",
+        "........iiii........",
+        "........iiii........",
+        ".......pwpppp.......",
+        ".......ii..iiw......",
+        "......ii....ii......",
+        ".....pppppppppp.....",
+        ".....iwi....iii.....",
+        "....ii........ii....",
+        "...ii..........ii..."
+      ],
+      [
+        ".........ii.........",
+        ".........ii.........",
+        "........iiwi........",
+        "........iiii........",
+        "........iiii........",
+        ".......pppppp.......",
+        ".......ii..ii.......",
+        "......ii....ii......",
+        ".....pppppppppw.....",
+        ".....iii....iii.....",
+        "....ii........iw....",
+        "...ii..........ii..."
+      ],
+      [
+        ".........bb.........",
+        ".........ii.........",
+        "........iiii........",
+        "........iiii........",
+        "........iwii........",
+        ".......pppppp.......",
+        ".......ii..ii.......",
+        "......iw....ii......",
+        ".....pppppppppp.....",
+        ".....iii....iwi.....",
+        "....ii........ii....",
+        "...ii..........ii..."
+      ]
+    ]
+  },
+  "quotes": [
+    "Refactor like a Parisian: with style and a croissant.",
+    "The tower sparkles on the hour. Your tests, every commit.",
+    "A café, a terminal, an idea.",
+    "Some code ages like fine wine. Not this one.",
+    "Bonsoir. Shall we ship?"
+  ],
+  "spinnerVerbs": [
+    "Strolling along the Seine",
+    "Ordering a croissant",
+    "Climbing the tower",
+    "Sketching in Montmartre",
+    "Sipping an espresso",
+    "Watching the tower sparkle"
+  ],
+  "durationLines": [
+    "Strolled for {d}",
+    "A {d} stroll",
+    "Sparkled for {d}"
+  ],
+  "status": {
+    "idle": "at the café",
+    "working": "on the boulevards"
+  },
+  "welcome": "Paris: the tower lights up.",
+  "persona": [
+    "You have a light, elegant Parisian charm: refined, witty, with at most one Paris image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "on strike",
+      "quotes": [
+        "The metro is on strike: a test failed.",
+        "Zut alors, something broke.",
+        "Rain on the terrace. Let's look at it."
+      ],
+      "frames": [
+        [
+          "........ii..........",
+          "........ii..........",
+          ".......iiii.........",
+          ".......iRii.........",
+          ".......iiii.........",
+          "......pppppp........",
+          "......ii..ii........",
+          ".....ii....Ri.......",
+          "....pppppppppp......",
+          "....iii....iii......",
+          "...Ri........ii.....",
+          "..ii..........ii...."
+        ],
+        [
+          "..........ii........",
+          "..........ii........",
+          ".........iiii.......",
+          ".........iRii.......",
+          ".........iiii.......",
+          "........pppppp......",
+          "........ii..ii......",
+          ".......ii....Ri.....",
+          "......pppppppppp....",
+          "......iii....iii....",
+          ".....Ri........ii...",
+          "....ii..........ii.."
+        ]
+      ]
+    },
+    "success": {
+      "status": "magnifique",
+      "quotes": [
+        "Magnifique: all green.",
+        "C'est parfait.",
+        "The tower sparkles for you."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "The Eiffel Tower and the Seine at blue hour",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Getfunky Paris, CC BY 2.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Paris",
+    "background": "#14142A",
+    "foreground": "#E8E2F2",
+    "cursorColor": "#E8C887",
+    "selectionBackground": "#34305A",
+    "black": "#1E1E38",
+    "red": "#E0607E",
+    "green": "#8ED6A0",
+    "yellow": "#E8C887",
+    "blue": "#7A9CFF",
+    "purple": "#B8A6FF",
+    "cyan": "#80D0E0",
+    "white": "#E8E2F2",
+    "brightBlack": "#5A5878",
+    "brightRed": "#FF8AA2",
+    "brightGreen": "#B4EAC2",
+    "brightYellow": "#F5DDA8",
+    "brightBlue": "#A4BCFF",
+    "brightPurple": "#D2C6FF",
+    "brightCyan": "#A8E4EE",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "rain"
+    }
+  }
+}

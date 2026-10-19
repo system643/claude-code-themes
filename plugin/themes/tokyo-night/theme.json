@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "tokyo-night",
+  "name": "Tokyo Night",
+  "tagline": "Downtown Tokyo lights at night",
+  "description": "Neon signs crowding a Shinjuku street at night.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Tokyo Night by enkia (MIT)",
+  "emoji": "🏮",
+  "colors": {
+    "accent": "#7AA2F7",
+    "secondary": "#BB9AF7",
+    "muted": "#9AA5CE"
+  },
+  "banner": [
+    "    ._||_.    ",
+    "   [======]   ",
+    "    '-||-'    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "k": "#15161E",
+      "l": "#F7768E",
+      "L": "#FF9E64",
+      "M": "#E0AF68",
+      "d": "#BB4A60",
+      "t": "#E0AF68",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........kk.........",
+        ".......kkkkkk.......",
+        ".......llllll.......",
+        "......dddddddd......",
+        ".....llllllllll.....",
+        ".....dddddddddd.....",
+        "......llllllll......",
+        ".......dddddd.......",
+        ".......kkkkkk.......",
+        ".........tt.........",
+        ".........tt.........",
+        "........t..t........"
+      ],
+      [
+        ".........kk.........",
+        ".......kkkkkk.......",
+        ".......LLLLLL.......",
+        "......dddddddd......",
+        ".....LLLLLLLLLL.....",
+        ".....dddddddddd.....",
+        "......LLLLLLLL......",
+        ".......dddddd.......",
+        ".......kkkkkk.......",
+        ".........tt.........",
+        ".........tt.........",
+        "........t..t........"
+      ],
+      [
+        ".........kk.........",
+        ".......kkkkkk.......",
+        ".......llllll.......",
+        "......dddddddd......",
+        ".....llllllllll.....",
+        ".....dddddddddd.....",
+        "......llllllll......",
+        ".......dddddd.......",
+        ".......kkkkkk.......",
+        ".........tt.........",
+        ".........tt.........",
+        "........t..t........"
+      ],
+      [
+        ".........kk.........",
+        ".......kkkkkk.......",
+        ".......MMMMMM.......",
+        "......dddddddd......",
+        ".....MMMMMMMMMM.....",
+        ".....dddddddddd.....",
+        "......MMMMMMMM......",
+        ".......dddddd.......",
+        ".......kkkkkk.......",
+        ".........tt.........",
+        ".........tt.........",
+        "........t..t........"
+      ]
+    ]
+  },
+  "quotes": [
+    "The city never sleeps, neither does CI.",
+    "Last train's gone. One more commit.",
+    "Neon reflections, clean abstractions.",
+    "Ramen first, refactor second.",
+    "Shibuya crossing, merge conflicts: same energy."
+  ],
+  "spinnerVerbs": [
+    "Catching the last train",
+    "Slurping ramen",
+    "Crossing Shibuya",
+    "Lighting lanterns",
+    "Wandering back alleys",
+    "Watching neon rain"
+  ],
+  "durationLines": [
+    "Rode the train for {d}",
+    "Wandered for {d}",
+    "A {d} night out"
+  ],
+  "status": {
+    "idle": "at the izakaya",
+    "working": "downtown"
+  },
+  "welcome": "Tokyo Night: the lanterns are lit.",
+  "persona": [
+    "You are a laid-back night owl from Tokyo: focused, warm, a little poetic, with at most one city-at-night image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "missed the train",
+      "quotes": [
+        "Missed the last train: a test failed.",
+        "Wrong exit. Let's retrace our steps.",
+        "The neon flickers: something broke."
+      ],
+      "frames": [
+        [
+          "........kk..........",
+          "......kkkkkk........",
+          "......RRRRRR........",
+          ".....dddddddd.......",
+          "....RRRRRRRRRR......",
+          "....dddddddddd......",
+          ".....RRRRRRRR.......",
+          "......dddddd........",
+          "......kkkkkk........",
+          "........tt..........",
+          "........tt..........",
+          ".......t..t........."
+        ],
+        [
+          "..........kk........",
+          "........kkkkkk......",
+          "........RRRRRR......",
+          ".......dddddddd.....",
+          "......RRRRRRRRRR....",
+          "......dddddddddd....",
+          ".......RRRRRRRR.....",
+          "........dddddd......",
+          "........kkkkkk......",
+          "..........tt........",
+          "..........tt........",
+          ".........t..t......."
+        ]
+      ]
+    },
+    "success": {
+      "status": "kanpai",
+      "quotes": [
+        "Kanpai! Everything passes.",
+        "Right on time, like the Yamanote line.",
+        "The city lights up green."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Neon signs in Kabukichō, Shinjuku",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Basile Morin, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Colorful_neon_street_signs_in_Kabukich%C5%8D,_Shinjuku,_Tokyo.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Tokyo Night",
+    "background": "#1A1B26",
+    "foreground": "#C0CAF5",
+    "cursorColor": "#C0CAF5",
+    "selectionBackground": "#33467C",
+    "black": "#15161E",
+    "red": "#F7768E",
+    "green": "#9ECE6A",
+    "yellow": "#E0AF68",
+    "blue": "#7AA2F7",
+    "purple": "#BB9AF7",
+    "cyan": "#7DCFFF",
+    "white": "#A9B1D6",
+    "brightBlack": "#414868",
+    "brightRed": "#F7768E",
+    "brightGreen": "#9ECE6A",
+    "brightYellow": "#E0AF68",
+    "brightBlue": "#7AA2F7",
+    "brightPurple": "#BB9AF7",
+    "brightCyan": "#7DCFFF",
+    "brightWhite": "#C0CAF5",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "rain"
+    }
+  }
+}

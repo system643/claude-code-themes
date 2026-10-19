@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "lofi",
+  "name": "Lo-fi Café",
+  "tagline": "Beats to code and relax to",
+  "description": "City lights blurred through a rainy window.",
+  "universe": "Original · Cozy",
+  "author": "claude-code-themes",
+  "emoji": "☕",
+  "colors": {
+    "accent": "#D98E73",
+    "secondary": "#E8D5B5",
+    "muted": "#A89A8A"
+  },
+  "banner": [
+    "    ( ( (     ",
+    "   .-----.    ",
+    "   |     |)   "
+  ],
+  "pixelArt": {
+    "palette": {
+      "c": "#E8D5B5",
+      "f": "#6F4E37",
+      "s": "#A0826D",
+      "h": "#D98E73",
+      "v": "#9C8F87",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "......v...vv........",
+        ".......vv...v.......",
+        ".......vv....v......",
+        ".....v...v..v.......",
+        "....................",
+        "....cffffffffc......",
+        "....cccccccccccc....",
+        "....cccccccccc..c...",
+        "....ccchhhcccc..c...",
+        "....cccccccccccc....",
+        "....cccccccccc......",
+        "..sssssssssssssss..."
+      ],
+      [
+        ".......vv...v.......",
+        ".......vv....v......",
+        ".....v...v..v.......",
+        ".....v....vv........",
+        "....................",
+        "....cffffffffc......",
+        "....cccccccccccc....",
+        "....cccccccccc..c...",
+        "....ccchhhcccc..c...",
+        "....cccccccccccc....",
+        "....cccccccccc......",
+        "..sssssssssssssss..."
+      ],
+      [
+        ".......vv....v......",
+        ".....v...v..v.......",
+        ".....v....vv........",
+        "......v..v.v........",
+        "....................",
+        "....cffffffffc......",
+        "....cccccccccccc....",
+        "....cccccccccc..c...",
+        "....ccchhhcccc..c...",
+        "....cccccccccccc....",
+        "....cccccccccc......",
+        "..sssssssssssssss..."
+      ],
+      [
+        ".....v...v..v.......",
+        ".....v....vv........",
+        "......v..v.v........",
+        ".......vv...v.......",
+        "....................",
+        "....cffffffffc......",
+        "....cccccccccccc....",
+        "....cccccccccc..c...",
+        "....ccchhhcccc..c...",
+        "....cccccccccccc....",
+        "....cccccccccc......",
+        "..sssssssssssssss..."
+      ]
+    ]
+  },
+  "quotes": [
+    "Rain outside, focus inside.",
+    "One more coffee, one more commit.",
+    "Chill beats, clean code.",
+    "No rush. The tests will wait.",
+    "Cozy vibes only."
+  ],
+  "spinnerVerbs": [
+    "Sipping coffee",
+    "Flipping the record",
+    "Watching the rain",
+    "Watering the plant",
+    "Nodding to the beat",
+    "Doodling in the margin"
+  ],
+  "durationLines": [
+    "Chilled for {d}",
+    "One {d} track",
+    "Sipped for {d}"
+  ],
+  "status": {
+    "idle": "vibing",
+    "working": "in the zone"
+  },
+  "welcome": "Lo-fi Café: grab a seat by the window.",
+  "persona": [
+    "You are relaxed and friendly, like a barista who codes, with at most one café or rainy-day image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "record scratch",
+      "quotes": [
+        "Record scratch: a test failed.",
+        "Spilled coffee on the build.",
+        "Let's take a breath and look again."
+      ],
+      "frames": [
+        [
+          ".....v...vv.........",
+          "......vv...v........",
+          "......vv....v.......",
+          "....v...v..v........",
+          "....................",
+          "...cffffffffc.......",
+          "...cccccccccccc.....",
+          "...cccccccccc..c....",
+          "...cccRRRcccc..c....",
+          "...cccccccccccc.....",
+          "...cccccccccc.......",
+          ".sssssssssssssss...."
+        ],
+        [
+          ".......v...vv.......",
+          "........vv...v......",
+          "........vv....v.....",
+          "......v...v..v......",
+          "....................",
+          ".....cffffffffc.....",
+          ".....cccccccccccc...",
+          ".....cccccccccc..c..",
+          ".....cccRRRcccc..c..",
+          ".....cccccccccccc...",
+          ".....cccccccccc.....",
+          "...sssssssssssssss.."
+        ]
+      ]
+    },
+    "success": {
+      "status": "in the zone",
+      "quotes": [
+        "Smooth beats, all green.",
+        "Perfect flow.",
+        "Cozy and passing."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "City lights through a rainy window",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: 0x010C, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2016-02_Raindrops_on_windows_Palace_of_Westminster.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Lo-fi Cafe",
+    "background": "#1C1612",
+    "foreground": "#EADCC8",
+    "cursorColor": "#D98E73",
+    "selectionBackground": "#3E3028",
+    "black": "#2A221C",
+    "red": "#D9736A",
+    "green": "#9DBF8A",
+    "yellow": "#E5C07B",
+    "blue": "#8AA6C8",
+    "purple": "#C894B0",
+    "cyan": "#8CC2B8",
+    "white": "#EADCC8",
+    "brightBlack": "#6A5A4C",
+    "brightRed": "#E8958C",
+    "brightGreen": "#B8D4A8",
+    "brightYellow": "#EFD3A0",
+    "brightBlue": "#AAC0DC",
+    "brightPurple": "#DAB0C6",
+    "brightCyan": "#ACD6CE",
+    "brightWhite": "#FFF8EE",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "rain"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+name: Themes
+
+# Checks every submitted theme, then rebuilds the gallery on the main branch.
+on:
+  pull_request:
+    paths: ["plugin/themes/**", "scripts/build_gallery.py"]
+  push:
+    branches: [main]
+    paths: ["plugin/themes/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.3.0
+      - name: Check the themes (shape, contrast, size, allowed files)
+        run: python scripts/build_gallery.py --check
+
+  gallery:
+    if: github.event_name == 'push'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.3.0
+      - run: python scripts/build_gallery.py
+      - name: Publish the gallery
+        run: |
+          git config user.name "ambiance-bot"
+          git config user.email "ambiance-bot@users.noreply.github.com"
+          git add gallery
+          git diff --cached --quiet || git commit -m "Gallery: automatic update"
+          git push

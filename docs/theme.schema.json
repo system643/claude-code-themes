@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ambiance theme",
+  "type": "object",
+  "required": ["id", "name"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique id, also the name of the theme's folder." },
+    "name": { "type": "string" },
+    "tagline": { "type": "string", "description": "Short banner subtitle." },
+    "description": { "type": "string", "description": "One sentence for the app's gallery." },
+    "universe": { "type": "string", "description": "What inspired the theme, used to group themes (\"Palette tribute\", \"Original · Space\", \"Original · Seasonal\")." },
+    "author": { "type": "string" },
+    "credit": { "type": "string", "description": "The original palette and its license, for palette tributes." },
+    "season": { "type": "string", "description": "For seasonal themes: when they shine (\"October\", \"December\")." },
+    "featured": { "type": "boolean", "description": "Highlighted in the gallery." },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "emoji": { "type": "string" },
+    "colors": {
+      "type": "object",
+      "properties": {
+        "accent": { "type": "string", "description": "Tab color and accents." },
+        "secondary": { "type": "string", "description": "Banner title." },
+        "muted": { "type": "string", "description": "Quotes, end-of-turn line." }
+      }
+    },
+    "banner": { "type": "array", "items": { "type": "string" }, "maxItems": 4, "description": "Fallback ASCII drawing (desktop app), 3 lines, 14 columns at most." },
+    "pixelArt": {
+      "type": "object",
+      "description": "The banner's animated logo. Two pixels per terminal cell.",
+      "required": ["palette", "frames"],
+      "properties": {
+        "palette": { "type": "object", "description": "One letter → one #RRGGBB color. \".\" is transparent.", "additionalProperties": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" } },
+        "fps": { "type": "number", "minimum": 1, "maximum": 12 },
+        "frames": { "type": "array", "minItems": 1, "items": { "type": "array", "items": { "type": "string" } }, "description": "Frames of the same size (20 × 12 recommended, 48 × 32 at most)." }
+      }
+    },
+    "quotes": { "type": "array", "items": { "type": "string" }, "description": "One quote per turn, under the banner title." },
+    "spinnerVerbs": { "type": "array", "items": { "type": "string" }, "description": "Replace the spinner verbs." },
+    "durationLines": { "type": "array", "items": { "type": "string", "pattern": "\\{d\\}" }, "description": "End-of-turn line; {d} becomes the duration." },
+    "status": {
+      "type": "object",
+      "properties": { "idle": { "type": "string" }, "working": { "type": "string" } }
+    },
+    "welcome": { "type": "string", "description": "Welcome message when the theme is applied." },
+    "persona": { "type": "array", "items": { "type": "string" }, "description": "Claude's tone, in a few sentences. The safety rules are added by the engine." },
+    "moods": {
+      "type": "object",
+      "description": "Moods: error when a check (tests, build) fails, success when it passes.",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "quotes": { "type": "array", "items": { "type": "string" } },
+          "frames": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+        }
+      }
+    },
+    "sounds": {
+      "type": "object",
+      "description": "WAV or OGG files from the theme's folder, played for each mood.",
+      "properties": { "start": { "type": "string" }, "success": { "type": "string" }, "error": { "type": "string" } }
+    },
+    "wallpapers": {
+      "type": "array",
+      "description": "Wallpapers offered in the app.",
+      "items": { "type": "object", "required": ["name", "file"], "properties": { "name": { "type": "string" }, "file": { "type": "string" }, "credit": { "type": "string", "description": "Author and license of a third-party photo." }, "source": { "type": "string", "description": "Where the photo comes from." } } }
+    },
+    "terminal": {
+      "type": "object",
+      "description": "A Windows Terminal color scheme, plus the effects.",
+      "required": ["name", "background", "foreground"],
+      "properties": {
+        "name": { "type": "string" },
+        "background": { "type": "string" },
+        "foreground": { "type": "string" },
+        "cursorColor": { "type": "string" },
+        "selectionBackground": { "type": "string" },
+        "effects": {
+          "type": "object",
+          "properties": {
+            "backgroundImage": { "type": "string", "description": "Path relative to the theme's folder (PNG, JPG, animated GIF)." },
+            "backgroundImageOpacity": { "type": "number", "minimum": 0.05, "maximum": 1 },
+            "backgroundImageStretchMode": { "enum": ["none", "fill", "uniform", "uniformToFill"] },
+            "shader": { "enum": ["stars", "embers", "snow", "rain", "petals", "fireflies", "bubbles", "matrix", "crt", "glow", null] },
+            "cursorShape": { "enum": ["bar", "vintage", "underscore", "filledBox", "emptyBox", "doubleUnderscore"] },
+            "font": { "type": "string", "description": "Font face, if installed." }
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

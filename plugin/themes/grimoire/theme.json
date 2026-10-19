@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "grimoire",
+  "name": "Grimoire",
+  "tagline": "The wizards' library",
+  "description": "Endless shelves of old books in a vaulted library.",
+  "universe": "Original · Fantasy",
+  "author": "claude-code-themes",
+  "featured": true,
+  "emoji": "📜",
+  "colors": {
+    "accent": "#FFB347",
+    "secondary": "#C8A2FF",
+    "muted": "#B0A090"
+  },
+  "banner": [
+    "   .  *  .    ",
+    "  _________   ",
+    " /____|____\\  "
+  ],
+  "pixelArt": {
+    "palette": {
+      "b": "#6B3A1E",
+      "p": "#EADBC0",
+      "l": "#9C8A6A",
+      "y": "#FFD86B",
+      "c": "#8FD8FF",
+      "r": "#FF5A4A"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........y..........",
+        "..............c.....",
+        "....................",
+        ".....y..............",
+        "....................",
+        "....ppppppbppppp....",
+        "...pplllppbplllpp...",
+        "...ppllpppbppllpp...",
+        "...pppppppbpppppp...",
+        "..bbbbbbbbbbbbbbbb..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "...................."
+      ],
+      [
+        "....................",
+        "..............y.....",
+        "........y.......y...",
+        "....................",
+        "....................",
+        "....ppppppbppppp....",
+        "...pplllppbplllpp...",
+        "...ppllpppbppllpp...",
+        "...pppppppbpppppp...",
+        "..bbbbbbbbbbbbbbbb..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "...................."
+      ],
+      [
+        "....................",
+        "...........y......c.",
+        ".y..................",
+        "....................",
+        "....................",
+        "....ppppppbppppp....",
+        "...pplllppbplllpp...",
+        "...ppllpppbppllpp...",
+        "...pppppppbpppppp...",
+        "..bbbbbbbbbbbbbbbb..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "...................."
+      ],
+      [
+        "......y.............",
+        "....................",
+        "..y.................",
+        "..............y.....",
+        "....................",
+        "....ppppppbppppp....",
+        "...pplllppbplllpp...",
+        "...ppllpppbppllpp...",
+        "...pppppppbpppppp...",
+        "..bbbbbbbbbbbbbbbb..",
+        ".bbbbbbbbbbbbbbbbbb.",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Every function is a well-written spell.",
+    "Runes never lie. Neither do logs.",
+    "One page at a time, one bug at a time.",
+    "Magic is mostly rigor.",
+    "The grimoire opens to the right page."
+  ],
+  "spinnerVerbs": [
+    "Leafing through the grimoire",
+    "Tracing a rune",
+    "Brewing a potion",
+    "Summoning a function",
+    "Lighting a candle",
+    "Deciphering a scroll"
+  ],
+  "durationLines": [
+    "Spell cast in {d}",
+    "A {d} ritual",
+    "Read for {d}"
+  ],
+  "status": {
+    "idle": "in the library",
+    "working": "mid-spell"
+  },
+  "welcome": "Grimoire: the candles flicker to life.",
+  "persona": [
+    "You talk like an old wizard librarian: learned, kind, mischievous, with at most one image of grimoires, runes or potions per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "spell misfired",
+      "quotes": [
+        "The spell misfired: a test fails.",
+        "A rune is drawn wrong. Let's reread it.",
+        "Black smoke: we fix the formula."
+      ],
+      "frames": [
+        [
+          "....................",
+          "....................",
+          "......r..r..r.......",
+          "....................",
+          "....................",
+          "....ppppppbppppp....",
+          "...pplllppbplllpp...",
+          "...ppllpppbppllpp...",
+          "...pppppppbpppppp...",
+          "..bbbbbbbbbbbbbbbb..",
+          ".bbbbbbbbbbbbbbbbbb.",
+          "...................."
+        ],
+        [
+          "....................",
+          "........r....r......",
+          "....................",
+          "....................",
+          "....................",
+          "....ppppppbppppp....",
+          "...pplllppbplllpp...",
+          "...ppllpppbppllpp...",
+          "...pppppppbpppppp...",
+          "..bbbbbbbbbbbbbbbb..",
+          ".bbbbbbbbbbbbbbbbbb.",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "spell cast",
+      "quotes": [
+        "Spell cast, all green.",
+        "The runes glow: well done.",
+        "The formula is perfect."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "The Long Room library, Trinity College Dublin",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Diliff, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Grimoire",
+    "background": "#120B12",
+    "foreground": "#EDE2CF",
+    "cursorColor": "#FFB347",
+    "selectionBackground": "#3A2632",
+    "black": "#22161E",
+    "red": "#E0604E",
+    "green": "#9CC77A",
+    "yellow": "#FFB347",
+    "blue": "#7AA2E0",
+    "purple": "#C8A2FF",
+    "cyan": "#8FD8D0",
+    "white": "#EDE2CF",
+    "brightBlack": "#6A5560",
+    "brightRed": "#FF8A7A",
+    "brightGreen": "#BEE0A2",
+    "brightYellow": "#FFD08A",
+    "brightBlue": "#A8C4F0",
+    "brightPurple": "#DEC6FF",
+    "brightCyan": "#B4EAE4",
+    "brightWhite": "#FFF8EC",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "glow",
+      "cursorShape": "underscore"
+    }
+  }
+}

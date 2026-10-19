@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "dubai",
+  "name": "Dubai",
+  "tagline": "Desert gold, sky-high towers",
+  "description": "The Dubai skyline and the Burj Khalifa mirrored in the water at night.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🌇",
+  "colors": {
+    "accent": "#FFB55E",
+    "secondary": "#FFE08A",
+    "muted": "#B8A890"
+  },
+  "banner": [
+    "      |       ",
+    "     /|\\      ",
+    "    /_|_\\     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "b": "#9AA8C0",
+      "y": "#FFE08A",
+      "r": "#FF6B6B",
+      "m": "#F5E6B8",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........b..........",
+        "..mm.....b..........",
+        ".m.......b..........",
+        "..mm.....bb.........",
+        "........bybb........",
+        "........bbbb........",
+        ".......bybbb........",
+        ".......bbbbbb.......",
+        "......bybbbbb.......",
+        "......bbbbbbbb......",
+        ".....bybbbbbbb......",
+        ".....bbbbbbbbbb....."
+      ],
+      [
+        ".........r..........",
+        "..mm.....b..........",
+        ".m.......b..........",
+        "..mm.....bb.........",
+        "........bbyb........",
+        "........bbbb........",
+        ".......bbybb........",
+        ".......bbbbbb.......",
+        "......bbybbbb.......",
+        "......bbbbbbbb......",
+        ".....bbybbbbbb......",
+        ".....bbbbbbbbbb....."
+      ],
+      [
+        ".........b..........",
+        "..mm.....b..........",
+        ".m.......b..........",
+        "..mm.....bb.........",
+        "........bybb........",
+        "........bbbb........",
+        ".......bybbb........",
+        ".......bbbbbb.......",
+        "......bybbbbb.......",
+        "......bbbbbbbb......",
+        ".....bybbbbbbb......",
+        ".....bbbbbbbbbb....."
+      ],
+      [
+        ".........r..........",
+        "..mm.....b..........",
+        ".m.......b..........",
+        "..mm.....bb.........",
+        "........bbyb........",
+        "........bbbb........",
+        ".......bbybb........",
+        ".......bbbbbb.......",
+        "......bbybbbb.......",
+        "......bbbbbbbb......",
+        ".....bbybbbbbb......",
+        ".....bbbbbbbbbb....."
+      ]
+    ]
+  },
+  "quotes": [
+    "Aim higher than the Burj.",
+    "Golden hour, golden build.",
+    "Build tall, build solid.",
+    "From desert to skyline, one commit at a time.",
+    "The sky is not the limit."
+  ],
+  "spinnerVerbs": [
+    "Riding the dunes",
+    "Rising to the top floor",
+    "Watching the sunset",
+    "Building higher",
+    "Sailing the creek",
+    "Polishing the skyline"
+  ],
+  "durationLines": [
+    "Rose in {d}",
+    "A {d} ascent",
+    "Built in {d}"
+  ],
+  "status": {
+    "idle": "on the beach",
+    "working": "building up"
+  },
+  "welcome": "Dubai: the skyline lights up.",
+  "persona": [
+    "You are ambitious, upbeat and polished, with at most one desert or skyline image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "sandstorm",
+      "quotes": [
+        "Sandstorm: a test failed.",
+        "Visibility low. Let's investigate.",
+        "A crack in the foundation."
+      ],
+      "frames": [
+        [
+          "........b...........",
+          ".mm.....b...........",
+          "m.......b...........",
+          ".mm.....bb..........",
+          ".......bybb.........",
+          ".......bbbb.........",
+          "......bybbb.........",
+          "......bbbbbb........",
+          ".....bybbbbb........",
+          ".....bbbbbbbb.......",
+          "....bybbbbbbb.......",
+          "....bbbbbbbbbb......"
+        ],
+        [
+          "..........b.........",
+          "...mm.....b.........",
+          "..m.......b.........",
+          "...mm.....bb........",
+          ".........bybb.......",
+          ".........bbbb.......",
+          "........bybbb.......",
+          "........bbbbbb......",
+          ".......bybbbbb......",
+          ".......bbbbbbbb.....",
+          "......bybbbbbbb.....",
+          "......bbbbbbbbbb...."
+        ]
+      ]
+    },
+    "success": {
+      "status": "golden",
+      "quotes": [
+        "Golden: all green.",
+        "Top floor reached.",
+        "Record-breaking."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "The Dubai skyline reflected at night",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Robert Bock, CC0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_unsplash.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Dubai",
+    "background": "#18141E",
+    "foreground": "#F4EADA",
+    "cursorColor": "#FFB55E",
+    "selectionBackground": "#3E3040",
+    "black": "#261E2A",
+    "red": "#FF6B5E",
+    "green": "#A8D07A",
+    "yellow": "#FFE08A",
+    "blue": "#6FA8DC",
+    "purple": "#D08AC0",
+    "cyan": "#6FD0C8",
+    "white": "#F4EADA",
+    "brightBlack": "#5E5060",
+    "brightRed": "#FF948A",
+    "brightGreen": "#C4E2A0",
+    "brightYellow": "#FFEAAC",
+    "brightBlue": "#98C4EA",
+    "brightPurple": "#E2ACD6",
+    "brightCyan": "#9CE2DC",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "stars"
+    }
+  }
+}

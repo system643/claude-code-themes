@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "new-york",
+  "name": "New York",
+  "tagline": "The city that never sleeps",
+  "description": "Lower Manhattan lighting up at dusk, seen from Brooklyn.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🗽",
+  "colors": {
+    "accent": "#FFD66B",
+    "secondary": "#FF6B6B",
+    "muted": "#9AA6C0"
+  },
+  "banner": [
+    "      |       ",
+    "     |#|      ",
+    "    |###|     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "b": "#4A5468",
+      "y": "#FFD66B",
+      "r": "#FF5E5E",
+      "s": "#C0C8D8",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........ss.........",
+        ".........ss.........",
+        ".........ss.........",
+        "........bbbb........",
+        ".......yybbyb.......",
+        ".......bybybb.......",
+        "......bbbbybby......",
+        "......ybybbbbb......",
+        "......ybbybbyb......",
+        ".....ybbybbbbbb.....",
+        ".....bybbbybyby.....",
+        ".....bbbyybbbby....."
+      ],
+      [
+        ".........rr.........",
+        ".........ss.........",
+        ".........ss.........",
+        "........bbbb........",
+        ".......bybbbb.......",
+        ".......bbybyy.......",
+        "......ybyybbbb......",
+        "......ybbybbbb......",
+        "......bbbybybb......",
+        ".....bbybybbbbb.....",
+        ".....bbbybbbbbb.....",
+        ".....bbbybbybbb....."
+      ],
+      [
+        ".........ss.........",
+        ".........ss.........",
+        ".........ss.........",
+        "........bbbb........",
+        ".......bybbby.......",
+        ".......ybbbby.......",
+        "......byyybybb......",
+        "......ybbbbybb......",
+        "......ybybbbyy......",
+        ".....bbybbybbbb.....",
+        ".....bbbybbbbyb.....",
+        ".....bbbbbbbbbb....."
+      ],
+      [
+        ".........rr.........",
+        ".........ss.........",
+        ".........ss.........",
+        "........bbbb........",
+        ".......bbbbyb.......",
+        ".......bbbbbb.......",
+        "......ybbbyybb......",
+        "......ybbybbby......",
+        "......bbbbybyb......",
+        ".....ybbbybbybb.....",
+        ".....bbbbbbbbbb.....",
+        ".....bbyyybbyyy....."
+      ]
+    ]
+  },
+  "quotes": [
+    "If it builds here, it builds anywhere.",
+    "Move fast, mind the gap... wrong city.",
+    "Ship it like it's rush hour.",
+    "Big city, big diffs, small commits.",
+    "Coffee to go, code to ship."
+  ],
+  "spinnerVerbs": [
+    "Hailing a cab",
+    "Grabbing a bagel",
+    "Riding the subway",
+    "Crossing Times Square",
+    "Climbing the Empire State",
+    "Walking through Central Park"
+  ],
+  "durationLines": [
+    "Rode the subway for {d}",
+    "A {d} commute",
+    "Hustled for {d}"
+  ],
+  "status": {
+    "idle": "in Central Park",
+    "working": "in Midtown"
+  },
+  "welcome": "New York: the lights never go out.",
+  "persona": [
+    "You talk like a sharp, friendly New Yorker: direct, fast, warm underneath, with at most one New York image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "gridlock",
+      "quotes": [
+        "Gridlock: a test failed.",
+        "Fuhgeddaboudit... no, let's fix it.",
+        "Subway's down. Detour."
+      ],
+      "frames": [
+        [
+          "........ss..........",
+          "........ss..........",
+          "........ss..........",
+          ".......bbbb.........",
+          "......RRbbRb........",
+          "......bRbRbb........",
+          ".....bbbbRbbR.......",
+          ".....RbRbbbbb.......",
+          ".....RbbRbbRb.......",
+          "....RbbRbbbbbb......",
+          "....bRbbbRbRbR......",
+          "....bbbRRbbbbR......"
+        ],
+        [
+          "..........ss........",
+          "..........ss........",
+          "..........ss........",
+          ".........bbbb.......",
+          "........RRbbRb......",
+          "........bRbRbb......",
+          ".......bbbbRbbR.....",
+          ".......RbRbbbbb.....",
+          ".......RbbRbbRb.....",
+          "......RbbRbbbbbb....",
+          "......bRbbbRbRbR....",
+          "......bbbRRbbbbR...."
+        ]
+      ]
+    },
+    "success": {
+      "status": "top of the world",
+      "quotes": [
+        "Top of the world: all green.",
+        "Made it here, make it anywhere.",
+        "Standing ovation on Broadway."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Lower Manhattan lighting up at dusk",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Superbass, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2024-11-17-Lower_Manhattan-0593.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · New York",
+    "background": "#0A1022",
+    "foreground": "#E4EAF6",
+    "cursorColor": "#FFD66B",
+    "selectionBackground": "#22304E",
+    "black": "#141C30",
+    "red": "#FF6B6B",
+    "green": "#7FD99A",
+    "yellow": "#FFD66B",
+    "blue": "#6BA4FF",
+    "purple": "#C08AFF",
+    "cyan": "#6BD6E6",
+    "white": "#E4EAF6",
+    "brightBlack": "#4A5670",
+    "brightRed": "#FF9494",
+    "brightGreen": "#A8EABC",
+    "brightYellow": "#FFE49A",
+    "brightBlue": "#98C0FF",
+    "brightPurple": "#D6B0FF",
+    "brightCyan": "#9AE6F0",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "snow"
+    }
+  }
+}

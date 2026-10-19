@@ -1,0 +1,206 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "dracula",
+  "name": "Dracula",
+  "tagline": "Dark theme for the night shift",
+  "description": "An old fortress under the full moon, above a dark river.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Dracula Theme (MIT)",
+  "emoji": "🧛",
+  "colors": {
+    "accent": "#BD93F9",
+    "secondary": "#FF79C6",
+    "muted": "#8B95C9"
+  },
+  "banner": [
+    "  /\\  ^^  /\\  ",
+    " /  \\(oo)/  \\ ",
+    "     /vv\\     "
+  ],
+  "pixelArt": {
+    "palette": {
+      "p": "#BD93F9",
+      "r": "#FF5555",
+      "w": "#F8F8F2",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "p..................p",
+        "pp................pp",
+        "ppp....p....p....ppp",
+        ".pppppppppppppppppp.",
+        "..pppppppppppppppp..",
+        "...pppprpppprpppp...",
+        "......pppppppp......",
+        ".......pwppwp.......",
+        ".......pppppp.......",
+        "........pppp........",
+        "....................",
+        "...................."
+      ],
+      [
+        "....................",
+        "....................",
+        ".......p....p.......",
+        "......pppppppp......",
+        "....pppppppppppp....",
+        ".pppppprpppprpppppp.",
+        "pppppppppppppppppppp",
+        "pppp...pwppwp...pppp",
+        "pp.....pppppp.....pp",
+        "........pppp........",
+        "....................",
+        "...................."
+      ],
+      [
+        "p..................p",
+        "pp................pp",
+        "ppp....p....p....ppp",
+        ".pppppppppppppppppp.",
+        "..pppppppppppppppp..",
+        "...pppprpppprpppp...",
+        "......pppppppp......",
+        ".......pwppwp.......",
+        ".......pppppp.......",
+        "........pppp........",
+        "....................",
+        "...................."
+      ],
+      [
+        "....................",
+        "....................",
+        ".......p....p.......",
+        "......pppppppp......",
+        "....pppppppppppp....",
+        ".pppppprpppprpppppp.",
+        "pppppppppppppppppppp",
+        "pppp...pwppwp...pppp",
+        "pp.....pppppp.....pp",
+        "........pppp........",
+        "....................",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "The night is young, and so is this branch.",
+    "I never drink... coffee after midnight. Code, however.",
+    "Bugs fear the light. We work in the dark.",
+    "Welcome to my castle. Mind the legacy code.",
+    "Immortal code needs immortal tests."
+  ],
+  "spinnerVerbs": [
+    "Rising from the crypt",
+    "Summoning bats",
+    "Brooding dramatically",
+    "Counting the hours till dawn",
+    "Sharpening fangs",
+    "Gliding through the castle"
+  ],
+  "durationLines": [
+    "Haunted for {d}",
+    "Awake for {d}",
+    "A {d} night"
+  ],
+  "status": {
+    "idle": "in the crypt",
+    "working": "on the prowl"
+  },
+  "welcome": "Dracula: the castle gates creak open.",
+  "persona": [
+    "You speak like a refined, slightly theatrical vampire count: elegant, dry-witted, with at most one gothic image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "fangs out",
+      "quotes": [
+        "A stake through the build!",
+        "Sunlight hit the tests. Back to the shadows.",
+        "Something undead lurks in that stack trace."
+      ],
+      "frames": [
+        [
+          "..................p.",
+          "p................pp.",
+          "pp....p....p....ppp.",
+          "pppppppppppppppppp..",
+          ".pppppppppppppppp...",
+          "..ppppRppppRpppp....",
+          ".....pppppppp.......",
+          "......pwppwp........",
+          "......pppppp........",
+          ".......pppp.........",
+          "....................",
+          "...................."
+        ],
+        [
+          ".p..................",
+          ".pp................p",
+          ".ppp....p....p....pp",
+          "..pppppppppppppppppp",
+          "...pppppppppppppppp.",
+          "....ppppRppppRpppp..",
+          ".......pppppppp.....",
+          "........pwppwp......",
+          "........pppppp......",
+          ".........pppp.......",
+          "....................",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "victorious",
+      "quotes": [
+        "The night is ours: all green.",
+        "Eternal glory, eternal uptime.",
+        "Bats approve this commit."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Khotyn Fortress under the moon",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Ryzhkov Sergey, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BE%D1%82%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D1%84%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_%D0%B2_%D0%BC%D1%96%D1%81%D1%8F%D1%87%D0%BD%D1%83_%D0%BD%D1%96%D1%87.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Dracula",
+    "background": "#282A36",
+    "foreground": "#F8F8F2",
+    "cursorColor": "#F8F8F2",
+    "selectionBackground": "#44475A",
+    "black": "#21222C",
+    "red": "#FF5555",
+    "green": "#50FA7B",
+    "yellow": "#F1FA8C",
+    "blue": "#BD93F9",
+    "purple": "#FF79C6",
+    "cyan": "#8BE9FD",
+    "white": "#F8F8F2",
+    "brightBlack": "#6272A4",
+    "brightRed": "#FF6E6E",
+    "brightGreen": "#69FF94",
+    "brightYellow": "#FFFFA5",
+    "brightBlue": "#D6ACFF",
+    "brightPurple": "#FF92DF",
+    "brightCyan": "#A4FFFF",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "stars"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "phosphor",
+  "name": "Phosphor",
+  "tagline": "Amber CRT, 1983",
+  "description": "A glowing amber monitor on a dark desk, scanlines and all.",
+  "universe": "Original · Retro computing",
+  "author": "claude-code-themes",
+  "emoji": "📟",
+  "colors": {
+    "accent": "#FFB000",
+    "secondary": "#FFCC66",
+    "muted": "#C08A3E"
+  },
+  "banner": [
+    "  .--------.  ",
+    "  | >_     |  ",
+    "  '--------'  "
+  ],
+  "pixelArt": {
+    "palette": {
+      "c": "#5A4120",
+      "s": "#1A1000",
+      "a": "#FFB000",
+      "A": "#FFD27A",
+      "k": "#3A2A10",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "..cccccccccccccccc..",
+        "..cssssssssssssssc..",
+        "..csaasaaaassssssc..",
+        "..cssssssssssssssc..",
+        "..csaaAAsssssssssc..",
+        "..cssssssssssssssc..",
+        "..cssssssssssssssc..",
+        "..cssssssssssssssc..",
+        "..cccccccccccccccc..",
+        "........cccc........",
+        ".....cccccccccc.....",
+        "...kkkkkkkkkkkkkk..."
+      ],
+      [
+        "..cccccccccccccccc..",
+        "..cssssssssssssssc..",
+        "..csaasaaaassssssc..",
+        "..cssssssssssssssc..",
+        "..csaasssssssssssc..",
+        "..cssssssssssssssc..",
+        "..cssssssssssssssc..",
+        "..cssssssssssssssc..",
+        "..cccccccccccccccc..",
+        "........cccc........",
+        ".....cccccccccc.....",
+        "...kkkkkkkkkkkkkk..."
+      ]
+    ]
+  },
+  "quotes": [
+    "READY.",
+    "64K of RAM ought to be enough.",
+    "Insert disk 2 to continue.",
+    "Press any key. No, not that one.",
+    "Booting the good old days."
+  ],
+  "spinnerVerbs": [
+    "Loading from tape",
+    "Warming the tubes",
+    "Dialing up",
+    "Compiling in BASIC",
+    "Spinning the floppy",
+    "Defragmenting"
+  ],
+  "durationLines": [
+    "Loaded in {d}",
+    "Booted in {d}",
+    "A {d} dial-up"
+  ],
+  "status": {
+    "idle": "READY.",
+    "working": "RUNNING"
+  },
+  "welcome": "Phosphor: SYSTEM READY.",
+  "persona": [
+    "You have the charm of an early-eighties computer manual: terse, precise, a bit nostalgic, with at most one retro-computing nod per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "SYNTAX ERROR",
+      "quotes": [
+        "?SYNTAX ERROR: a test failed.",
+        "Abort, Retry, Fail?",
+        "Kernel panic in amber."
+      ],
+      "frames": [
+        [
+          ".cccccccccccccccc...",
+          ".cssssssssssssssc...",
+          ".csRRsRRRRssssssc...",
+          ".cssssssssssssssc...",
+          ".csRRRRsssssssssc...",
+          ".cssssssssssssssc...",
+          ".cssssssssssssssc...",
+          ".cssssssssssssssc...",
+          ".cccccccccccccccc...",
+          ".......cccc.........",
+          "....cccccccccc......",
+          "..kkkkkkkkkkkkkk...."
+        ],
+        [
+          "...cccccccccccccccc.",
+          "...cssssssssssssssc.",
+          "...csRRsRRRRssssssc.",
+          "...cssssssssssssssc.",
+          "...csRRRRsssssssssc.",
+          "...cssssssssssssssc.",
+          "...cssssssssssssssc.",
+          "...cssssssssssssssc.",
+          "...cccccccccccccccc.",
+          ".........cccc.......",
+          "......cccccccccc....",
+          "....kkkkkkkkkkkkkk.."
+        ]
+      ]
+    },
+    "success": {
+      "status": "OK",
+      "quotes": [
+        "OK. All green.",
+        "Program terminated normally.",
+        "No errors found."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "A glowing amber monitor on a dark desk",
+      "file": "assets/wallpaper.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Phosphor",
+    "background": "#120A00",
+    "foreground": "#FFB000",
+    "cursorColor": "#FFCC66",
+    "selectionBackground": "#3A2400",
+    "black": "#1A1000",
+    "red": "#FF6A00",
+    "green": "#FFB000",
+    "yellow": "#FFD000",
+    "blue": "#CC8800",
+    "purple": "#FF9A3D",
+    "cyan": "#FFC266",
+    "white": "#FFD9A0",
+    "brightBlack": "#6B4A10",
+    "brightRed": "#FF8A3D",
+    "brightGreen": "#FFC433",
+    "brightYellow": "#FFE066",
+    "brightBlue": "#E0A030",
+    "brightPurple": "#FFB870",
+    "brightCyan": "#FFD699",
+    "brightWhite": "#FFF2DC",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "crt"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "seoul",
+  "name": "Seoul",
+  "tagline": "City lights up to the mountains",
+  "description": "Seoul's lights spreading to the mountains, seen from Namsan.",
+  "universe": "City",
+  "author": "claude-code-themes",
+  "emoji": "🏯",
+  "colors": {
+    "accent": "#FF6B9D",
+    "secondary": "#6BC7FF",
+    "muted": "#94AAB8"
+  },
+  "banner": [
+    "      |       ",
+    "    [===]     ",
+    "   /^^^^^\\    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "m": "#2E4A3A",
+      "t": "#D0D8E0",
+      "p": "#FF6B9D",
+      "q": "#6BC7FF",
+      "r": "#B8F06B",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "..........t.........",
+        "..........t.........",
+        ".........ttt........",
+        "........ppppp.......",
+        "........ppppp.......",
+        "..........t.........",
+        "..........t.........",
+        "..........t.........",
+        "........mmtm........",
+        ".....mmmmmmmmmm.....",
+        ".mmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "..........t.........",
+        "..........t.........",
+        ".........ttt........",
+        "........qqqqq.......",
+        "........qqqqq.......",
+        "..........t.........",
+        "..........t.........",
+        "..........t.........",
+        "........mmtm........",
+        ".....mmmmmmmmmm.....",
+        ".mmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "..........t.........",
+        "..........t.........",
+        ".........ttt........",
+        "........rrrrr.......",
+        "........rrrrr.......",
+        "..........t.........",
+        "..........t.........",
+        "..........t.........",
+        "........mmtm........",
+        ".....mmmmmmmmmm.....",
+        ".mmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "..........t.........",
+        "..........t.........",
+        ".........ttt........",
+        "........qqqqq.......",
+        "........qqqqq.......",
+        "..........t.........",
+        "..........t.........",
+        "..........t.........",
+        "........mmtm........",
+        ".....mmmmmmmmmm.....",
+        ".mmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ]
+    ]
+  },
+  "quotes": [
+    "Fast internet, faster builds.",
+    "Palli palli: ship it, but test it.",
+    "Old palaces, new code.",
+    "The tower glows, the tests pass.",
+    "Hwaiting!"
+  ],
+  "spinnerVerbs": [
+    "Riding the subway",
+    "Climbing Namsan",
+    "Grilling bulgogi",
+    "Visiting the palace",
+    "Shopping in Myeongdong",
+    "Watching the tower glow"
+  ],
+  "durationLines": [
+    "Took {d}",
+    "A {d} walk up Namsan",
+    "Done in {d}, palli palli"
+  ],
+  "status": {
+    "idle": "at the noraebang",
+    "working": "in Gangnam"
+  },
+  "welcome": "Seoul: the tower lights up.",
+  "persona": [
+    "You are energetic, encouraging and efficient, with at most one Seoul image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "aigoo",
+      "quotes": [
+        "Aigoo: a test failed.",
+        "Let's try again, hwaiting!",
+        "Something broke. We'll fix it fast."
+      ],
+      "frames": [
+        [
+          ".........t..........",
+          ".........t..........",
+          "........ttt.........",
+          ".......RRRRR........",
+          ".......RRRRR........",
+          ".........t..........",
+          ".........t..........",
+          ".........t..........",
+          ".......mmtm.........",
+          "....mmmmmmmmmm......",
+          "mmmmmmmmmmmmmmmmmm..",
+          "mmmmmmmmmmmmmmmmmmm."
+        ],
+        [
+          "...........t........",
+          "...........t........",
+          "..........ttt.......",
+          ".........RRRRR......",
+          ".........RRRRR......",
+          "...........t........",
+          "...........t........",
+          "...........t........",
+          ".........mmtm.......",
+          "......mmmmmmmmmm....",
+          "..mmmmmmmmmmmmmmmmmm",
+          ".mmmmmmmmmmmmmmmmmmm"
+        ]
+      ]
+    },
+    "success": {
+      "status": "daebak",
+      "quotes": [
+        "Daebak: all green.",
+        "Perfect combo.",
+        "Hwaiting paid off."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Seoul by night from Namsan",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: kallerna, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:N_Seoul_Tower_view_2.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Seoul",
+    "background": "#08141E",
+    "foreground": "#E0EEF4",
+    "cursorColor": "#FF6B9D",
+    "selectionBackground": "#1E3A4A",
+    "black": "#10202C",
+    "red": "#FF6B7A",
+    "green": "#7ED8A0",
+    "yellow": "#F2D27A",
+    "blue": "#6BA8FF",
+    "purple": "#FF6B9D",
+    "cyan": "#6BC7FF",
+    "white": "#E0EEF4",
+    "brightBlack": "#46606E",
+    "brightRed": "#FF94A0",
+    "brightGreen": "#A6E8C0",
+    "brightYellow": "#F8E2A6",
+    "brightBlue": "#98C4FF",
+    "brightPurple": "#FF9CC0",
+    "brightCyan": "#9CDCFF",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "snow"
+    }
+  }
+}

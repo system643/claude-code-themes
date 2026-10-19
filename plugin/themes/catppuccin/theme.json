@@ -1,0 +1,236 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "catppuccin",
+  "name": "Catppuccin",
+  "tagline": "Soothing pastels, Mocha flavor",
+  "description": "A cat keeping watch at an old wooden window.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "Catppuccin (MIT)",
+  "emoji": "🐱",
+  "colors": {
+    "accent": "#CBA6F7",
+    "secondary": "#F5C2E7",
+    "muted": "#A6ADC8"
+  },
+  "banner": [
+    "   /\\_/\\      ",
+    "  ( o.o )     ",
+    "   > ^ <      "
+  ],
+  "pixelArt": {
+    "palette": {
+      "b": "#FAB387",
+      "e": "#1E1E2E",
+      "n": "#F5C2E7",
+      "w": "#CDD6F4",
+      "i": "#F5C2E7",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        "....b..........b....",
+        "....bi........ib....",
+        "....bbbbbbbbbbbb....",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbeebbbbbbeebb...",
+        "...bbeebbbbbbeebb...",
+        ".wwbbbbbbnnbbbbbbww.",
+        "wwwbbbbbbbbbbbbbbwww",
+        "....bbbbbbbbbbbb....",
+        "...................."
+      ],
+      [
+        "....................",
+        "....b..........b....",
+        "....bi........ib....",
+        "....bbbbbbbbbbbb....",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbeebbbbbbeebb...",
+        "...bbeebbbbbbeebb...",
+        ".wwbbbbbbnnbbbbbbww.",
+        "wwwbbbbbbbbbbbbbbwww",
+        "....bbbbbbbbbbbb....",
+        "...................."
+      ],
+      [
+        "....................",
+        "....b..........b....",
+        "....bi........ib....",
+        "....bbbbbbbbbbbb....",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbeebbbbbbeebb...",
+        ".wwbbbbbbnnbbbbbbww.",
+        "wwwbbbbbbbbbbbbbbwww",
+        "....bbbbbbbbbbbb....",
+        "...................."
+      ],
+      [
+        "....................",
+        "....b..........b....",
+        "....bi........ib....",
+        "....bbbbbbbbbbbb....",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbeebbbbbbeebb...",
+        "...bbeebbbbbbeebb...",
+        ".wwbbbbbbnnbbbbbbww.",
+        "wwwbbbbbbbbbbbbbbwww",
+        "....bbbbbbbbbbbb....",
+        "...................."
+      ],
+      [
+        "....................",
+        "....................",
+        "....bi........ib....",
+        "....bbbbbbbbbbbb....",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbeebbbbbbeebb...",
+        "...bbeebbbbbbeebb...",
+        ".wwbbbbbbnnbbbbbbww.",
+        "wwwbbbbbbbbbbbbbbwww",
+        "....bbbbbbbbbbbb....",
+        "...................."
+      ],
+      [
+        "....................",
+        "....b..........b....",
+        "....bi........ib....",
+        "....bbbbbbbbbbbb....",
+        "...bbbbbbbbbbbbbb...",
+        "...bbbbbbbbbbbbbb...",
+        "...bbeebbbbbbeebb...",
+        "...bbeebbbbbbeebb...",
+        ".wwbbbbbbnnbbbbbbww.",
+        "wwwbbbbbbbbbbbbbbwww",
+        "....bbbbbbbbbbbb....",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Purr-fect code takes a warm drink and patience.",
+    "Soft colors, sharp mind.",
+    "Every bug is just a yarn ball to untangle.",
+    "Stretch, sip, ship.",
+    "The cat approves of this function."
+  ],
+  "spinnerVerbs": [
+    "Kneading the keyboard",
+    "Chasing the cursor",
+    "Napping on the stack",
+    "Sipping mocha",
+    "Batting at bugs",
+    "Purring softly"
+  ],
+  "durationLines": [
+    "Napped for {d}",
+    "Purred for {d}",
+    "A {d} stretch"
+  ],
+  "status": {
+    "idle": "curled up",
+    "working": "pouncing"
+  },
+  "welcome": "Catppuccin: the kettle is on.",
+  "persona": [
+    "You are cozy, gentle and encouraging, like a calm friend with a warm drink, with at most one cat or café image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "hissing",
+      "quotes": [
+        "Hiss! A test knocked the mug over.",
+        "The cat is not amused. Let's read the error.",
+        "Claws out: something failed."
+      ],
+      "frames": [
+        [
+          "....................",
+          "...b..........b.....",
+          "...bi........ib.....",
+          "...bbbbbbbbbbbb.....",
+          "..bbbbbbbbbbbbbb....",
+          "..bbbbbbbbbbbbbb....",
+          "..bbRRbbbbbbRRbb....",
+          "..bbRRbbbbbbRRbb....",
+          "wwbbbbbbnnbbbbbbww..",
+          "wwbbbbbbbbbbbbbbwww.",
+          "...bbbbbbbbbbbb.....",
+          "...................."
+        ],
+        [
+          "....................",
+          ".....b..........b...",
+          ".....bi........ib...",
+          ".....bbbbbbbbbbbb...",
+          "....bbbbbbbbbbbbbb..",
+          "....bbbbbbbbbbbbbb..",
+          "....bbRRbbbbbbRRbb..",
+          "....bbRRbbbbbbRRbb..",
+          "..wwbbbbbbnnbbbbbbww",
+          ".wwwbbbbbbbbbbbbbbww",
+          ".....bbbbbbbbbbbb...",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "purring",
+      "quotes": [
+        "Purr... all tests green.",
+        "A slow blink of approval.",
+        "Cozy and passing."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "A cat at an old wooden window",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Pudelek, CC BY-SA 4.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:P%C5%99%C3%ADchovice_-_old_window_and_cat.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Catppuccin Mocha",
+    "background": "#1E1E2E",
+    "foreground": "#CDD6F4",
+    "cursorColor": "#F5E0DC",
+    "selectionBackground": "#45475A",
+    "black": "#45475A",
+    "red": "#F38BA8",
+    "green": "#A6E3A1",
+    "yellow": "#F9E2AF",
+    "blue": "#89B4FA",
+    "purple": "#F5C2E7",
+    "cyan": "#94E2D5",
+    "white": "#BAC2DE",
+    "brightBlack": "#585B70",
+    "brightRed": "#F38BA8",
+    "brightGreen": "#A6E3A1",
+    "brightYellow": "#F9E2AF",
+    "brightBlue": "#89B4FA",
+    "brightPurple": "#F5C2E7",
+    "brightCyan": "#94E2D5",
+    "brightWhite": "#A6ADC8",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "stars"
+    }
+  }
+}

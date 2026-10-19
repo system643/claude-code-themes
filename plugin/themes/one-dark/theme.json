@@ -1,0 +1,261 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "one-dark",
+  "name": "One Dark",
+  "tagline": "The classic editor dark, reimagined",
+  "description": "Glowing electron orbits around a golden nucleus.",
+  "universe": "Palette tribute",
+  "author": "claude-code-themes",
+  "credit": "One Dark (Atom, MIT)",
+  "emoji": "⚛️",
+  "colors": {
+    "accent": "#61AFEF",
+    "secondary": "#C678DD",
+    "muted": "#9DA5B4"
+  },
+  "banner": [
+    "   .-'-'-.    ",
+    "  ( (o)  )    ",
+    "   '-.-.-'    "
+  ],
+  "pixelArt": {
+    "palette": {
+      "o": "#61AFEF",
+      "q": "#C678DD",
+      "n": "#E5C07B",
+      "e": "#98C379",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....ooqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...ee..q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoo.....",
+        ".......oo.ooo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....eeqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoo.....",
+        ".......oo.ooo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooeeoo.......",
+        ".....ooqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoo.....",
+        ".......oo.ooo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....ooqqqqq.oee....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoo.....",
+        ".......oo.ooo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....ooqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...ee..",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoo.....",
+        ".......oo.ooo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....ooqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoee....",
+        ".......oo.ooo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....ooqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....oo.qqqqqoo.....",
+        ".......ooeeoo.......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......ooo.oo.......",
+        ".....ooqqqqq.oo.....",
+        "...oo..q...qq..oo...",
+        "...o...q....q...o...",
+        "...o...q.nn.q...o...",
+        "..oo...q.nn.q...o...",
+        "...o...q....q...o...",
+        "...oo..qq...q..oo...",
+        ".....ee.qqqqqoo.....",
+        ".......oo.ooo.......",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Small atoms, big systems.",
+    "Hackable to the core.",
+    "Every keystroke is a reaction.",
+    "Stable electrons, stable builds.",
+    "The editor is a state of mind."
+  ],
+  "spinnerVerbs": [
+    "Splitting atoms",
+    "Orbiting the nucleus",
+    "Charging electrons",
+    "Building packages",
+    "Reacting",
+    "Bonding molecules"
+  ],
+  "durationLines": [
+    "Reacted in {d}",
+    "Orbited for {d}",
+    "A {d} fusion"
+  ],
+  "status": {
+    "idle": "stable",
+    "working": "excited"
+  },
+  "welcome": "One Dark: electrons in orbit.",
+  "persona": [
+    "You are a sharp, friendly hacker who loves tinkering, with at most one atomic or science image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "unstable",
+      "quotes": [
+        "Unstable isotope: a test failed.",
+        "Chain reaction in the logs.",
+        "Electron lost. Let's find it."
+      ],
+      "frames": [
+        [
+          "....................",
+          "......ooo.oo........",
+          "....ooqqqqq.oo......",
+          "..oo..q...qq..oo....",
+          "..o...q....q...o....",
+          "..ee..q.RR.q...o....",
+          ".oo...q.RR.q...o....",
+          "..o...q....q...o....",
+          "..oo..qq...q..oo....",
+          "....oo.qqqqqoo......",
+          "......oo.ooo........",
+          "...................."
+        ],
+        [
+          "....................",
+          "........ooo.oo......",
+          "......ooqqqqq.oo....",
+          "....oo..q...qq..oo..",
+          "....o...q....q...o..",
+          "....ee..q.RR.q...o..",
+          "...oo...q.RR.q...o..",
+          "....o...q....q...o..",
+          "....oo..qq...q..oo..",
+          "......oo.qqqqqoo....",
+          "........oo.ooo......",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "stable",
+      "quotes": [
+        "Stable and green.",
+        "Perfect fusion.",
+        "Everything bonds nicely."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Glowing electron orbits around a golden nucleus",
+      "file": "assets/wallpaper.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · One Dark",
+    "background": "#282C34",
+    "foreground": "#ABB2BF",
+    "cursorColor": "#528BFF",
+    "selectionBackground": "#3E4451",
+    "black": "#1E2127",
+    "red": "#E06C75",
+    "green": "#98C379",
+    "yellow": "#E5C07B",
+    "blue": "#61AFEF",
+    "purple": "#C678DD",
+    "cyan": "#56B6C2",
+    "white": "#ABB2BF",
+    "brightBlack": "#5C6370",
+    "brightRed": "#E06C75",
+    "brightGreen": "#98C379",
+    "brightYellow": "#D19A66",
+    "brightBlue": "#61AFEF",
+    "brightPurple": "#C678DD",
+    "brightCyan": "#56B6C2",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "glow"
+    }
+  }
+}

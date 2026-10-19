@@ -1,0 +1,207 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "abyss",
+  "name": "Abyss",
+  "tagline": "Bioluminescent deep sea",
+  "description": "A compass jellyfish drifting through the dark water.",
+  "universe": "Original · Ocean",
+  "author": "claude-code-themes",
+  "emoji": "🪼",
+  "colors": {
+    "accent": "#5EE6D0",
+    "secondary": "#7A8CFF",
+    "muted": "#7FA8B8"
+  },
+  "banner": [
+    "    .-~~-.    ",
+    "   (______)   ",
+    "    ) ) ) )   "
+  ],
+  "pixelArt": {
+    "palette": {
+      "j": "#5EE6D0",
+      "J": "#2BB3A0",
+      "g": "#D0FFF6",
+      "t": "#7A8CFF",
+      "s": "#9CEFFF",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".s..................",
+        ".......jjjjjj.......",
+        ".....jjgjjjjgjj.....",
+        "....jjjjjggjjjjj....",
+        "....JJJJJJJJJJJJ....",
+        "....t...t...t..t....",
+        ".....t...t..t.t...s.",
+        "......t..t.t.t......",
+        "......t.t.t...t.....",
+        ".....t.t...t...t....",
+        "....t...t...t..t....",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......jjjjjj.......",
+        "....jjjgjjjjgjjj....",
+        ".s.jjjjjjggjjjjjj...",
+        "...JJJJJJJJJJJJJJ...",
+        ".....t...t..t.t.....",
+        "......t..t.t.t......",
+        "......t.t.t...t.....",
+        ".....t.t...t...t....",
+        "....t...t...t..t..s.",
+        ".....t...t..t.t.....",
+        "...................."
+      ],
+      [
+        "..................s.",
+        ".......jjjjjj.......",
+        "....jjjgjjjjgjjj....",
+        "...jjjjjjggjjjjjj...",
+        "...JJJJJJJJJJJJJJ...",
+        "......t..t.t.t......",
+        ".s....t.t.t...t.....",
+        ".....t.t...t...t....",
+        "....t...t...t..t....",
+        ".....t...t..t.t.....",
+        "......t..t.t.t......",
+        "...................."
+      ],
+      [
+        "....................",
+        ".......jjjjjj.......",
+        ".....jjgjjjjgjj.....",
+        "....jjjjjggjjjjj..s.",
+        "....JJJJJJJJJJJJ....",
+        "......t.t.t...t.....",
+        ".....t.t...t...t....",
+        "....t...t...t..t....",
+        ".....t...t..t.t.....",
+        ".s....t..t.t.t......",
+        "......t.t.t..t......",
+        "...................."
+      ]
+    ]
+  },
+  "quotes": [
+    "Deep work, literally.",
+    "Down here, the bugs glow.",
+    "Pressure makes diamonds, and good tests.",
+    "Drift, observe, fix.",
+    "The deeper you go, the clearer it gets."
+  ],
+  "spinnerVerbs": [
+    "Diving deeper",
+    "Following the glow",
+    "Drifting with the current",
+    "Exploring the trench",
+    "Blowing bubbles",
+    "Pulsing gently"
+  ],
+  "durationLines": [
+    "Dove for {d}",
+    "Drifted for {d}",
+    "A {d} dive"
+  ],
+  "status": {
+    "idle": "floating",
+    "working": "diving"
+  },
+  "welcome": "Abyss: descending into the deep.",
+  "persona": [
+    "You are calm and curious like a deep-sea explorer, with at most one ocean image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "stung",
+      "quotes": [
+        "Stung! A test failed.",
+        "Murky waters. Let's shine a light.",
+        "The pressure cracked something."
+      ],
+      "frames": [
+        [
+          "s...................",
+          "......jjjjjj........",
+          "....jjRjjjjRjj......",
+          "...jjjjjRRjjjjj.....",
+          "...JJJJJJJJJJJJ.....",
+          "...t...t...t..t.....",
+          "....t...t..t.t...s..",
+          ".....t..t.t.t.......",
+          ".....t.t.t...t......",
+          "....t.t...t...t.....",
+          "...t...t...t..t.....",
+          "...................."
+        ],
+        [
+          "..s.................",
+          "........jjjjjj......",
+          "......jjRjjjjRjj....",
+          ".....jjjjjRRjjjjj...",
+          ".....JJJJJJJJJJJJ...",
+          ".....t...t...t..t...",
+          "......t...t..t.t...s",
+          ".......t..t.t.t.....",
+          ".......t.t.t...t....",
+          "......t.t...t...t...",
+          ".....t...t...t..t...",
+          "...................."
+        ]
+      ]
+    },
+    "success": {
+      "status": "glowing",
+      "quotes": [
+        "Glowing bright: all green.",
+        "Smooth currents ahead.",
+        "A beautiful bloom of passing tests."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "A compass jellyfish drifting in the dark",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Lviatour, CC BY-SA 3.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Meduse-Chrysaora_hysoscella-Nausicaa-07-2024-Luc-Viatour.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Abyss",
+    "background": "#020B14",
+    "foreground": "#D0F4F0",
+    "cursorColor": "#5EE6D0",
+    "selectionBackground": "#0F3348",
+    "black": "#0A1C2A",
+    "red": "#FF6B8B",
+    "green": "#5EE6A8",
+    "yellow": "#F2E27A",
+    "blue": "#4FA8FF",
+    "purple": "#A78BFF",
+    "cyan": "#5EE6D0",
+    "white": "#D0F4F0",
+    "brightBlack": "#3A5A70",
+    "brightRed": "#FF94AE",
+    "brightGreen": "#8AF0C4",
+    "brightYellow": "#F7EDA6",
+    "brightBlue": "#84C4FF",
+    "brightPurple": "#C6B4FF",
+    "brightCyan": "#9CF2E6",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "bubbles"
+    }
+  }
+}

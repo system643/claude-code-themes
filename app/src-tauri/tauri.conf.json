@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Ambiance",
+  "version": "0.3.0",
+  "identifier": "io.github.ambiance.themes",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Ambiance",
+        "width": 1080,
+        "height": 720,
+        "minWidth": 820,
+        "minHeight": 560,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "DeveloperTool",
+    "shortDescription": "A different theme for every Claude Code session",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": {
+      "../../plugin/themes/": "themes/",
+      "../../gallery/": "gallery/",
+      "shaders/": "shaders/"
+    },
+    "linux": {
+      "deb": {
+        "depends": [
+          "fonts-noto-color-emoji"
+        ]
+      },
+      "rpm": {
+        "depends": [
+          "google-noto-emoji-color-fonts"
+        ]
+      }
+    }
+  }
+}

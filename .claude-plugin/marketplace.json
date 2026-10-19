@@ -1,0 +1,14 @@
+{
+  "name": "ambiance",
+  "owner": {
+    "name": "Ambiance contributors"
+  },
+  "description": "Community themes for Claude Code, one per session.",
+  "plugins": [
+    {
+      "name": "ambiance",
+      "source": "./plugin",
+      "description": "Themes for Claude Code: animated pixel art, wallpapers, moods, sounds and persona, a different theme for every session."
+    }
+  ]
+}

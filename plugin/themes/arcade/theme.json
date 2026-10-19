@@ -1,0 +1,175 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "arcade",
+  "name": "Arcade",
+  "tagline": "Insert coin to continue",
+  "description": "Pixel invaders march across a starfield.",
+  "universe": "Original · Retro gaming",
+  "author": "claude-code-themes",
+  "emoji": "👾",
+  "colors": {
+    "accent": "#39FF14",
+    "secondary": "#FF3CC8",
+    "muted": "#9C9CD0"
+  },
+  "banner": [
+    "   .-\"\"\"-.    ",
+    "  /_o_ _o_\\   ",
+    "   /\\/\\/\\/\\   "
+  ],
+  "pixelArt": {
+    "palette": {
+      "g": "#39FF14",
+      "e": "#0A0A1A",
+      "s": "#FFFFFF",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        "....................",
+        "......g......g......",
+        ".......g....g.......",
+        "...g..gggggggg..g...",
+        "...g.ggeggggegg.g...",
+        "....ggeggggggegg....",
+        "....gggggggggggg....",
+        "....g.g......g.g....",
+        ".....g........g.....",
+        "....................",
+        ".s................s.",
+        "......s......s......"
+      ],
+      [
+        "....................",
+        "......g......g......",
+        ".......g....g.......",
+        "......gggggggg......",
+        ".....ggeggggegg.....",
+        "....ggeggggggegg....",
+        "...gggggggggggggg...",
+        "...g.g.g....g.g.g...",
+        "....g..........g....",
+        "....................",
+        "..s..............s..",
+        "......s......s......"
+      ]
+    ]
+  },
+  "quotes": [
+    "Insert coin to continue.",
+    "High score: zero bugs.",
+    "Level up!",
+    "Player one, ready.",
+    "One more credit, one more commit."
+  ],
+  "spinnerVerbs": [
+    "Inserting coins",
+    "Dodging invaders",
+    "Grinding XP",
+    "Leveling up",
+    "Mashing buttons",
+    "Chasing the high score"
+  ],
+  "durationLines": [
+    "Level cleared in {d}",
+    "Played for {d}",
+    "A {d} speedrun"
+  ],
+  "status": {
+    "idle": "insert coin",
+    "working": "in game"
+  },
+  "welcome": "Arcade: PLAYER 1 START.",
+  "persona": [
+    "You are an enthusiastic retro gamer, with at most one arcade or video-game image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "game over",
+      "quotes": [
+        "Game over: a test failed.",
+        "You lost a life. Continue?",
+        "Boss fight in the logs."
+      ],
+      "frames": [
+        [
+          "....................",
+          ".....R......R.......",
+          "......R....R........",
+          "..R..RRRRRRRR..R....",
+          "..R.RReRRRReRR.R....",
+          "...RReRRRRRReRR.....",
+          "...RRRRRRRRRRRR.....",
+          "...R.R......R.R.....",
+          "....R........R......",
+          "....................",
+          "s................s..",
+          ".....s......s......."
+        ],
+        [
+          "....................",
+          ".......R......R.....",
+          "........R....R......",
+          "....R..RRRRRRRR..R..",
+          "....R.RReRRRReRR.R..",
+          ".....RReRRRRRReRR...",
+          ".....RRRRRRRRRRRR...",
+          ".....R.R......R.R...",
+          "......R........R....",
+          "....................",
+          "..s................s",
+          ".......s......s....."
+        ]
+      ]
+    },
+    "success": {
+      "status": "high score",
+      "quotes": [
+        "New high score: all green!",
+        "Level complete.",
+        "Flawless victory."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "Pixel invaders march across a starfield",
+      "file": "assets/wallpaper.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Arcade",
+    "background": "#0A0A1A",
+    "foreground": "#E8E8FF",
+    "cursorColor": "#39FF14",
+    "selectionBackground": "#2A2A5A",
+    "black": "#141428",
+    "red": "#FF3C3C",
+    "green": "#39FF14",
+    "yellow": "#FFDC3C",
+    "blue": "#3C8CFF",
+    "purple": "#FF3CC8",
+    "cyan": "#3CDCFF",
+    "white": "#E8E8FF",
+    "brightBlack": "#50507A",
+    "brightRed": "#FF7A7A",
+    "brightGreen": "#7AFF5E",
+    "brightYellow": "#FFEA7A",
+    "brightBlue": "#7AB0FF",
+    "brightPurple": "#FF7ADC",
+    "brightCyan": "#7AEAFF",
+    "brightWhite": "#FFFFFF",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "crt"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "$schema": "../../../docs/theme.schema.json",
+  "id": "volcano",
+  "name": "Volcano",
+  "tagline": "Hot code, molten deploys",
+  "description": "A fissure eruption lighting up the night in Iceland.",
+  "universe": "Original · Nature",
+  "author": "claude-code-themes",
+  "emoji": "🌋",
+  "colors": {
+    "accent": "#FF4E1A",
+    "secondary": "#FFB020",
+    "muted": "#C88A70"
+  },
+  "banner": [
+    "     ( * )    ",
+    "     /\\ /\\    ",
+    "    /  V  \\   "
+  ],
+  "pixelArt": {
+    "palette": {
+      "m": "#3A1E1A",
+      "l": "#FF4E1A",
+      "L": "#FFB020",
+      "R": "#FF4040"
+    },
+    "fps": 4,
+    "frames": [
+      [
+        ".........L..........",
+        "............l.......",
+        "..........L.........",
+        "......l.............",
+        ".......mllll........",
+        "......mmmllmm.......",
+        ".....mmmlmmmmm......",
+        "....mmmmmmmlmmm.....",
+        "..mmmmmmmmmmmmmm....",
+        ".mmmmmmLmmmmmmmmmm..",
+        "mmmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "............l.......",
+        "..........L.........",
+        "......l.............",
+        ".........L..........",
+        ".......mllll........",
+        "......mmmllmm.......",
+        ".....mmmmmmmmm......",
+        "....mmmmlmmmmmm.....",
+        "..mmmmmmmmmlmmmm....",
+        ".mmmmmLmmmmmmmmmmm..",
+        "mmmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "..........L.........",
+        "......l.............",
+        ".........L..........",
+        "............l.......",
+        ".......mllll........",
+        "......mmmllmm.......",
+        ".....mmmlmmmmm......",
+        "....mmmmmmmmmmm.....",
+        "..mmmmmmmmmmmmmm....",
+        ".mmmmmmLmmmlmmmmmm..",
+        "mmmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ],
+      [
+        "......l.............",
+        ".........L..........",
+        "............l.......",
+        "..........L.........",
+        ".......mllll........",
+        "......mmmllmm.......",
+        ".....mmmmmmmmm......",
+        "....mmmmlmmlmmm.....",
+        "..mmmmmmmmmmmmmm....",
+        ".mmmmmLmmmmmmmmmmm..",
+        "mmmmmmmmmmmmmmmmmmm.",
+        "mmmmmmmmmmmmmmmmmmmm"
+      ]
+    ]
+  },
+  "quotes": [
+    "Hot fixes only.",
+    "Pressure builds, then the release erupts.",
+    "Forged in fire, tested in lava.",
+    "Stay cool under pressure.",
+    "Molten code cools into solid architecture."
+  ],
+  "spinnerVerbs": [
+    "Building pressure",
+    "Melting rocks",
+    "Erupting",
+    "Flowing lava",
+    "Forging obsidian",
+    "Venting steam"
+  ],
+  "durationLines": [
+    "Erupted in {d}",
+    "Smoldered for {d}",
+    "A {d} eruption"
+  ],
+  "status": {
+    "idle": "dormant",
+    "working": "erupting"
+  },
+  "welcome": "Volcano: the magma is rising.",
+  "persona": [
+    "You are energetic and bold but never reckless, with at most one fire or volcano image per reply."
+  ],
+  "moods": {
+    "error": {
+      "status": "meltdown",
+      "quotes": [
+        "Meltdown: a test failed.",
+        "Lava in the logs.",
+        "Things just got too hot."
+      ],
+      "frames": [
+        [
+          "........R...........",
+          "...........R........",
+          ".........R..........",
+          ".....R..............",
+          "......mRRRR.........",
+          ".....mmmRRmm........",
+          "....mmmRmmmmm.......",
+          "...mmmmmmmRmmm......",
+          ".mmmmmmmmmmmmmm.....",
+          "mmmmmmRmmmmmmmmmm...",
+          "mmmmmmmmmmmmmmmmmm..",
+          "mmmmmmmmmmmmmmmmmmm."
+        ],
+        [
+          "..........R.........",
+          ".............R......",
+          "...........R........",
+          ".......R............",
+          "........mRRRR.......",
+          ".......mmmRRmm......",
+          "......mmmRmmmmm.....",
+          ".....mmmmmmmRmmm....",
+          "...mmmmmmmmmmmmmm...",
+          "..mmmmmmRmmmmmmmmmm.",
+          ".mmmmmmmmmmmmmmmmmmm",
+          ".mmmmmmmmmmmmmmmmmmm"
+        ]
+      ]
+    },
+    "success": {
+      "status": "obsidian",
+      "quotes": [
+        "Cooled into obsidian: all green.",
+        "A perfect eruption.",
+        "Solid as rock."
+      ]
+    }
+  },
+  "sounds": {
+    "start": "assets/start.wav",
+    "success": "assets/success.wav",
+    "error": "assets/error.wav"
+  },
+  "wallpapers": [
+    {
+      "name": "The Fimmvörðuháls eruption at dawn, Iceland",
+      "file": "assets/wallpaper.jpg",
+      "credit": "Photo: Boaworm, CC BY 3.0, via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fimmvorduhals_2010_03_27_dawn.jpg"
+    }
+  ],
+  "terminal": {
+    "name": "Claude · Volcano",
+    "background": "#140806",
+    "foreground": "#F2DED6",
+    "cursorColor": "#FF4E1A",
+    "selectionBackground": "#4A1C12",
+    "black": "#2A1410",
+    "red": "#FF4E1A",
+    "green": "#A8C66A",
+    "yellow": "#FFB020",
+    "blue": "#6A9CFF",
+    "purple": "#E07AA8",
+    "cyan": "#FF8A5C",
+    "white": "#F2DED6",
+    "brightBlack": "#6A3A30",
+    "brightRed": "#FF7A4A",
+    "brightGreen": "#C4DE8A",
+    "brightYellow": "#FFC860",
+    "brightBlue": "#94B8FF",
+    "brightPurple": "#F0A0C4",
+    "brightCyan": "#FFB08A",
+    "brightWhite": "#FFF4EE",
+    "effects": {
+      "backgroundImage": "assets/wallpaper.jpg",
+      "backgroundImageOpacity": 0.85,
+      "backgroundImageStretchMode": "uniformToFill",
+      "shader": "embers"
+    }
+  }
+}

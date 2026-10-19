@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/sytem643/claude-code-themes/discussions
+    about: "How do I…? Is it possible to…? Show off your setup. Ask in GitHub Discussions."
+  - name: What can be customized
+    url: https://github.com/sytem643/claude-code-themes/blob/main/docs/CUSTOMIZATION.md
+    about: What Ambiance can change in Claude Code and the terminal, and why some parts are left alone.
+  - name: Report a security vulnerability
+    url: https://github.com/sytem643/claude-code-themes/security/advisories/new
+    about: Please report security issues privately, not in a public issue.

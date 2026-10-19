@@ -1,0 +1,831 @@
+{
+  "version": 1,
+  "weekly": "abyss",
+  "themes": [
+    {
+      "id": "abyss",
+      "name": "Abyss",
+      "tagline": "Bioluminescent deep sea",
+      "description": "A compass jellyfish drifting through the dark water.",
+      "emoji": "🪼",
+      "author": "claude-code-themes",
+      "universe": "Original · Ocean",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#5EE6D0",
+        "secondary": "#7A8CFF",
+        "muted": "#7FA8B8"
+      },
+      "background": "#020B14",
+      "preview": "gallery/previews/abyss.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "tagline": "Insert coin to continue",
+      "description": "Pixel invaders march across a starfield.",
+      "emoji": "👾",
+      "author": "claude-code-themes",
+      "universe": "Original · Retro gaming",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#39FF14",
+        "secondary": "#FF3CC8",
+        "muted": "#9C9CD0"
+      },
+      "background": "#0A0A1A",
+      "preview": "gallery/previews/arcade.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "tagline": "The far north sky",
+      "description": "Northern lights swirling over the Lofoten islands.",
+      "emoji": "🌌",
+      "author": "claude-code-themes",
+      "universe": "Original · Nature",
+      "tags": [],
+      "featured": true,
+      "colors": {
+        "accent": "#3DE0A0",
+        "secondary": "#8FD3FF",
+        "muted": "#8CA6B8"
+      },
+      "background": "#06101C",
+      "preview": "gallery/previews/aurora.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "catppuccin",
+      "name": "Catppuccin",
+      "tagline": "Soothing pastels, Mocha flavor",
+      "description": "A cat keeping watch at an old wooden window.",
+      "emoji": "🐱",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#CBA6F7",
+        "secondary": "#F5C2E7",
+        "muted": "#A6ADC8"
+      },
+      "background": "#1E1E2E",
+      "preview": "gallery/previews/catppuccin.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "christmas",
+      "name": "Christmas",
+      "tagline": "Ho ho ho, happy holidays",
+      "description": "A wooden chapel in a snowy forest on a winter night.",
+      "emoji": "🎄",
+      "author": "claude-code-themes",
+      "universe": "Original · Seasonal",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF4D4D",
+        "secondary": "#FFD54A",
+        "muted": "#A8C0B4"
+      },
+      "background": "#0B1A14",
+      "preview": "gallery/previews/christmas.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "digital-rain",
+      "name": "Digital Rain",
+      "tagline": "Wake up, the code has you",
+      "description": "Cascading green glyphs on a black screen.",
+      "emoji": "🟩",
+      "author": "claude-code-themes",
+      "universe": "Original · Hacker",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#33FF66",
+        "secondary": "#9DFFB0",
+        "muted": "#5FBF7A"
+      },
+      "background": "#020802",
+      "preview": "gallery/previews/digital-rain.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "tagline": "Dark theme for the night shift",
+      "description": "An old fortress under the full moon, above a dark river.",
+      "emoji": "🧛",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#BD93F9",
+        "secondary": "#FF79C6",
+        "muted": "#8B95C9"
+      },
+      "background": "#282A36",
+      "preview": "gallery/previews/dracula.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "tagline": "Desert gold, sky-high towers",
+      "description": "The Dubai skyline and the Burj Khalifa mirrored in the water at night.",
+      "emoji": "🌇",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFB55E",
+        "secondary": "#FFE08A",
+        "muted": "#B8A890"
+      },
+      "background": "#18141E",
+      "preview": "gallery/previews/dubai.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "everforest",
+      "name": "Everforest",
+      "tagline": "Green, warm and easy on the eyes",
+      "description": "Ancient laurel trees in a foggy forest.",
+      "emoji": "🌲",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#A7C080",
+        "secondary": "#DBBC7F",
+        "muted": "#9DA9A0"
+      },
+      "background": "#2D353B",
+      "preview": "gallery/previews/everforest.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "grimoire",
+      "name": "Grimoire",
+      "tagline": "The wizards' library",
+      "description": "Endless shelves of old books in a vaulted library.",
+      "emoji": "📜",
+      "author": "claude-code-themes",
+      "universe": "Original · Fantasy",
+      "tags": [],
+      "featured": true,
+      "colors": {
+        "accent": "#FFB347",
+        "secondary": "#C8A2FF",
+        "muted": "#B0A090"
+      },
+      "background": "#120B12",
+      "preview": "gallery/previews/grimoire.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "gruvbox",
+      "name": "Gruvbox",
+      "tagline": "Retro groove, warm and earthy",
+      "description": "Saguaros against a blazing desert sunset.",
+      "emoji": "🌵",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FE8019",
+        "secondary": "#FABD2F",
+        "muted": "#BDAE93"
+      },
+      "background": "#282828",
+      "preview": "gallery/previews/gruvbox.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "tagline": "Spooky season in your terminal",
+      "description": "Jack-o'-lanterns glowing in the dark.",
+      "emoji": "🎃",
+      "author": "claude-code-themes",
+      "universe": "Original · Seasonal",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF7518",
+        "secondary": "#B47CFF",
+        "muted": "#B49AAA"
+      },
+      "background": "#120A12",
+      "preview": "gallery/previews/halloween.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "lofi",
+      "name": "Lo-fi Café",
+      "tagline": "Beats to code and relax to",
+      "description": "City lights blurred through a rainy window.",
+      "emoji": "☕",
+      "author": "claude-code-themes",
+      "universe": "Original · Cozy",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#D98E73",
+        "secondary": "#E8D5B5",
+        "muted": "#A89A8A"
+      },
+      "background": "#1C1612",
+      "preview": "gallery/previews/lofi.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "tagline": "Rainy nights by the Thames",
+      "description": "Westminster and Big Ben glowing over the Thames at dusk.",
+      "emoji": "🎡",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFD27A",
+        "secondary": "#FF6B70",
+        "muted": "#9AA4B4"
+      },
+      "background": "#161C28",
+      "preview": "gallery/previews/london.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "neon-2087",
+      "name": "Neon 2087",
+      "tagline": "Acid rain and city lights",
+      "description": "A dense megacity glittering around the harbour at night.",
+      "emoji": "🌃",
+      "author": "claude-code-themes",
+      "universe": "Original · Cyberpunk",
+      "tags": [],
+      "featured": true,
+      "colors": {
+        "accent": "#FF3DB4",
+        "secondary": "#3DE8FF",
+        "muted": "#B08CC8"
+      },
+      "background": "#0C0718",
+      "preview": "gallery/previews/neon-2087.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "tagline": "The city that never sleeps",
+      "description": "Lower Manhattan lighting up at dusk, seen from Brooklyn.",
+      "emoji": "🗽",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFD66B",
+        "secondary": "#FF6B6B",
+        "muted": "#9AA6C0"
+      },
+      "background": "#0A1022",
+      "preview": "gallery/previews/new-york.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "nord",
+      "name": "Nord",
+      "tagline": "An arctic, north-bluish calm",
+      "description": "A table iceberg adrift on the dark Arctic Ocean.",
+      "emoji": "❄️",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#88C0D0",
+        "secondary": "#8FBCBB",
+        "muted": "#A3ADBF"
+      },
+      "background": "#2E3440",
+      "preview": "gallery/previews/nord.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "one-dark",
+      "name": "One Dark",
+      "tagline": "The classic editor dark, reimagined",
+      "description": "Glowing electron orbits around a golden nucleus.",
+      "emoji": "⚛️",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#61AFEF",
+        "secondary": "#C678DD",
+        "muted": "#9DA5B4"
+      },
+      "background": "#282C34",
+      "preview": "gallery/previews/one-dark.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "tagline": "Code from low Earth orbit",
+      "description": "City lights on the night side of the Earth, seen from orbit.",
+      "emoji": "🚀",
+      "author": "claude-code-themes",
+      "universe": "Original · Space",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#4FA3FF",
+        "secondary": "#FF9F43",
+        "muted": "#94A3C0"
+      },
+      "background": "#05070F",
+      "preview": "gallery/previews/orbit.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "tagline": "City of light, after dark",
+      "description": "The Eiffel Tower and the Seine at blue hour.",
+      "emoji": "🗼",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#E8C887",
+        "secondary": "#B8A6FF",
+        "muted": "#A8A0C0"
+      },
+      "background": "#14142A",
+      "preview": "gallery/previews/paris.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "phosphor",
+      "name": "Phosphor",
+      "tagline": "Amber CRT, 1983",
+      "description": "A glowing amber monitor on a dark desk, scanlines and all.",
+      "emoji": "📟",
+      "author": "claude-code-themes",
+      "universe": "Original · Retro computing",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFB000",
+        "secondary": "#FFCC66",
+        "muted": "#C08A3E"
+      },
+      "background": "#120A00",
+      "preview": "gallery/previews/phosphor.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "rio",
+      "name": "Rio de Janeiro",
+      "tagline": "Sunset over the bay",
+      "description": "Sugarloaf Mountain and Corcovado silhouetted at sunset.",
+      "emoji": "🌴",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFA07A",
+        "secondary": "#7AE0B8",
+        "muted": "#B8A2B8"
+      },
+      "background": "#1A1430",
+      "preview": "gallery/previews/rio.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "tagline": "The eternal city at sunset",
+      "description": "St. Peter's dome over the Tiber at sunset.",
+      "emoji": "🏛️",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFB347",
+        "secondary": "#E07A5F",
+        "muted": "#B8A090"
+      },
+      "background": "#1C1214",
+      "preview": "gallery/previews/rome.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "rose-pine",
+      "name": "Rosé Pine",
+      "tagline": "All natural pine, faux fur and a bit of soho vibes",
+      "description": "Pine silhouettes against a starry evening sky.",
+      "emoji": "🌹",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#EBBCBA",
+        "secondary": "#C4A7E7",
+        "muted": "#908CAA"
+      },
+      "background": "#191724",
+      "preview": "gallery/previews/rose-pine.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "sakura",
+      "name": "Sakura",
+      "tagline": "Cherry blossoms at dusk",
+      "description": "A red pagoda, Mount Fuji and cherry blossoms.",
+      "emoji": "🌸",
+      "author": "claude-code-themes",
+      "universe": "Original · Japan",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF85A2",
+        "secondary": "#FFB7C5",
+        "muted": "#C9A0B0"
+      },
+      "background": "#1A1018",
+      "preview": "gallery/previews/sakura.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "tagline": "City lights up to the mountains",
+      "description": "Seoul's lights spreading to the mountains, seen from Namsan.",
+      "emoji": "🏯",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF6B9D",
+        "secondary": "#6BC7FF",
+        "muted": "#94AAB8"
+      },
+      "background": "#08141E",
+      "preview": "gallery/previews/seoul.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "tagline": "Gardens and lights by the bay",
+      "description": "Marina Bay Sands and the skyline mirrored in the bay at night.",
+      "emoji": "🌃",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#9BE6FF",
+        "secondary": "#FF5AC8",
+        "muted": "#98A4BE"
+      },
+      "background": "#0A0E1E",
+      "preview": "gallery/previews/singapore.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "solarized",
+      "name": "Solarized",
+      "tagline": "Precision colors, at solar scale",
+      "description": "The sun rising over a sea of clouds.",
+      "emoji": "☀️",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#B58900",
+        "secondary": "#2AA198",
+        "muted": "#93A1A1"
+      },
+      "background": "#002B36",
+      "preview": "gallery/previews/solarized.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "tagline": "Harbour lights down under",
+      "description": "The Opera House and the Harbour Bridge at dusk.",
+      "emoji": "🦘",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FFB86B",
+        "secondary": "#7FB3FF",
+        "muted": "#9CA8C4"
+      },
+      "background": "#0E1428",
+      "preview": "gallery/previews/sydney.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "synthwave",
+      "name": "Synthwave",
+      "tagline": "Outrun the eighties",
+      "description": "A striped sunset, a neon grid floor and palm silhouettes.",
+      "emoji": "🌆",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF7EDB",
+        "secondary": "#36F9F6",
+        "muted": "#B6A8D8"
+      },
+      "background": "#262335",
+      "preview": "gallery/previews/synthwave.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "tagline": "Tower lights over the endless city",
+      "description": "Tokyo Tower glowing among the towers of Minato at night.",
+      "emoji": "🗻",
+      "author": "claude-code-themes",
+      "universe": "City",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF7AC6",
+        "secondary": "#7AA2F7",
+        "muted": "#B0A0C8"
+      },
+      "background": "#150E26",
+      "preview": "gallery/previews/tokyo.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "tokyo-night",
+      "name": "Tokyo Night",
+      "tagline": "Downtown Tokyo lights at night",
+      "description": "Neon signs crowding a Shinjuku street at night.",
+      "emoji": "🏮",
+      "author": "claude-code-themes",
+      "universe": "Palette tribute",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#7AA2F7",
+        "secondary": "#BB9AF7",
+        "muted": "#9AA5CE"
+      },
+      "background": "#1A1B26",
+      "preview": "gallery/previews/tokyo-night.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    },
+    {
+      "id": "volcano",
+      "name": "Volcano",
+      "tagline": "Hot code, molten deploys",
+      "description": "A fissure eruption lighting up the night in Iceland.",
+      "emoji": "🌋",
+      "author": "claude-code-themes",
+      "universe": "Original · Nature",
+      "tags": [],
+      "featured": false,
+      "colors": {
+        "accent": "#FF4E1A",
+        "secondary": "#FFB020",
+        "muted": "#C88A70"
+      },
+      "background": "#140806",
+      "preview": "gallery/previews/volcano.png",
+      "files": [
+        "assets/error.wav",
+        "assets/start.wav",
+        "assets/success.wav",
+        "assets/wallpaper.jpg",
+        "theme.json"
+      ]
+    }
+  ]
+}

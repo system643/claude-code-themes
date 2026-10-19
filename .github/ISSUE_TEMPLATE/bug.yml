@@ -1,0 +1,96 @@
+name: Bug report
+description: Something in the plugin, the desktop app or a theme does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A few details about your setup save a lot of back and forth.
+        Found a security problem? Please don't open an issue: see [SECURITY.md](https://github.com/sytem643/claude-code-themes/blob/main/SECURITY.md).
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Where does the problem show up?
+      options:
+        - "Plugin (inside Claude Code: banner, status line, moods, /ambiance)"
+        - "Desktop app (Sessions, Themes, Discover, Create, Projects, terminal profiles)"
+        - "Theme (colors, pixel art, wallpaper, sounds)"
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: theme
+    attributes:
+      label: Theme
+      description: The theme id, if the problem is specific to one.
+      placeholder: tokyo-night
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "Windows 11 24H2, macOS 15, Ubuntu 24.04…"
+  - type: input
+    id: terminal
+    attributes:
+      label: Terminal
+      description: The terminal Claude Code runs in, with its version if you know it.
+      placeholder: "Windows Terminal 1.22, iTerm2 3.5, Ghostty 1.1, kitty…"
+    validations:
+      required: true
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code version
+      description: "Output of `claude --version`."
+    validations:
+      required: true
+  - type: input
+    id: ambiance-version
+    attributes:
+      label: Ambiance version
+      description: "The plugin version (`claude plugin list`) and, if you use it, the desktop app version."
+      placeholder: "plugin 0.3.0, app 0.3.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a session in …
+        2. Run `/ambiance …`
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead. Screenshots help a lot for anything visual.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and error messages
+      description: |
+        Any error shown by the app or by Claude Code. For app issues, `~/.ambiance/config.json` and the theme's `~/.ambiance/overrides/<id>.json` can help too.
+        Remove anything private (paths, project names) before pasting.
+      render: text

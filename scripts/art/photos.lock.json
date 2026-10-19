@@ -1,0 +1,226 @@
+{
+ "paris": {
+  "file": "File:Eiffel Tower and Pont Alexandre III at night.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg",
+  "author": "Getfunky Paris",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "name": "The Eiffel Tower and the Seine at blue hour"
+ },
+ "tokyo": {
+  "file": "File:Minato City, Tokyo, Japan (Night)-denoised.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night)-denoised.jpg",
+  "author": "David Kernan",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "name": "Tokyo Tower and Minato by night"
+ },
+ "new-york": {
+  "file": "File:2024-11-17-Lower Manhattan-0593.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:2024-11-17-Lower_Manhattan-0593.jpg",
+  "author": "Superbass",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Lower Manhattan lighting up at dusk"
+ },
+ "london": {
+  "file": "File:Palace of Westminster, London - Feb 2007.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg",
+  "author": "Diliff",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "name": "Westminster and Big Ben at dusk"
+ },
+ "dubai": {
+  "file": "File:Dubai skyline unsplash.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_unsplash.jpg",
+  "author": "Robert Bock",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "The Dubai skyline reflected at night"
+ },
+ "rome": {
+  "file": "File:Sant'Angelo bridge, dusk, Rome, Italy.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Sant%27Angelo_bridge,_dusk,_Rome,_Italy.jpg",
+  "author": "Jebulon",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "St. Peter's dome over the Tiber at sunset"
+ },
+ "seoul": {
+  "file": "File:N Seoul Tower view 2.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:N_Seoul_Tower_view_2.jpg",
+  "author": "kallerna",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Seoul by night from Namsan"
+ },
+ "sydney": {
+  "file": "File:Sydney Opera House and Harbour Bridge Dusk (2) 2019-06-21.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_(2)_2019-06-21.jpg",
+  "author": "Benh LIEU SONG (Flickr)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "The Opera House and Harbour Bridge at dusk"
+ },
+ "rio": {
+  "file": "File:Rio de Janeiro Mountains.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_Mountains.jpg",
+  "author": "dabldy",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "name": "Sugarloaf Mountain and Corcovado at sunset"
+ },
+ "singapore": {
+  "file": "File:Marina Bay, Singapur, 2023-08-16, DD 87-89 HDR.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Marina_Bay,_Singapur,_2023-08-16,_DD_87-89_HDR.jpg",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Marina Bay reflected at night"
+ },
+ "abyss": {
+  "file": "File:Meduse-Chrysaora hysoscella-Nausicaa-07-2024-Luc-Viatour.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Meduse-Chrysaora_hysoscella-Nausicaa-07-2024-Luc-Viatour.jpg",
+  "author": "Lviatour",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "name": "A compass jellyfish drifting in the dark"
+ },
+ "aurora": {
+  "file": "File:Lofoten, Norway (Unsplash).jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Lofoten,_Norway_(Unsplash).jpg",
+  "author": "Johannes Groll followhansi",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "Northern lights over the Lofoten"
+ },
+ "catppuccin": {
+  "file": "File:Příchovice - old window and cat.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:P%C5%99%C3%ADchovice_-_old_window_and_cat.jpg",
+  "author": "Pudelek",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "A cat at an old wooden window"
+ },
+ "christmas": {
+  "file": "File:Jaszczurówka at Winter.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Jaszczur%C3%B3wka_at_Winter.jpg",
+  "author": "Jakub T. Jankiewicz",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "A wooden chapel in the snowy forest at night"
+ },
+ "dracula": {
+  "file": "File:Хотинська фортеця в місячну ніч.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BE%D1%82%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D1%84%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_%D0%B2_%D0%BC%D1%96%D1%81%D1%8F%D1%87%D0%BD%D1%83_%D0%BD%D1%96%D1%87.jpg",
+  "author": "Ryzhkov Sergey",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Khotyn Fortress under the moon"
+ },
+ "everforest": {
+  "file": "File:Foggy Fanal forest in Seixal, Porto Moniz, Madeira, 2023 May.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Foggy_Fanal_forest_in_Seixal,_Porto_Moniz,_Madeira,_2023_May.jpg",
+  "author": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "The foggy laurel forest of Fanal, Madeira"
+ },
+ "grimoire": {
+  "file": "File:Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg",
+  "author": "Diliff",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "The Long Room library, Trinity College Dublin"
+ },
+ "gruvbox": {
+  "file": "File:2022-06-14 USA, AZ, Saguaro DSC 6133 DxO.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:2022-06-14_USA,_AZ,_Saguaro_DSC_6133_DxO.jpg",
+  "author": "Laurens R. Krol",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "name": "Saguaros at sunset, Arizona"
+ },
+ "halloween": {
+  "file": "File:Carved pumpkin as face (Unsplash).jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Carved_pumpkin_as_face_(Unsplash).jpg",
+  "author": "Beth Teutschmann teutschmann",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "Jack-o'-lanterns glowing in the dark"
+ },
+ "lofi": {
+  "file": "File:2016-02 Raindrops on windows Palace of Westminster.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:2016-02_Raindrops_on_windows_Palace_of_Westminster.jpg",
+  "author": "0x010C",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "City lights through a rainy window"
+ },
+ "neon-2087": {
+  "file": "File:Hong Kong Harbour Night 2019-06-11.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
+  "author": "Benh LIEU SONG (Flickr)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Hong Kong harbour at night"
+ },
+ "nord": {
+  "file": "File:Table iceberg west of Sjuøyane, Arctic ocean.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Table_iceberg_west_of_Sju%C3%B8yane,_Arctic_ocean.jpg",
+  "author": "Andreas Weith",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "A table iceberg adrift in the Arctic Ocean"
+ },
+ "orbit": {
+  "file": "File:Good Morning From the International Space Station.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Good_Morning_From_the_International_Space_Station.jpg",
+  "author": "Scott Kelly",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "name": "Night falls on Earth, seen from the ISS"
+ },
+ "rose-pine": {
+  "file": "File:Pine trees sunset. (Unsplash).jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Pine_trees_sunset._(Unsplash).jpg",
+  "author": "m wrona maciek_wrona",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "Pines against the evening sky"
+ },
+ "sakura": {
+  "file": "File:Chuurei-tou Fujiyoshida 17025277650 c59733d6ba o.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Chuurei-tou_Fujiyoshida_17025277650_c59733d6ba_o.jpg",
+  "author": "reggiepen (Flickr)",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "name": "Chureito Pagoda, Mount Fuji and cherry blossoms"
+ },
+ "solarized": {
+  "file": "File:Crimea, Ai-Petri, low clouds.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Crimea,_Ai-Petri,_low_clouds.jpg",
+  "author": "Dmytro Balkhovitin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Sunrise over a sea of clouds"
+ },
+ "tokyo-night": {
+  "file": "File:Colorful neon street signs in Kabukichō, Shinjuku, Tokyo.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Colorful_neon_street_signs_in_Kabukich%C5%8D,_Shinjuku,_Tokyo.jpg",
+  "author": "Basile Morin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Neon signs in Kabukichō, Shinjuku"
+ },
+ "volcano": {
+  "file": "File:Fimmvorduhals 2010 03 27 dawn.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Fimmvorduhals_2010_03_27_dawn.jpg",
+  "author": "Boaworm",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "name": "The Fimmvörðuháls eruption at dawn, Iceland"
+ }
+}
