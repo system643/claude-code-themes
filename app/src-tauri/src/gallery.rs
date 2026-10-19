@@ -4,7 +4,6 @@
 
 use crate::store::{check_id, copy_dir, themes_dir};
 use serde_json::Value;
-use std::io::Read;
 use std::path::Path;
 use std::time::Duration;
 
@@ -27,17 +26,15 @@ pub fn repo() -> Value {
 }
 
 fn agent() -> ureq::Agent {
-    ureq::AgentBuilder::new().timeout(Duration::from_secs(8)).build()
+    ureq::Agent::new_with_config(ureq::Agent::config_builder().timeout_global(Some(Duration::from_secs(8))).build())
 }
 
 fn fetch(url: &str) -> Result<Vec<u8>, String> {
-    let response = agent().get(url).call().map_err(|e| e.to_string())?;
-    let mut bytes = Vec::new();
-    response.into_reader().take(MAX_FILE + 1).read_to_end(&mut bytes).map_err(|e| e.to_string())?;
-    if bytes.len() as u64 > MAX_FILE {
-        return Err("file too large".into());
-    }
-    Ok(bytes)
+    let mut response = agent().get(url).call().map_err(|e| e.to_string())?;
+    response.body_mut().with_config().limit(MAX_FILE).read_to_vec().map_err(|e| match e {
+        ureq::Error::BodyExceedsLimit(_) => "file too large".to_string(),
+        e => e.to_string(),
+    })
 }
 
 /// The gallery index, and where it came from: "remote" or "local".
@@ -108,4 +105,18 @@ pub fn install(id: &str, resources: &Path) -> Result<(), String> {
         std::fs::write(&path, bytes).map_err(|e| e.to_string())?;
     }
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    /// Reads the published index: `cargo test -- --ignored --nocapture`.
+    #[test]
+    #[ignore]
+    fn fetches_the_remote_index() {
+        let (index, source) = index(Path::new("."));
+        assert_eq!(source, "remote");
+        assert!(index["themes"].as_array().is_some_and(|list| !list.is_empty()));
+    }
 }

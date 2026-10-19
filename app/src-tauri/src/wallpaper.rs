@@ -140,19 +140,15 @@ pub fn download(url: &str) -> Result<PathBuf, String> {
     if !(url.starts_with("https://") || url.starts_with("http://")) {
         return Err("paste a link starting with https://".into());
     }
-    let response = ureq::AgentBuilder::new()
-        .timeout(std::time::Duration::from_secs(30))
+    let config = ureq::Agent::config_builder()
+        .timeout_global(Some(std::time::Duration::from_secs(30)))
         .user_agent("Ambiance (wallpaper import)")
-        .build()
-        .get(url)
-        .call()
-        .map_err(|e| format!("download failed: {e}"))?;
-    let mut bytes = Vec::new();
-    std::io::Read::read_to_end(&mut std::io::Read::take(response.into_reader(), MAX_INPUT + 1), &mut bytes)
-        .map_err(|e| format!("download failed: {e}"))?;
-    if bytes.len() as u64 > MAX_INPUT {
-        return Err("image too large (64 MB at most)".into());
-    }
+        .build();
+    let mut response = ureq::Agent::new_with_config(config).get(url).call().map_err(|e| format!("download failed: {e}"))?;
+    let bytes = response.body_mut().with_config().limit(MAX_INPUT).read_to_vec().map_err(|e| match e {
+        ureq::Error::BodyExceedsLimit(_) => "image too large (64 MB at most)".to_string(),
+        e => format!("download failed: {e}"),
+    })?;
     let extension = match image::guess_format(&bytes) {
         Ok(ImageFormat::Png) => "png",
         Ok(ImageFormat::Jpeg) => "jpg",
