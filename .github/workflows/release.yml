@@ -5,7 +5,13 @@ name: Release
 on:
   push:
     tags: ["v*"]
+  # Rebuilds an existing tag's release with this workflow, for example after a
+  # failed job: gh workflow run release.yml -f tag=v0.3.0
   workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to build and upload to
+        required: true
 
 permissions:
   contents: write
@@ -38,20 +44,31 @@ jobs:
           sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf
       - run: npm ci
         working-directory: app
-      - uses: tauri-apps/tauri-action@v1
+      # Signing (optional): see packaging/SIGNING.md. Only the secrets that are
+      # set reach the build: Tauri tries to sign as soon as a variable exists,
+      # even empty, and fails without a certificate.
+      - name: Signing secrets
+        shell: bash
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Signing (optional): see packaging/SIGNING.md
           WINDOWS_CERTIFICATE: ${{ secrets.WINDOWS_CERTIFICATE }}
           APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
           APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
           APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          for name in WINDOWS_CERTIFICATE APPLE_CERTIFICATE APPLE_CERTIFICATE_PASSWORD APPLE_ID APPLE_PASSWORD APPLE_TEAM_ID; do
+            if [ -n "${!name}" ]; then
+              { echo "$name<<SECRET_END"; echo "${!name}"; echo "SECRET_END"; } >> "$GITHUB_ENV"
+            fi
+          done
+      - uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           projectPath: app
-          tagName: ${{ github.ref_name }}
-          releaseName: "Ambiance ${{ github.ref_name }}"
+          tagName: ${{ inputs.tag || github.ref_name }}
+          releaseName: "Ambiance ${{ inputs.tag || github.ref_name }}"
           releaseBody: "Download the installer for your system below, then install the plugin: `claude plugin install ambiance --marketplace ${{ github.repository }}`."
           releaseDraft: true
           args: ${{ matrix.args }}
