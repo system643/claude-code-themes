@@ -124,6 +124,10 @@ def preview(theme, out):
                 color = art["palette"].get(key)
                 if color:
                     image.paste(color, (left + x * scale, top + y * scale, left + (x + 1) * scale, top + (y + 1) * scale))
+    # Pillow versions encode the same pixels differently: an unchanged preview
+    # is left alone, so the gallery job only commits real changes.
+    if out.exists() and Image.open(out).convert("RGB").tobytes() == image.tobytes():
+        return
     out.parent.mkdir(parents=True, exist_ok=True)
     image.save(out, optimize=True)
 
