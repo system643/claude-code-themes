@@ -15,7 +15,7 @@ Colors, a session label, a status line that reacts to your tests and, if you wan
 
 <br>
 
-<img src="docs/demo.gif" alt="A Claude Code session switching from theme to theme: banner, status line and terminal colors change live" width="720">
+<img src="docs/demo.gif" alt="A Claude Code session switching themes with /ambiance: wallpaper, pixel-art banner, status line and session label change, and the theme turns angry when tests fail, then proud when they pass" width="800">
 
 </div>
 
